@@ -17,3 +17,8 @@ As ordenações serão feitas em disco (nos arquivos) e podem ser feitas atravé
 O script de instalação irá criar a estrutura de pastas e transferir, da web, os arquivos nescessários para o funcionamento do PRO-P Finder.
 
 É nescessário uma conexão estável com a internet para que o software gere os arquivos nescessários para construir as estruturas de dados.
+
+
+# NOTES
+
+blastp -query fastafile -db nr -remote -entrez_query "species name" > saida.out
