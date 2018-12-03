@@ -21,4 +21,4 @@ O script de instalação irá criar a estrutura de pastas e transferir, da web, 
 
 # NOTES
 
-blastp -query fastafile -db nr -remote -entrez_query "species name" > saida.out
+blastp -query fastafile -db nr -remote -entrez_query "species name" -outfmt 7 > saida.out
