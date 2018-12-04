@@ -179,32 +179,3 @@ void ABB:: OOAux(Noh* aux ){
 		OOAux(aux->dir);
 	}
 }
-// === Programa ================================================================
-int main() {
-    ABB arvore;
-    string chave;
-    char operacao;
-	cin >> operacao;
-    do {
-        switch (operacao) {
-            case 'i': // Inserir
-                cin >> chave;
-                arvore.Inserir(chave);
-                break;
-            case 'r': // Escrever
-				cin >> chave;
-                arvore.Remover(chave);
-                break;
-            case 'o': 
-                arvore.EmOrdem();
-                break;
-            case 'p':  
-                arvore.PreOrdem();
-                break;
-			default:
-				cout << "Comando Invalido!";
-        }
-		cin >> operacao;
-    } while (operacao != 'f');
-    return 0;
-}
