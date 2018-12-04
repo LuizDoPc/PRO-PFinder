@@ -3,7 +3,7 @@
 using namespace std;
 
 class NohHash {
-    friend class tabelaHash;
+    friend class TabelaHash;
     private:
         string chave;
         string valor;
@@ -16,6 +16,7 @@ class NohHash {
 };
 
 class TabelaHash {
+    friend class NohHash;
     private:
         // vetor de ponteiros de nÃ³s
         NohHash** elementos;
