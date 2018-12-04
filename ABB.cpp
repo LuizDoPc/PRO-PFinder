@@ -1,3 +1,5 @@
+#include "ABB.h"
+
 // === Classe NohArvore ==============================================================
 NohArvore::NohArvore(string d) // d tem valor default
     : valor(d), esq(NULL), dir(NULL), pai(NULL) {
