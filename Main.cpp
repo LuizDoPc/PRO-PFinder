@@ -28,7 +28,7 @@ vector<string> open(string path = "LA FILES") {
     return files;
 }
 
-void criarEd(){
+void criarEd(ABB *abb, Lista *l){
     vector<string> f;
 
     f = open();
@@ -80,7 +80,20 @@ void add(char alternativa, ABB *abb, Lista *l){
 }
 
 void rem(char alternativa, ABB *abb, Lista *l){
+    if(alternativa == 'o'){
+        string especie, organismo;
+        getline(cin, especie);
+        getline(cin, organismo);
 
+        NohLista *aux = l->busca(especie);
+        aux->lista->removerInterno(organismo);
+    }else{
+        string especie;
+        getline(cin, especie);
+
+        NohLista *aux = l->busca(especie);
+        l->remover(aux->posicao);
+    }
 }
 
 void consultar(char alternativa, ABB *abb, Lista *l){
@@ -88,23 +101,29 @@ void consultar(char alternativa, ABB *abb, Lista *l){
         string especie, organismo;
         getline(cin, especie);
         getline(cin, organismo);
-        NohLista *posespecie = l->busca(especie);
-        NohInterno *posorganismo = posespecie->busca(organismo);
+        int pos = abb->Busca(especie);
+        NohLista *posespecie = l->buscaPosicao(pos);
+        NohInterno *posorganismo = posespecie->lista->busca(organismo);
         cout << "ORGANISMO: " << posorganismo->valor << endl << "ESPECIE: " << especie << endl << "POSICAO: " << posorganismo->posicao << endl;
     }else{
         string especie;
         getline(cin, especie);
-        NohLista *aux = l->busca(especie);
+        int pos = abb->Busca(especie);
+        NohLista *aux = l->buscaPosicao(pos);
         cout << "ESPECIE: " << especie << endl;
-        aux->lista->imprimirInterno();l
+        aux->lista->imprimirInterno();
     }
 }
 
-void imprmir(ABB *abb, Lista *l){
+void imprimir(ABB *abb, Lista *l){
     l->imprimir();
 }
 
+void ordena(ABB *abb, Lista *l){
+    
 
+
+}
 
 void menu(ABB *abb, Lista *l){
     int opcao;
@@ -126,8 +145,8 @@ void menu(ABB *abb, Lista *l){
 	cin >>opcao;
 	 do {
         switch (opcao) {
-            case 1: // cria estrutura a partir de arquivo
-                
+            case 1: // Cria estrutura a partir de arquivo
+                criarEd(abb, l);
                 break;
             case 2: // Inserir
                 char alternativa;
@@ -137,27 +156,19 @@ void menu(ABB *abb, Lista *l){
             case 3: // Remover
 				char alternativa;
 				cin >> alternativa;
-				if(alternativa == 'o'){
-					string especie, organismo;
-					getline(cin, especie);
-					getline(cin, organismo);
-					//TabelaHash.remove(especie, organismo);
-				}else{
-					string especie;
-					getline(cin, especie);
-					//ABB.remove(especie);
-				}
+				rem(alternativa, abb, l);
                 break;
-            case 4: //Buscar
+            case 4: // Buscar
 				char alternativa;
 				cin >> alternativa;
 				consultar(alternativa, abb, l);
                 break;
-            case 5: //Imprime  
+            case 5: // Imprime  
                 imprimir(abb, l);
                 break;
-            case 6:
-				//ordena e imprime
+            case 6: // Ordena e Imprime
+                ordena(abb, l);
+                imprimir(abb, l);
                 break;
 			default:
 				cout << "Comando Invalido!";
@@ -174,7 +185,7 @@ int main(){
     ABB *abb = new ABB();
     Lista *l = new Lista();
     
-    menu();
+    menu(abb, l);
 
     return 0;
 }

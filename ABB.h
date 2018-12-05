@@ -33,6 +33,7 @@ class ABB {
         void Remover (string d);
 		int Nivel(string d);
         void Transplanta( NohArvore* antigo, NohArvore* novo);
+        int Busca(string valor);
         NohArvore* BuscaAux(NohArvore* aux);
         NohArvore* MinAux(NohArvore* aux);
 		void PosOrdem();

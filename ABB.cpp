@@ -72,6 +72,24 @@ int ABB::Nivel(string d){
 	}
 	return cont;
 }
+
+int ABB::Busca(string valor){
+	NohArvore* atual = raiz;
+	while(atual != NULL ){
+		if ( atual->valor == valor){
+			return atual->pos;
+		}
+		else if (atual->valor > valor){
+			atual = atual->esq;
+		}
+		else{
+			atual = atual->dir;
+		}
+	}
+	return atual->pos;
+}
+
+
 NohArvore* ABB::BuscaAux( NohArvore* aux){
 	NohArvore* atual = raiz;
 	while(atual != NULL ){

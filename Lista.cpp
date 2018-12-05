@@ -1,5 +1,17 @@
 #include "Lista.h"
 
+NohLista* Lista::buscaPosicao(int pos){
+    if(pos > tamanho){
+        //lançar exceção
+    }
+    int k = 0;
+    NohLista *nav = fim;
+    while(nav != NULL and k != pos){
+        nav = nav->ant;
+    }
+    return nav;
+}
+
 
 NohLista* Lista::busca(string valor){
     NohLista *nav = fim;

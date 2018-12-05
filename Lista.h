@@ -9,9 +9,9 @@ class NohInterno {
     friend class Lista;
     private:
         NohInterno *ant;
+    public:
         string valor;
         int posicao;
-    public:
         NohInterno(){
             ant = NULL;
         }
@@ -64,5 +64,6 @@ class Lista{
         void remover(int pos);
         void imprimir();
         NohLista* busca(string valor);
+        NohLista* buscaPosicao(int pos);
 };
 #endif
