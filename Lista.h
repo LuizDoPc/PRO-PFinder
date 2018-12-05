@@ -2,6 +2,7 @@
 #define LISTA_H
 
 #include <iostream>
+#include "ABB.h"
 using namespace std;
 
 class NohInterno {
@@ -22,9 +23,10 @@ class ListaInterno{
     friend class Lista;
     private:
         NohInterno *fimInterno;
-        NohInterno *inicioInterno;
+        
         int tamanho;
     public:
+        NohInterno *inicioInterno;
         ListaInterno(){
             fimInterno = NULL;
             tamanho = 0;
@@ -65,6 +67,6 @@ class Lista{
         void imprimir();
         NohLista* busca(string valor);
         NohLista* buscaPosicao(int pos);
-        void arrumaPosicao();
+        void arrumaPosicao(ABB *abb);
 };
 #endif

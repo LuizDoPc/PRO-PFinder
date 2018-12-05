@@ -73,6 +73,28 @@ int ABB::Nivel(string d){
 	return cont;
 }
 
+NohArvore* ABB::BuscaAux( NohArvore* aux){
+	NohArvore* atual = raiz;
+	while(atual != NULL ){
+		if ( atual->valor == aux->valor){
+			return atual;
+		}
+		else if (atual->valor > aux->valor){
+			atual = atual->esq;
+		}
+		else{
+			atual = atual->dir;
+		}
+	}
+	return atual;
+}
+
+void ABB::arrumaPosicao(string valor, int pos){
+	NohArvore *temp = new NohArvore(valor);
+	temp = BuscaAux(temp);
+	temp->pos = pos;
+}
+
 int ABB::Busca(string valor){
 	NohArvore* atual = raiz;
 	while(atual != NULL ){
@@ -92,22 +114,6 @@ int ABB::Busca(string valor){
 	return atual->pos;
 }
 
-
-NohArvore* ABB::BuscaAux( NohArvore* aux){
-	NohArvore* atual = raiz;
-	while(atual != NULL ){
-		if ( atual->valor == aux->valor){
-			return atual;
-		}
-		else if (atual->valor > aux->valor){
-			atual = atual->esq;
-		}
-		else{
-			atual = atual->dir;
-		}
-	}
-	return atual;
-}
 void ABB::Transplanta(NohArvore* antigo, NohArvore* novo){
 	if ( raiz == antigo ){
 		raiz = novo;

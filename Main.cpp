@@ -38,6 +38,7 @@ void criarEd(ABB *abb, Lista *l){
         if(file.is_open()){
             string line;
             NohLista *aux = l->inserir((*it));
+            abb->Inserir((*it), aux->posicao);
 
             while(getline(file, line)){
                 if(line[0] != '#'){
@@ -52,7 +53,6 @@ void criarEd(ABB *abb, Lista *l){
                         }
                     }
                     aux->lista->inserirInterno(accession);
-                    abb->Inserir((*it), aux->posicao);
                 }    
             }
         }
@@ -68,11 +68,14 @@ void add(char alternativa, ABB *abb, Lista *l){
         getline(cin, especie);
         cout << "INFORME ORGANISMO: ";
         getline(cin, organismo);
-        NohLista *aux = l->busca(especie);
-        if(aux == NULL){
+
+        int pos = abb->Busca(especie);
+        NohLista *posespecie = l->buscaPosicao(pos);
+
+        if(posespecie == NULL){
             cout <<endl << "ESPECIE NAO ENCONTRADA"<<endl;
         }else{
-            aux->lista->inserirInterno(organismo);
+            posespecie->lista->inserirInterno(organismo);
         }
     }else{
         string especie;
@@ -81,6 +84,7 @@ void add(char alternativa, ABB *abb, Lista *l){
 		getline(cin, especie);
         NohLista *aux = l->inserir(especie);
         abb->Inserir(especie, aux->posicao);
+        l->arrumaPosicao(abb);
     }
 }
 
@@ -112,6 +116,7 @@ void rem(char alternativa, ABB *abb, Lista *l){
         }else{
             l->remover(pos);
             abb->Remover(especie);
+            l->arrumaPosicao(abb);
         }
     }
 }
@@ -138,13 +143,13 @@ void consultar(char alternativa, ABB *abb, Lista *l){
         cin.ignore();
         getline(cin, especie);
         int pos = abb->Busca(especie);
-        NohLista *aux = l->buscaPosicao(pos);
-        if(aux == NULL){
+        NohLista *posespecie = l->buscaPosicao(pos);
+        if(posespecie == NULL){
             cout <<endl << "ESPECIE NAO ENCONTRADA"<<endl;
         }else{
-            cout << "ESPECIE: " << especie << endl;
+            cout << "ESPECIE: " << posespecie->lista->inicioInterno->valor << endl;
             cout << "ORGANISMOS: ";
-            aux->lista->imprimirInterno();
+            posespecie->lista->imprimirInterno();
         }
     }
 }
@@ -154,8 +159,8 @@ void imprimir(ABB *abb, Lista *l){
     cout << "IMPRIMINDO LISTA" <<endl;
     l->imprimir();
     cout <<endl;
-    cout << "IMPRIMINDO ARVORE" <<endl;
-    abb->EmOrdem();
+    //cout << "IMPRIMINDO ARVORE" <<endl;
+    //abb->EmOrdem();
     cout<<endl;
 }
 
@@ -181,6 +186,7 @@ void menu(ABB *abb, Lista *l){
         switch (opcao) {
             case 1:
                 criarEd(abb, l);
+                l->arrumaPosicao(abb);
                 break;
             case 2:
                 cout << "ESPECIE (e) OU ORGANISMO (o): ";

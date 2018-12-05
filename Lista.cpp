@@ -1,10 +1,12 @@
 #include "Lista.h"
+#include "ABB.h"
 
 NohLista* Lista::buscaPosicao(int pos){
     int k = 1;
     NohLista *nav = fim;
     while(nav != NULL and k != pos){
         nav = nav->ant;
+        k++;
     }
     return nav;
 }
@@ -26,11 +28,14 @@ NohInterno* ListaInterno::busca(string valor){
     return nav;
 }
 
-void Lista::arrumaPosicao(){
+void Lista::arrumaPosicao(ABB *abb){
     NohLista *nav = fim;
     int cont = 1;
     while(nav != NULL){
         nav->posicao = cont;
+
+        abb->arrumaPosicao(nav->lista->inicioInterno->valor, nav->posicao);
+
         nav = nav->ant;
         cont ++;
     }
@@ -44,7 +49,6 @@ NohLista* Lista::inserir(string valor){
     nova->lista->inserirInterno(valor);
     if(fim == NULL){
         fim = nova;
-        arrumaPosicao();
         return nova;
     }else{
         NohLista *nav = fim;
@@ -66,7 +70,6 @@ NohLista* Lista::inserir(string valor){
                 nova->ant = nav;
             }
         }
-        arrumaPosicao();
         return nova;
     }
 }
@@ -81,8 +84,6 @@ void Lista::remover(int pos){
         cont++;
     }
 
-    cout << nav->posicao <<endl;
-
     if(nav->ant == NULL){
         proximo->ant = NULL;
     }
@@ -95,7 +96,6 @@ void Lista::remover(int pos){
     }
     tamanho--;
     delete nav;
-    arrumaPosicao();
 }
 
 void Lista::imprimir(){

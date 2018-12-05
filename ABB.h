@@ -34,6 +34,7 @@ class ABB {
 		int Nivel(string d);
         void Transplanta( NohArvore* antigo, NohArvore* novo);
         int Busca(string valor);
+        void arrumaPosicao(string valor, int pos);
         NohArvore* BuscaAux(NohArvore* aux);
         NohArvore* MinAux(NohArvore* aux);
 		void PosOrdem();
