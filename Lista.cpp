@@ -1,9 +1,6 @@
 #include "Lista.h"
 
 NohLista* Lista::buscaPosicao(int pos){
-    if(pos > tamanho){
-        //lançar exceção
-    }
     int k = 1;
     NohLista *nav = fim;
     while(nav != NULL and k != pos){
@@ -29,54 +26,76 @@ NohInterno* ListaInterno::busca(string valor){
     return nav;
 }
 
+void Lista::arrumaPosicao(){
+    NohLista *nav = fim;
+    int cont = 1;
+    while(nav != NULL){
+        nav->posicao = cont;
+        nav = nav->ant;
+        cont ++;
+    }
+}
+
 NohLista* Lista::inserir(string valor){
     NohLista *nova = new NohLista();
+    tamanho++;
+    nova->posicao = tamanho;
+    nova->lista = new ListaInterno();
+    nova->lista->inserirInterno(valor);
     if(fim == NULL){
         fim = nova;
-        tamanho++;
-        nova->posicao = tamanho;
-        nova->lista = new ListaInterno();
-        nova->lista->inserirInterno(valor);
+        arrumaPosicao();
         return nova;
     }else{
-        nova->ant = fim;
-        fim = nova;
-        tamanho++;
-        nova->posicao = tamanho;
-        nova->lista = new ListaInterno();
-        nova->lista->inserirInterno(valor);
+        NohLista *nav = fim;
+        NohLista *proximo = NULL;
+        while(nav != NULL and nav->lista->inicioInterno->valor < valor){
+            proximo = nav;
+            nav = nav->ant;
+        }
+
+        if(nav == NULL){
+            proximo->ant = nova;
+        }
+        else{
+            if(proximo == NULL){
+                nova->ant = nav;
+                fim = nova;
+            }else{
+                proximo->ant = nova;
+                nova->ant = nav;
+            }
+        }
+        arrumaPosicao();
         return nova;
     }
 }
 
 void Lista::remover(int pos){
-
-    if(pos < 0 or pos > tamanho){
-        //lançar exceção
-    }
     NohLista *nav = fim;
     NohLista *proximo = NULL;
-    int cont = tamanho;
+    int cont = 1;
     while(cont != pos){
-        cout <<endl<<endl;
         proximo = nav;
         nav = nav->ant;
-        cont--;
+        cont++;
     }
+
+    cout << nav->posicao <<endl;
 
     if(nav->ant == NULL){
         proximo->ant = NULL;
-        delete nav;
     }
     else{
         if(proximo == NULL){
             fim = nav->ant;
-            delete nav;
         }else{
             proximo->ant = nav->ant;
-            delete nav;
         }
     }
+    tamanho--;
+    delete nav;
+    arrumaPosicao();
 }
 
 void Lista::imprimir(){
@@ -106,17 +125,14 @@ void ListaInterno::imprimirInterno(){
 void ListaInterno::inserirInterno(string valor){
     NohInterno *novo = new NohInterno();
     novo->valor = valor;
+    novo->posicao = tamanho;
     if(fimInterno == NULL){
-        fimInterno = novo;
         inicioInterno = novo;
-        tamanho++;
-        novo->posicao = tamanho;
     }else{
         novo->ant = fimInterno;
-        fimInterno = novo;
-        tamanho++;
-        novo->posicao = tamanho;
     }
+    fimInterno = novo;
+    tamanho++;
 }
 
 void ListaInterno::removerInterno(string valor){
@@ -131,37 +147,14 @@ void ListaInterno::removerInterno(string valor){
     if(nav->ant == NULL){
         proximo->ant = NULL;
         inicioInterno = proximo;
-        tamanho--;
-        delete nav;
     }
     else{
         if(proximo == NULL){
             fimInterno = nav->ant;
-            tamanho--;
-            delete nav;
         }else{
             proximo->ant = nav->ant;
-            tamanho--;
-            delete nav;
         }
     }
+    tamanho--;
+    delete nav;
 }
-/*
-int main(){
-    Lista *l = new Lista();
-    NohLista *aux = l->inserir("Luiz");
-    aux->lista->inserirInterno("LuizInterno");
-    aux->lista->inserirInterno("LuizInterno");
-    aux->lista->inserirInterno("LuizInterno");
-    aux->lista->inserirInterno("LuizInterno");
-    aux->lista->inserirInterno("LuizInterno");
-
-    aux = l->inserir("Alice");
-    aux->lista->inserirInterno("AliceInterno");
-    aux->lista->inserirInterno("AliceInterno");
-    aux->lista->inserirInterno("AliceInterno");
-    aux->lista->inserirInterno("AliceInterno");
-    aux->lista->inserirInterno("AliceInterno");
-    
-    l->imprimir();
-}*/

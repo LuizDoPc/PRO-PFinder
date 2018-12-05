@@ -53,12 +53,10 @@ void criarEd(ABB *abb, Lista *l){
                     }
                     aux->lista->inserirInterno(accession);
                     abb->Inserir((*it), aux->posicao);
-                    //cout << accession << endl;
                 }    
             }
         }
     }
-    //l->imprimir();
 }
 
 void add(char alternativa, ABB *abb, Lista *l){
@@ -161,12 +159,6 @@ void imprimir(ABB *abb, Lista *l){
     cout<<endl;
 }
 
-void ordena(ABB *abb, Lista *l){
-    
-
-
-}
-
 void menu(ABB *abb, Lista *l){
     int opcao;
 	cout << "                Pro-PFinder                 " << endl;
@@ -179,7 +171,6 @@ void menu(ABB *abb, Lista *l){
 	cout << "3: Para remover, organismo(o) ou especie(e)" << endl;
 	cout << "4: Para consultar,organismo(o) ou especie(e)" << endl;
 	cout << "5: Para imprimir tudo" << endl;
-	cout << "6: Para imprimir de foma ordenada" << endl;
 	cout << "0: Para finalizar o programa" << endl;
 	cout << endl;
 	cout << "*---*---*---*---*---*----*---*---*---*---*---*---*---*" << endl;
@@ -188,29 +179,25 @@ void menu(ABB *abb, Lista *l){
     char alternativa;
 	 do {
         switch (opcao) {
-            case 1: // Cria estrutura a partir de arquivo OK
+            case 1:
                 criarEd(abb, l);
                 break;
-            case 2: // Inserir OK
+            case 2:
                 cout << "ESPECIE (e) OU ORGANISMO (o): ";
 				cin >> alternativa;
 				add(alternativa, abb, l);
                 break;
-            case 3: // Remover OK
+            case 3:
                 cout << "ESPECIE (e) OU ORGANISMO (o): ";
 				cin >> alternativa;
 				rem(alternativa, abb, l);
                 break;
-            case 4: // Consulta OK
+            case 4:
                 cout << "ESPECIE (e) OU ORGANISMO (o): ";
 				cin >> alternativa;
 				consultar(alternativa, abb, l);
                 break;
-            case 5: // Imprime OK
-                imprimir(abb, l);
-                break;
-            case 6: // Ordena e Imprime
-                ordena(abb, l);
+            case 5:
                 imprimir(abb, l);
                 break;
 			default:

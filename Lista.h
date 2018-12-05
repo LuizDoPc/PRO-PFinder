@@ -65,5 +65,6 @@ class Lista{
         void imprimir();
         NohLista* busca(string valor);
         NohLista* buscaPosicao(int pos);
+        void arrumaPosicao();
 };
 #endif
