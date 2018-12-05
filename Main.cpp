@@ -6,7 +6,7 @@
 
 vector<string> open(string path = "LA FILES") {
 
-    DIR*    dir;
+    DIR* dir;
     dirent* pdir;
     vector<string> files;
 
