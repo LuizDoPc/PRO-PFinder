@@ -1,5 +1,22 @@
 #include "Lista.h"
 
+
+NohLista* Lista::busca(string valor){
+    NohLista *nav = fim;
+    while(nav != NULL and nav->lista->inicioInterno->valor != valor){
+        nav = nav->ant;
+    }
+    return nav;
+}
+
+NohInterno* ListaInterno::busca(string valor){
+    NohInterno *nav = fimInterno;
+    while(nav != NULL and nav->valor != valor){
+        nav = nav->ant;
+    }
+    return nav;
+}
+
 NohLista* Lista::inserir(string valor){
     NohLista *nova = new NohLista();
     if(fim == NULL){
@@ -23,7 +40,7 @@ NohLista* Lista::inserir(string valor){
 void Lista::remover(int pos){
 
     if(pos < 0 or pos > tamanho){
-        //lançar excesão
+        //lançar exceção
     }
     NohLista *nav = fim;
     NohLista *proximo = NULL;
@@ -80,10 +97,14 @@ void ListaInterno::inserirInterno(string valor){
     novo->valor = valor;
     if(fimInterno == NULL){
         fimInterno = novo;
+        inicioInterno = novo;
         tamanho++;
+        novo->posicao = tamanho;
     }else{
         novo->ant = fimInterno;
         fimInterno = novo;
+        tamanho++;
+        novo->posicao = tamanho;
     }
 }
 
@@ -98,14 +119,18 @@ void ListaInterno::removerInterno(string valor){
     
     if(nav->ant == NULL){
         proximo->ant = NULL;
+        inicioInterno = proximo;
+        tamanho--;
         delete nav;
     }
     else{
         if(proximo == NULL){
             fimInterno = nav->ant;
+            tamanho--;
             delete nav;
         }else{
             proximo->ant = nav->ant;
+            tamanho--;
             delete nav;
         }
     }

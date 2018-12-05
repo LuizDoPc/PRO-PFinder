@@ -6,9 +6,11 @@ using namespace std;
 
 class NohInterno {
     friend class ListaInterno;
+    friend class Lista;
     private:
         NohInterno *ant;
         string valor;
+        int posicao;
     public:
         NohInterno(){
             ant = NULL;
@@ -17,8 +19,10 @@ class NohInterno {
 
 class ListaInterno{
     friend class NohInterno;
+    friend class Lista;
     private:
         NohInterno *fimInterno;
+        NohInterno *inicioInterno;
         int tamanho;
     public:
         ListaInterno(){
@@ -28,6 +32,7 @@ class ListaInterno{
         void inserirInterno(string valor);
         void removerInterno(string valor);
         void imprimirInterno();
+        NohInterno* busca(string valor);
 };
 
 class NohLista{
@@ -45,6 +50,8 @@ class NohLista{
 
 class Lista{
     friend class NohLista;
+    friend class ListaInterno;
+    friend class NohInterno;
     private:
         NohLista *fim;
         int tamanho;
@@ -56,5 +63,6 @@ class Lista{
         NohLista* inserir(string valor);
         void remover(int pos);
         void imprimir();
+        NohLista* busca(string valor);
 };
 #endif
