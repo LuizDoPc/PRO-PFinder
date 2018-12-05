@@ -11,8 +11,54 @@
 #include <vector>
 #include <fstream>
 
-void criarEd(){
 
+
+vector<string> open(string path = "LA FILES") {
+
+    DIR* dir;
+    dirent* pdir;
+    vector<string> files;
+
+    dir = opendir(path.c_str());
+
+    while ((pdir = readdir(dir))) {
+        files.push_back(pdir->d_name);
+    }
+    
+    return files;
+}
+
+void criarEd(){
+    vector<string> f;
+
+    f = open();
+
+    for(vector<string>::iterator it =  f.begin(); it != f.end(); it++){
+        ifstream file("LA FILES/"+*it);
+        if(file.is_open()){
+            string line;
+            NohLista *aux = l->inserir((*it));
+
+            while(getline(file, line)){
+                if(line[0] != '#'){
+                    int cont = 0;
+                    string accession = "";
+                    for(long unsigned int i=0; i<line.size(); i++){
+                        if(line[i] == '\t'){ 
+                            cont ++;
+                        }
+                        if(line[i] != '\t' and cont == 1){
+                            accession += line[i];
+                        }
+                    }
+                    aux->lista->inserirInterno(accession);
+                    abb->Inserir((*it), aux->posicao);
+                    //cout << accession << endl;
+                }    
+            }
+        }
+    }
+    //l->imprimir();
 }
 
 void add(char alternativa, ABB *abb, Lista *l){
@@ -50,12 +96,12 @@ void consultar(char alternativa, ABB *abb, Lista *l){
         getline(cin, especie);
         NohLista *aux = l->busca(especie);
         cout << "ESPECIE: " << especie << endl;
-        aux->lista->imprimirInterno();
+        aux->lista->imprimirInterno();l
     }
 }
 
-void imprmiir(){
-
+void imprmir(ABB *abb, Lista *l){
+    l->imprimir();
 }
 
 
@@ -63,14 +109,7 @@ void imprmiir(){
 void menu(ABB *abb, Lista *l){
     int opcao;
 	cout << "                Pro-PFinder                 " << endl;
-	cout << "*---*---if(alternativa == 'o'){
-					
-
-				}else{
-					string especie;
-					getline(cin, especie);
-					//ABB.remove(especie);
-				}*---*---*---*----*---*---*---*---*---*---*---*" << endl;
+	cout << "*---*---*---*---*---*----*---*---*---*---*---*---*---*" << endl;
 	cout << "*---*---*---*---*---*----*---*---*---*---*---*---*---*" << endl;
 	cout << "            Escolha uma alternativa:         " << endl;
 	cout << endl;
@@ -78,9 +117,8 @@ void menu(ABB *abb, Lista *l){
     cout << "2: Para inserir novo organismo(o) ou especie(e)" << endl;
 	cout << "3: Para remover, organismo(o) ou especie(e)" << endl;
 	cout << "4: Para consultar,organismo(o) ou especie(e)" << endl;
-	cout << "5: Para imprimir, tudo(t) ou especie(e)" << endl;
+	cout << "5: Para imprimir tudo" << endl;
 	cout << "6: Para imprimir de foma ordenada" << endl;
-	cout << "7: Para imprimir de acordo com a posicao da lista" << endl;
 	cout << "0: Para finalizar o programa" << endl;
 	cout << endl;
 	cout << "*---*---*---*---*---*----*---*---*---*---*---*---*---*" << endl;
@@ -116,22 +154,11 @@ void menu(ABB *abb, Lista *l){
 				consultar(alternativa, abb, l);
                 break;
             case 5: //Imprime  
-                char alt;
-                cin >> alt;
-                if(alt == 't'){
-					//imprime tudo;
-				}else{
-					string especie;
-					getline(cin, especie);
-					//imprime especie
-				}
+                imprimir(abb, l);
                 break;
             case 6:
 				//ordena e imprime
                 break;
-            case 7:
-				//imprime de acordo com a posicao do hash
-				break;
 			default:
 				cout << "Comando Invalido!";
         }
@@ -142,55 +169,12 @@ void menu(ABB *abb, Lista *l){
     } while (opcao != 0);
 }
 
-vector<string> open(string path = "LA FILES") {
-
-    DIR* dir;
-    dirent* pdir;
-    vector<string> files;
-
-    dir = opendir(path.c_str());
-
-    while ((pdir = readdir(dir))) {
-        files.push_back(pdir->d_name);
-    }
-    
-    return files;
-}
-
 int main(){
     
     ABB *abb = new ABB();
     Lista *l = new Lista();
     
-    vector<string> f;
+    menu();
 
-    f = open();
-
-    for(vector<string>::iterator it =  f.begin(); it != f.end(); it++){
-        ifstream file("LA FILES/"+*it);
-        if(file.is_open()){
-            string line;
-            NohLista *aux = l->inserir((*it));
-
-            while(getline(file, line)){
-                if(line[0] != '#'){
-                    int cont = 0;
-                    string accession = "";
-                    for(long unsigned int i=0; i<line.size(); i++){
-                        if(line[i] == '\t'){ 
-                            cont ++;
-                        }
-                        if(line[i] != '\t' and cont == 1){
-                            accession += line[i];
-                        }
-                    }
-                    aux->lista->inserirInterno(accession);
-                    abb->Inserir((*it), aux->posicao);
-                    //cout << accession << endl;
-                }    
-            }
-        }
-    }
-    l->imprimir();
     return 0;
 }
