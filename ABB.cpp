@@ -86,6 +86,9 @@ int ABB::Busca(string valor){
 			atual = atual->dir;
 		}
 	}
+	if(atual == NULL){
+		return -1;
+	}
 	return atual->pos;
 }
 

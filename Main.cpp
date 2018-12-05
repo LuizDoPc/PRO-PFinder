@@ -65,15 +65,22 @@ void add(char alternativa, ABB *abb, Lista *l){
 
     if(alternativa == 'o'){
         string especie, organismo;
+        cout << "INFORME ESPECIE: ";
+        cin.ignore();
         getline(cin, especie);
+        cout << "INFORME ORGANISMO: ";
         getline(cin, organismo);
-
         NohLista *aux = l->busca(especie);
-        aux->lista->inserirInterno(organismo);
+        if(aux == NULL){
+            cout <<endl << "ESPECIE NAO ENCONTRADA"<<endl;
+        }else{
+            aux->lista->inserirInterno(organismo);
+        }
     }else{
         string especie;
+        cout << "INFORME ESPECIE: ";
+        cin.ignore();
 		getline(cin, especie);
-
         NohLista *aux = l->inserir(especie);
         abb->Inserir(especie, aux->posicao);
     }
@@ -82,41 +89,76 @@ void add(char alternativa, ABB *abb, Lista *l){
 void rem(char alternativa, ABB *abb, Lista *l){
     if(alternativa == 'o'){
         string especie, organismo;
+        cout << "INFORME ESPECIE: ";
+        cin.ignore();
         getline(cin, especie);
+        cout << "INFORME ORGANISMO: ";
         getline(cin, organismo);
 
-        NohLista *aux = l->busca(especie);
-        aux->lista->removerInterno(organismo);
+        int pos = abb->Busca(especie);
+        NohLista *posespecie = l->buscaPosicao(pos);
+        if(posespecie == NULL){
+            cout <<endl << "ESPECIE NAO ENCONTRADA"<<endl;
+        }else{
+            posespecie->lista->removerInterno(organismo);
+        }
     }else{
         string especie;
+        cout << "INFORME ESPECIE: ";
+        cin.ignore();
         getline(cin, especie);
 
-        NohLista *aux = l->busca(especie);
-        l->remover(aux->posicao);
+        int pos = abb->Busca(especie);
+        if(pos == -1){
+            cout <<endl << "ESPECIE NAO ENCONTRADA"<<endl;
+        }else{
+            l->remover(pos);
+            abb->Remover(especie);
+        }
     }
 }
 
 void consultar(char alternativa, ABB *abb, Lista *l){
     if(alternativa == 'o'){
         string especie, organismo;
+        cout << "INFORME ESPECIE: ";
+        cin.ignore();
         getline(cin, especie);
+        cout << "INFORME ORGANISMO: ";
         getline(cin, organismo);
         int pos = abb->Busca(especie);
         NohLista *posespecie = l->buscaPosicao(pos);
-        NohInterno *posorganismo = posespecie->lista->busca(organismo);
-        cout << "ORGANISMO: " << posorganismo->valor << endl << "ESPECIE: " << especie << endl << "POSICAO: " << posorganismo->posicao << endl;
+        if(posespecie == NULL){
+            cout <<endl << "ESPECIE NAO ENCONTRADA"<<endl;
+        }else{
+            NohInterno *posorganismo = posespecie->lista->busca(organismo);
+            cout << "ORGANISMO: " << posorganismo->valor << endl << "ESPECIE: " << especie << endl << "POSICAO: " << posorganismo->posicao << endl;
+        }
     }else{
         string especie;
+        cout << "INFORME ESPECIE: ";
+        cin.ignore();
         getline(cin, especie);
         int pos = abb->Busca(especie);
         NohLista *aux = l->buscaPosicao(pos);
-        cout << "ESPECIE: " << especie << endl;
-        aux->lista->imprimirInterno();
+        if(aux == NULL){
+            cout <<endl << "ESPECIE NAO ENCONTRADA"<<endl;
+        }else{
+            cout << "ESPECIE: " << especie << endl;
+            cout << "ORGANISMOS: ";
+            aux->lista->imprimirInterno();
+        }
     }
 }
 
 void imprimir(ABB *abb, Lista *l){
+    cout <<endl;
+    cout << "IMPRIMINDO LISTA" <<endl;
     l->imprimir();
+    cout <<endl;
+    cout << "IMPRIMINDO ARVORE" <<endl;
+    abb->EmOrdem();
+    cout<<endl;
 }
 
 void ordena(ABB *abb, Lista *l){
@@ -143,27 +185,28 @@ void menu(ABB *abb, Lista *l){
 	cout << "*---*---*---*---*---*----*---*---*---*---*---*---*---*" << endl;
 	cout << "*---*---*---*---*---*----*---*---*---*---*---*---*---*" << endl;
 	cin >>opcao;
+    char alternativa;
 	 do {
         switch (opcao) {
-            case 1: // Cria estrutura a partir de arquivo
+            case 1: // Cria estrutura a partir de arquivo OK
                 criarEd(abb, l);
                 break;
-            case 2: // Inserir
-                char alternativa;
+            case 2: // Inserir OK
+                cout << "ESPECIE (e) OU ORGANISMO (o): ";
 				cin >> alternativa;
 				add(alternativa, abb, l);
                 break;
-            case 3: // Remover
-				char alternativa;
+            case 3: // Remover OK
+                cout << "ESPECIE (e) OU ORGANISMO (o): ";
 				cin >> alternativa;
 				rem(alternativa, abb, l);
                 break;
-            case 4: // Buscar
-				char alternativa;
+            case 4: // Consulta OK
+                cout << "ESPECIE (e) OU ORGANISMO (o): ";
 				cin >> alternativa;
 				consultar(alternativa, abb, l);
                 break;
-            case 5: // Imprime  
+            case 5: // Imprime OK
                 imprimir(abb, l);
                 break;
             case 6: // Ordena e Imprime

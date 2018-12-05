@@ -4,7 +4,7 @@ NohLista* Lista::buscaPosicao(int pos){
     if(pos > tamanho){
         //lançar exceção
     }
-    int k = 0;
+    int k = 1;
     NohLista *nav = fim;
     while(nav != NULL and k != pos){
         nav = nav->ant;
@@ -56,13 +56,14 @@ void Lista::remover(int pos){
     }
     NohLista *nav = fim;
     NohLista *proximo = NULL;
-    int cont = 1;
-    while(cont < pos){
+    int cont = tamanho;
+    while(cont != pos){
+        cout <<endl<<endl;
         proximo = nav;
         nav = nav->ant;
-        cont++;
+        cont--;
     }
-    
+
     if(nav->ant == NULL){
         proximo->ant = NULL;
         delete nav;
@@ -80,12 +81,10 @@ void Lista::remover(int pos){
 
 void Lista::imprimir(){
     NohLista *nav = fim;
-    int cont = 1;
     while (nav != NULL){
-        cout << "#" << cont << " ";
+        cout << "#" << nav->posicao << " ";
         nav->lista->imprimirInterno();
         cout <<endl;
-        cont++;
         nav = nav->ant;
     }
 }
