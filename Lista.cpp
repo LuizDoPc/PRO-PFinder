@@ -1,4 +1,4 @@
-#include "ListaDeLista.h"
+#include "Lista.h"
 
 NohLista* Lista::inserir(string valor){
     NohLista *nova = new NohLista();

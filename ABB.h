@@ -1,3 +1,6 @@
+#ifndef ABB_H
+#define ABB_H
+
 #include <iostream>
 #include <string>
 
@@ -6,9 +9,11 @@ using namespace std;
 class NohArvore {
     friend class ABB;
     public:
+        NohArvore (string d, int pos);
         NohArvore (string d);
     protected:
         string valor;
+        int pos;
         NohArvore* esq;
         NohArvore* dir;
         NohArvore* pai;
@@ -19,7 +24,7 @@ class ABB {
         ABB() { raiz = NULL; }
         ~ABB();
         // Insere um dado na Ã¡rvore.
-        void Inserir(string d);
+        void Inserir(string d, int pos);
         // Verifica se um dado tem sucessor e o retorna.
         void EmOrdem();
         void EOAux( NohArvore* aux);
@@ -36,3 +41,4 @@ class ABB {
         NohArvore* raiz;
        
 };
+#endif

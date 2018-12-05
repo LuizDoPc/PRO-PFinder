@@ -1,3 +1,6 @@
+#ifndef LISTA_H
+#define LISTA_H
+
 #include <iostream>
 using namespace std;
 
@@ -31,10 +34,9 @@ class NohLista{
     friend class Lista;
     private:
         NohLista *ant;
-        int posicao;
     public:
         ListaInterno *lista;
-
+        int posicao;
         NohLista(){
             lista = NULL;
             ant = NULL;
@@ -55,3 +57,4 @@ class Lista{
         void remover(int pos);
         void imprimir();
 };
+#endif

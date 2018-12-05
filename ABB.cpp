@@ -1,6 +1,10 @@
 #include "ABB.h"
 
 // === Classe NohArvore ==============================================================
+NohArvore::NohArvore(string d, int p) // d tem valor default
+    : valor(d), pos(p), esq(NULL), dir(NULL), pai(NULL) {
+}
+
 NohArvore::NohArvore(string d) // d tem valor default
     : valor(d), esq(NULL), dir(NULL), pai(NULL) {
 }
@@ -10,8 +14,8 @@ ABB::~ABB(){
     delete raiz;
 }
 
-void ABB::Inserir(string d) {
-    NohArvore* novo = new NohArvore(d);
+void ABB::Inserir(string d, int pos) {
+    NohArvore* novo = new NohArvore(d, pos);
     if (raiz == NULL) {
         raiz = novo;
     } else {

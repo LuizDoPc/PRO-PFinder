@@ -1,5 +1,5 @@
 #include "ABB.h"
-#include "TabelaHash.h"
+#include "Lista.h"
 #include <dirent.h>
 #include <vector>
 #include <fstream>
@@ -19,27 +19,26 @@ vector<string> open(string path = "LA FILES") {
     return files;
 }
 
-int main(int argc, char const *argv[]){
+int main(){
     
     ABB *abb = new ABB();
-    TabelaHash *th = new TabelaHash(194);
-
+    Lista *l = new Lista();
     
     vector<string> f;
 
     f = open();
 
-    int k = 0;
-    for(vector<string>::iterator it =  f.begin(); it != f.end() and k < 5; it++, k++){
+    for(vector<string>::iterator it =  f.begin(); it != f.end(); it++){
         ifstream file("LA FILES/"+*it);
         if(file.is_open()){
             string line;
+            NohLista *aux = l->inserir((*it));
 
             while(getline(file, line)){
                 if(line[0] != '#'){
                     int cont = 0;
                     string accession = "";
-                    for(int i=0; i<line.size(); i++){
+                    for(long unsigned int i=0; i<line.size(); i++){
                         if(line[i] == '\t'){ 
                             cont ++;
                         }
@@ -47,13 +46,13 @@ int main(int argc, char const *argv[]){
                             accession += line[i];
                         }
                     }
-                    
-                    int pos = th->insere(accession);
-                    abb->Inserir(*th, pos);
+                    aux->lista->inserirInterno(accession);
+                    abb->Inserir((*it), aux->posicao);
                     //cout << accession << endl;
                 }    
             }
         }
     }
+    l->imprimir();
     return 0;
 }
