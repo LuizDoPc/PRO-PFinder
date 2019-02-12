@@ -1,0 +1,14 @@
+# BLASTP 2.7.1+
+# Query: AAY92870.1 tryptophan halogenase PrnA [Pseudomonas protegens Pf-5]
+# RID: 11V7XR8B015
+# Database: nr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+AAY92870.1	WP_069178979.1	42.857	35	17	1	6	40	15	46	0.22	30.4
+AAY92870.1	WP_069178849.1	35.000	40	25	1	295	333	302	341	0.82	28.9
+AAY92870.1	WP_069178610.1	28.409	88	52	4	1	86	5	83	0.96	28.5
+AAY92870.1	WP_069177707.1	40.625	32	16	1	6	37	149	177	2.7	26.9
+AAY92870.1	WP_069178229.1	33.333	45	30	0	350	394	430	474	5.7	26.2
+AAY92870.1	WP_069177526.1	29.167	48	31	1	7	54	5	49	7.5	25.8
+AAY92870.1	WP_069177998.1	44.444	27	14	1	89	114	84	110	7.7	25.4
+# BLAST processed 1 queries
