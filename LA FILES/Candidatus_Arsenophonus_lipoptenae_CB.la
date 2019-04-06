@@ -1,0 +1,14 @@
+# BLASTP 2.7.1+
+# Query: AAY92873.1 aminopyrrolnitrin oxidase PrnD [Pseudomonas protegens Pf-5]
+# RID: ABYBTVZT014
+# Database: nr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+AAY92873.1	AMA65201.1	23.000	100	65	3	99	198	184	271	0.78	25.8
+AAY92873.1	AMA64620.1	41.667	24	14	0	132	155	38	61	0.91	25.4
+AAY92873.1	AMA65073.1	25.000	52	39	0	295	346	15	66	4.1	23.5
+AAY92873.1	AMA64767.1	26.190	42	26	1	295	331	51	92	6.0	22.3
+AAY92873.1	AMA64885.1	26.531	49	31	1	215	258	232	280	7.4	22.7
+AAY92873.1	AMA64812.1	29.825	57	40	0	253	309	408	464	7.5	22.7
+AAY92873.1	AMA64924.1	30.189	53	30	1	150	202	293	338	10.0	22.3
+# BLAST processed 1 queries
