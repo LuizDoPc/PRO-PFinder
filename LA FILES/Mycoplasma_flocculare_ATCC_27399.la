@@ -1,0 +1,12 @@
+# BLASTP 2.7.1+
+# Query: AAY92872.1 halogenase PrnC [Pseudomonas protegens Pf-5]
+# RID: AX655JXK014
+# Database: nr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+AAY92872.1	WP_039387509.1	28.889	45	32	0	14	58	3	47	0.13	29.3
+AAY92872.1	WP_002557641.1	25.000	64	48	0	1	64	143	206	1.1	26.6
+AAY92872.1	WP_039387584.1	19.847	131	90	4	398	516	46	173	3.6	24.6
+AAY92872.1	AJC49824.1	19.847	131	90	4	398	516	32	159	4.0	24.6
+AAY92872.1	WP_002557923.1	29.167	24	17	0	53	76	8	31	9.5	23.5
+# BLAST processed 1 queries
