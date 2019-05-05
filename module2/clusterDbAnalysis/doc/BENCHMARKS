@@ -1,0 +1,56 @@
+B0;136;0c---------
+
+setup_step1.sh 
+
+BLAST benchmark:
+
+Time to run blast will go roughly as N^2 where N is the number
+of organisms (assuming they have roughly the same number of genes)
+and as k^2 where k is the number of genes per organism.
+
+Running on 12 (reasonably fast) cores BLASTP took on average
+somewhere around 6 seconds per pair of bacteria... 
+
+For the test set of 24 organisms it took roughly
+
+6 s/org pairs * 24^2 orgpairs * 1 min/60 s = 57 min
+
+to run BLASTP all vs. all. The algorithm is embarassingly parallel,
+so scale up or down according to the number of cores you have.
+
+BLASTN all vs. all takes less time but will still be in the hours+
+range for a larger number of genomes.
+On the same machine (using 12 cores of processing) it took about 
+1.5 seconds per pair of organisms.
+
+1.5 s/org * 24^2 org * 1 min/60s = 15 minutes
+
+Loading up the SQLite database took about 30 minutes for the set of 24
+Enterobacteria we have analyzed. This will roughly increase as O(N^2) as well
+(depending on the number of BLAST hits between each pair of organisms, which 
+could vary wildly). Unlike BLAST, this step is not parallelized.
+
+Everything else done in setup_step1.sh is completely insignificant in time
+compared to the BLAST computation and data loading steps.
+
+--------
+
+setup_step2.sh
+
+MCL benchmark:
+
+Most of the time in running MCL is spent querying the database for
+all BLAST hits between a specific group of organisms and calculating the
+desired homology scores.
+
+It took me about 1 minute per million edges to perform this query.
+Obviously this time will increase as the database gets bigger.
+
+There are about 20 million BLAST hits between 30 closely-related prokarytotes 
+(~3000 genes/organisms) with an E-value cutoff of 1E-5.
+
+Running setup_step2.sh on the 24 Enteric set took about 5 minutes but it goes as
+about N^2.
+
+--------
+

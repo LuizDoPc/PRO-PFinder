@@ -1,0 +1,2921 @@
+RPSBLAST 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Cdd.pn
+           52,910 sequences; 12,472,129 total letters
+
+
+
+Query= WP_008734225.1
+
+Length=377
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CDD:223717  COG0644, FixC, Dehydrogenases (flavoproteins) [Energy...  154     3e-43
+CDD:273936  TIGR02032, Uncharacterized_protein_MJ1520, geranylger...  133     2e-36
+CDD:273932  TIGR02023, geranylgeranyl_bacteriochlorophyll_reducta...  90.2    6e-20
+CDD:182273  PRK10157, PRK10157, putative oxidoreductase FixC; Pro...  60.7    5e-10
+CDD:182194  PRK10015, PRK10015, oxidoreductase; Provisional           60.0    7e-10
+CDD:223727  COG0654, UbiH, 2-polyprenyl-6-methoxyphenol hydroxyla...  56.3    1e-08
+CDD:235787  PRK06370, PRK06370, mercuric reductase; Validated         49.4    2e-06
+CDD:224169  COG1249, Lpd, Pyruvate/2-oxoglutarate dehydrogenase c...  48.4    4e-06
+CDD:273913  TIGR01988, Ubiquinone_biosynthesis_monooxygenase_COQ6...  47.6    6e-06
+CDD:131083  TIGR02028, geranylgeranyl_reductase_partial, geranylg...  47.2    9e-06
+CDD:235727  PRK06183, mhpA, 3-(3-hydroxyphenyl)propionate hydroxy...  45.3    4e-05
+CDD:177713  PLN00093, PLN00093, geranylgeranyl diphosphate reduct...  45.1    5e-05
+CDD:236385  PRK09126, PRK09126, hypothetical protein; Provisional     44.5    6e-05
+CDD:235774  PRK06292, PRK06292, dihydrolipoamide dehydrogenase; V...  44.4    7e-05
+CDD:236001  PRK07364, PRK07364, 2-octaprenyl-6-methoxyphenyl hydr...  44.2    8e-05
+CDD:180907  PRK07251, PRK07251, pyridine nucleotide-disulfide oxi...  43.2    2e-04
+CDD:181199  PRK08020, ubiF, 2-octaprenyl-3-methyl-6-methoxy-1,4-b...  42.3    3e-04
+CDD:181001  PRK07494, PRK07494, 2-octaprenyl-6-methoxyphenyl hydr...  42.2    3e-04
+CDD:223566  COG0492, TrxB, Thioredoxin reductase [Posttranslation...  41.9    3e-04
+CDD:281484  pfam03486, HI0933_like, HI0933-like protein               42.2    3e-04
+CDD:178082  PLN02463, PLN02463, lycopene beta cyclase                 41.2    7e-04
+CDD:235373  PRK05249, PRK05249, soluble pyridine nucleotide trans...  41.3    8e-04
+CDD:240384  PTZ00367, PTZ00367, squalene epoxidase; Provisional       41.0    0.001
+CDD:181057  PRK07608, PRK07608, ubiquinone biosynthesis hydroxyla...  40.7    0.001
+CDD:181196  PRK08010, PRK08010, pyridine nucleotide-disulfide oxi...  40.8    0.001
+CDD:235584  PRK05732, PRK05732, 2-octaprenyl-6-methoxyphenyl hydr...  40.6    0.001
+CDD:223636  COG0562, Glf, UDP-galactopyranose mutase [Cell envelo...  40.4    0.001
+CDD:183139  PRK11445, PRK11445, putative oxidoreductase; Provisional  40.4    0.001
+CDD:224154  COG1233, COG1233, Phytoene dehydrogenase and related ...  39.7    0.002
+CDD:132187  TIGR03143, AhpF_homolog, putative alkyl hydroperoxide...  39.8    0.002
+CDD:223981  COG1053, SdhA, Succinate dehydrogenase/fumarate reduc...  39.7    0.003
+CDD:224992  COG2081, COG2081, Predicted flavoproteins [General fu...  39.1    0.003
+CDD:316012  pfam13450, NAD_binding_8, NAD(P)-binding Rossmann-lik...  35.6    0.003
+CDD:274444  TIGR03140, AhpF, alkyl hydroperoxide reductase subuni...  39.3    0.003
+CDD:225186  COG2303, BetA, Choline dehydrogenase and related flav...  39.0    0.004
+CDD:236199  PRK08244, PRK08244, hypothetical protein; Provisional     38.6    0.006
+CDD:178566  PLN02985, PLN02985, squalene monooxygenase                38.3    0.006
+CDD:311792  pfam07992, Pyr_redox_2, Pyridine nucleotide-disulphid...  37.7    0.007
+CDD:136171  PRK07045, PRK07045, putative monooxygenase; Reviewed      38.0    0.007
+CDD:223651  COG0578, GlpA, Glycerol-3-phosphate dehydrogenase [En...  38.0    0.008
+CDD:273911  TIGR01984, 2-polyprenyl-6-methoxyphenol_hydroxylase, ...  37.7    0.008
+CDD:224550  COG1635, THI4, Ribulose 1,5-bisphosphate synthetase, ...  37.3    0.009
+CDD:338767  pfam13478, XdhC_C, XdhC Rossmann domain. This entry i...  36.3    0.009
+CDD:307580  pfam01494, FAD_binding_3, FAD binding domain. This do...  37.3    0.010
+CDD:235729  PRK06185, PRK06185, hypothetical protein; Provisional     37.5    0.010
+CDD:235241  PRK04176, PRK04176, ribulose-1,5-biphosphate syntheta...  37.1    0.011
+CDD:307168  pfam00890, FAD_binding_2, FAD binding domain. This fa...  37.3    0.011
+CDD:223737  COG0665, DadA, Glycine/D-amino acid oxidases (deamina...  37.2    0.012
+CDD:273914  TIGR01989, Ubiquinone_biosynthesis_monooxygenase_COQ6...  37.4    0.012
+CDD:237223  PRK12839, PRK12839, hypothetical protein; Provisional     37.5    0.013
+CDD:273568  TIGR01350, Dihydrolipoyl_dehydrogenase, dihydrolipoam...  36.9    0.017
+CDD:234978  PRK01747, mnmC, bifunctional tRNA (mnm(5)s(2)U34)-met...  37.1    0.017
+CDD:273624  TIGR01438, Thioredoxin_reductase_1_cytoplasmic, thior...  36.8    0.019
+CDD:237942  PRK15317, PRK15317, alkyl hydroperoxide reductase sub...  36.7    0.019
+CDD:273540  TIGR01292, Thioredoxin_reductase, thioredoxin-disulfi...  36.1    0.023
+CDD:235728  PRK06184, PRK06184, hypothetical protein; Provisional     36.5    0.023
+CDD:236341  PRK08850, PRK08850, 2-octaprenyl-6-methoxyphenol hydr...  36.3    0.025
+CDD:273584  TIGR01372, sarcosine_oxidase_alpha_subunit, sarcosine...  36.6    0.025
+CDD:130850  TIGR01790, Uncharacterized_carotenoid_cyclase_DR_0801...  36.3    0.028
+CDD:272864  TIGR00031, UDP-galactopyranose_mutase, UDP-galactopyr...  35.9    0.029
+CDD:236158  PRK08132, PRK08132, FAD-dependent oxidoreductase; Pro...  36.0    0.034
+CDD:272992  TIGR00275, TIGR00275, flavoprotein, HI0933 family. Th...  36.0    0.034
+CDD:180582  PRK06475, PRK06475, salicylate hydroxylase; Provisional   35.6    0.042
+CDD:236111  PRK07843, PRK07843, 3-ketosteroid-delta-1-dehydrogena...  35.4    0.049
+CDD:180567  PRK06452, sdhA, succinate dehydrogenase flavoprotein ...  35.2    0.058
+CDD:185577  PTZ00363, PTZ00363, rab-GDP dissociation inhibitor; P...  34.6    0.080
+CDD:273001  TIGR00292, Putative_ribose_15-bisphosphate_isomerase,...  34.4    0.083
+CDD:132407  TIGR03364, putative_secreted_oxidoreductase, FAD depe...  34.6    0.091
+CDD:168201  PRK05714, PRK05714, 2-octaprenyl-3-methyl-6-methoxy-1...  34.4    0.098
+CDD:235412  PRK05329, PRK05329, anaerobic glycerol-3-phosphate de...  34.4    0.10 
+CDD:185416  PTZ00052, PTZ00052, thioredoxin reductase; Provisional    34.4    0.11 
+CDD:235905  PRK06996, PRK06996, hypothetical protein; Provisional     34.3    0.11 
+CDD:180743  PRK06912, acoL, dihydrolipoamide dehydrogenase; Valid...  34.3    0.12 
+CDD:307232  pfam00996, GDI, GDP dissociation inhibitor                34.3    0.12 
+CDD:181564  PRK08849, PRK08849, 2-octaprenyl-3-methyl-6-methoxy-1...  34.0    0.12 
+CDD:226160  COG3634, AhpF, Alkyl hydroperoxide reductase, large s...  34.3    0.12 
+CDD:227377  COG5044, MRS6, RAB proteins geranylgeranyltransferase...  34.0    0.16 
+CDD:223652  COG0579, COG0579, Predicted dehydrogenase [General fu...  33.8    0.16 
+CDD:315498  pfam12831, FAD_oxidored, FAD dependent oxidoreductase...  33.7    0.17 
+CDD:223522  COG0445, GidA, Flavin-dependent tRNA uridine 5-carbox...  34.1    0.17 
+CDD:226103  COG3573, COG3573, Predicted oxidoreductase [General f...  33.6    0.18 
+CDD:273815  TIGR01812, Fumarate_reductase_flavoprotein_subunit, s...  33.8    0.18 
+CDD:240286  PTZ00139, PTZ00139, Succinate dehydrogenase [ubiquino...  33.6    0.19 
+CDD:188533  TIGR04018, thioredoxin_reductase, putative bacillithi...  33.3    0.20 
+CDD:236106  PRK07818, PRK07818, dihydrolipoamide dehydrogenase; R...  33.5    0.23 
+CDD:183782  PRK12834, PRK12834, putative FAD-binding dehydrogenas...  33.3    0.24 
+CDD:181346  PRK08275, PRK08275, putative oxidoreductase; Provisional  33.5    0.24 
+CDD:183787  PRK12844, PRK12844, 3-ketosteroid-delta-1-dehydrogena...  33.2    0.25 
+CDD:235704  PRK06126, PRK06126, hypothetical protein; Provisional     33.0    0.29 
+CDD:236887  PRK11259, solA, N-methyltryptophan oxidase; Provisional   32.9    0.33 
+CDD:236139  PRK08013, PRK08013, oxidoreductase; Provisional           32.7    0.33 
+CDD:215420  PLN02785, PLN02785, Protein HOTHEAD                       32.9    0.33 
+CDD:107330  cd06335, PBP1_ABC_ligand_binding_like_2, Type I perip...  32.6    0.35 
+CDD:181552  PRK08773, PRK08773, 2-octaprenyl-3-methyl-6-methoxy-1...  32.5    0.36 
+CDD:333813  pfam00070, Pyr_redox, Pyridine nucleotide-disulphide ...  30.2    0.38 
+CDD:225915  COG3380, COG3380, Predicted NAD/FAD-dependent oxidore...  32.1    0.44 
+CDD:237200  PRK12778, PRK12778, putative bifunctional 2-polypreny...  32.4    0.46 
+CDD:335910  pfam04820, Trp_halogenase, Tryptophan halogenase. Try...  32.3    0.47 
+CDD:235362  PRK05192, PRK05192, tRNA uridine 5-carboxymethylamino...  32.3    0.51 
+CDD:308070  pfam02254, TrkA_N, TrkA-N domain. This domain is foun...  30.6    0.53 
+CDD:237225  PRK12843, PRK12843, putative FAD-binding dehydrogenas...  32.4    0.54 
+CDD:223523  COG0446, HcaD, Uncharacterized NAD(FAD)-dependent deh...  31.8    0.61 
+CDD:236375  PRK09078, sdhA, succinate dehydrogenase flavoprotein ...  31.8    0.62 
+CDD:274912  TIGR03997, NADH:flavin_oxidoreductase, mycofactocin s...  32.0    0.63 
+CDD:180814  PRK07057, sdhA, succinate dehydrogenase flavoprotein ...  32.1    0.63 
+CDD:235000  PRK02106, PRK02106, choline dehydrogenase; Validated      32.1    0.64 
+CDD:273131  TIGR00551, L-aspartate_oxidase, L-aspartate oxidase. ...  31.7    0.68 
+CDD:198177  cd09921, SH2_Jak_family, Src homology 2 (SH2) domain ...  29.9    0.70 
+CDD:274273  TIGR02734, Phytoene_desaturase_lycopene-forming, phyt...  31.9    0.71 
+CDD:236102  PRK07804, PRK07804, L-aspartate oxidase; Provisional      31.9    0.73 
+CDD:235779  PRK06327, PRK06327, dihydrolipoamide dehydrogenase; V...  31.8    0.74 
+CDD:236214  PRK08274, PRK08274, tricarballylate dehydrogenase; Va...  31.8    0.76 
+CDD:237221  PRK12835, PRK12835, 3-ketosteroid-delta-1-dehydrogena...  31.7    0.78 
+CDD:235967  PRK07208, PRK07208, hypothetical protein; Provisional     31.4    0.82 
+CDD:274143  TIGR02462, Pyranose_2-oxidase, pyranose oxidase. Pyra...  31.8    0.86 
+CDD:225617  COG3075, GlpB, Anaerobic glycerol-3-phosphate dehydro...  31.6    0.87 
+CDD:272927  TIGR00136, Mitochondrial_translation_optimization_pro...  31.6    0.90 
+CDD:235870  PRK06834, PRK06834, hypothetical protein; Provisional     31.5    0.91 
+CDD:180854  PRK07121, PRK07121, hypothetical protein; Validated       31.4    0.93 
+CDD:237093  PRK12409, PRK12409, D-amino acid dehydrogenase small ...  31.1    0.96 
+CDD:270893  cd13991, STKc_NIK, Catalytic domain of the Serine/Thr...  30.9    0.97 
+CDD:235798  PRK06416, PRK06416, dihydrolipoamide dehydrogenase; R...  31.3    1.1  
+CDD:236967  PRK11749, PRK11749, dihydropyrimidine dehydrogenase s...  30.9    1.3  
+CDD:180584  PRK06481, PRK06481, fumarate reductase flavoprotein s...  31.0    1.4  
+CDD:223108  COG0029, NadB, Aspartate oxidase [Coenzyme metabolism]    30.7    1.4  
+CDD:273614  TIGR01421, Glutathione_reductase, glutathione-disulfi...  30.6    1.5  
+CDD:225885  COG3349, COG3349, Uncharacterized conserved protein [...  30.9    1.5  
+CDD:188426  TIGR03911, hypothetical_protein_DtoxDRAFT_11660, pyrr...  30.5    1.5  
+CDD:235955  PRK07190, PRK07190, hypothetical protein; Provisional     30.6    1.6  
+CDD:236223  PRK08294, PRK08294, phenol 2-monooxygenase; Provisional   30.7    1.6  
+CDD:213807  TIGR03378, glycerol3P_GlpB, glycerol-3-phosphate dehy...  30.4    1.7  
+CDD:236541  PRK09496, trkA, potassium transporter peripheral memb...  30.5    1.7  
+CDD:237197  PRK12770, PRK12770, putative glutamate synthase subun...  30.3    1.7  
+CDD:183780  PRK12831, PRK12831, putative oxidoreductase; Provisional  30.4    2.0  
+CDD:181262  PRK08163, PRK08163, salicylate hydroxylase; Provisional   30.4    2.0  
+CDD:349760  cd02042, ParAB_family, partition proteins ParAB famil...  29.0    2.0  
+CDD:223563  COG0489, Mrp, ATPases involved in chromosome partitio...  30.1    2.0  
+CDD:273944  TIGR02053, Mercuric_reductase, mercury(II) reductase....  30.1    2.2  
+CDD:310433  pfam05834, Lycopene_cycl, Lycopene cyclase protein. T...  30.1    2.2  
+CDD:338739  pfam13434, K_oxygenase, L-lysine 6-monooxygenase (NAD...  29.9    2.3  
+CDD:200385  TIGR04134, hypothetical_protein, putative lipoprotein...  28.9    2.6  
+CDD:131777  TIGR02730, Carotenoid_isomerase, carotene isomerase. ...  29.8    2.7  
+CDD:224983  COG2072, TrkA, Predicted flavoprotein involved in K+ ...  29.7    2.8  
+CDD:215257  PLN02464, PLN02464, glycerol-3-phosphate dehydrogenase    29.7    2.9  
+CDD:235689  PRK06069, sdhA, succinate dehydrogenase flavoprotein ...  29.6    3.1  
+CDD:179902  PRK04965, PRK04965, NADH:flavorubredoxin oxidoreducta...  29.5    3.1  
+CDD:235977  PRK07233, PRK07233, hypothetical protein; Provisional     29.9    3.1  
+CDD:215375  PLN02697, PLN02697, lycopene epsilon cyclase              29.8    3.3  
+CDD:274272  TIGR02733, similar_to_to_phytoene_dehydrogenase, C-3'...  29.7    3.3  
+CDD:284295  pfam06832, BiPBP_C, Penicillin-Binding Protein C-term...  27.7    3.4  
+CDD:250388  pfam01134, GIDA, Glucose inhibited division protein A     29.4    3.5  
+CDD:235879  PRK06854, PRK06854, adenylylsulfate reductase subunit...  29.5    3.7  
+CDD:224070  COG1148, HdrA, Heterodisulfide reductase, subunit A a...  29.4    4.1  
+CDD:340933  cd17375, MFS_SLC22A16_CT2, Solute carrier family 22 m...  29.3    4.3  
+CDD:237027  PRK12266, glpD, glycerol-3-phosphate dehydrogenase; R...  29.3    4.4  
+CDD:334753  pfam01946, Thi4, Thi4 family. This family includes a ...  29.0    4.5  
+CDD:237512  PRK13800, PRK13800, putative oxidoreductase/HEAT repe...  29.4    4.7  
+CDD:316068  pfam13510, Fer2_4, 2Fe-2S iron-sulfur cluster binding...  27.1    4.8  
+CDD:308392  pfam02737, 3HCDH_N, 3-hydroxyacyl-CoA dehydrogenase, ...  28.3    4.8  
+CDD:183640  PRK12636, flgG, flagellar basal body rod protein FlgG...  29.0    5.0  
+CDD:183035  PRK11199, tyrA, bifunctional chorismate mutase/prephe...  29.1    5.2  
+CDD:215527  PLN02976, PLN02976, amine oxidase                         29.1    5.2  
+CDD:130383  TIGR01316, gltA, glutamate synthase (NADPH), homotetr...  29.1    5.3  
+CDD:181142  PRK07846, PRK07846, mycothione reductase; Reviewed        28.8    5.4  
+CDD:236054  PRK07573, sdhA, succinate dehydrogenase flavoprotein ...  29.0    5.6  
+CDD:223643  COG0569, TrkA, K+ transport systems, NAD-binding comp...  28.4    5.7  
+CDD:237365  PRK13369, PRK13369, glycerol-3-phosphate dehydrogenas...  28.8    5.8  
+CDD:236185  PRK08205, sdhA, succinate dehydrogenase flavoprotein ...  28.8    5.8  
+CDD:274588  TIGR03458, Propionyl-CoA:succinate_CoA_transferase, s...  28.8    6.2  
+CDD:132358  TIGR03315, Se_ygfK, putative selenate reductase, YgfK...  29.0    6.2  
+CDD:235701  PRK06116, PRK06116, glutathione reductase; Validated      28.6    6.4  
+CDD:177739  PLN00128, PLN00128, Succinate dehydrogenase [ubiquino...  28.7    6.4  
+CDD:183292  PRK11728, PRK11728, hydroxyglutarate oxidase; Provisi...  28.6    6.8  
+CDD:224172  COG1252, Ndh, NADH dehydrogenase, FAD-containing subu...  28.4    7.7  
+CDD:237224  PRK12842, PRK12842, putative succinate dehydrogenase;...  28.5    8.8  
+CDD:173844  cd01155, ACAD_FadE2, Acyl-CoA dehydrogenases similar ...  28.1    8.9  
+CDD:236010  PRK07395, PRK07395, L-aspartate oxidase; Provisional      28.1    9.2  
+CDD:236630  PRK09853, PRK09853, putative selenate reductase subun...  28.4    9.8  
+
+
+>CDD:223717 COG0644, FixC, Dehydrogenases (flavoproteins) [Energy production 
+and conversion].
+Length=396
+
+ Score = 154 bits (391),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 98/349 (28%), Positives = 146/349 (42%), Gaps = 36/349 (10%)
+
+Query  3    DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKT-CAGWVTPAVLTSLNVLPE  61
+              YD++IVG GPAG++ A  +A +G  VLV++K   P  K  C G ++P  L  L    +
+Sbjct  2    MEYDVVIVGAGPAGSSAARRLAKAGLDVLVLEKGSEPGAKPCCGGGLSPRALEELIPDFD  61
+
+Query  62   DYAATGRVLQPIHRFSIGMMGQAACINEHGTEPVSYGIRRCEFDSYLLDRAP---VTKLL  118
+            +      + + +    I   G+   I         Y + R +FD +L +RA         
+Sbjct  62   E-----EIERKVTGARIYFPGEKVAI--EVPVGEGYIVDRAKFDKWLAERAEEAGAELYP  114
+
+Query  119  GEPVKTLLRDHGEWVV---NGRW--RAPWLVGAGGHFCPVARWLG-DGPGRHEVAVAAKE  172
+            G  V  ++R+    VV    G    RA  ++ A G    +AR LG       + A+  KE
+Sbjct  115  GTRVTGVIREDDGVVVGVRAGDDEVRAKVVIDADGVNSALARKLGLKDRKPEDYAIGVKE  174
+
+Query  173  V-EFHLDAAQRAQCAVQGDCPELWFCRDLK--GYAWVF-RKGDYLNIGLGREDNHHLSDH  228
+            V E   D               L+   D+   GY W+F     + N+G+G   +      
+Sbjct  175  VIEVPDDGD---------VEEFLYGPLDVGPGGYGWIFPLGDGHANVGIGVLLDDPSLSP  225
+
+Query  229  LADFVQSMQDRGRLPPNL----PLHYKGHAYLLYGHAERPLSGDGVLLIGDAAGLAYTQS  284
+              + ++  ++   +   L     L Y        G A RPL GDGVLL+GDAAG     +
+Sbjct  226  FLELLERFKEHPAIRKLLLGGKILEYAAGGIPEGGPASRPLVGDGVLLVGDAAGFVNPLT  285
+
+Query  285  GEGIRPAVESAL--LAARALSLAPAETAAGRYETALRARFGLRGDQARR  331
+            GEGIR A++S      A A +L   E A   YE  LR        ++ R
+Sbjct  286  GEGIRYAIKSGKLAAEAIAEALEGGEEALAEYERLLRKSLAREDLKSLR  334
+
+
+>CDD:273936 TIGR02032, Uncharacterized_protein_MJ1520, geranylgeranyl reductase 
+family.  This model represents a subfamily which includes 
+geranylgeranyl reductases involved in chlorophyll and bacteriochlorophyll 
+biosynthesis as well as other related enzymes 
+which may also act on geranylgeranyl groups or related 
+substrates. [Biosynthesis of cofactors, prosthetic groups, and 
+carriers, Chlorophyll and bacteriochlorphyll].
+Length=295
+
+ Score = 133 bits (337),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 93/316 (29%), Positives = 130/316 (41%), Gaps = 55/316 (17%)
+
+Query  5    YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPEDYA  64
+            YD+++VG GPAGA+ A  +A  G RVL+++K  FPR K C G ++P  L  L++  E   
+Sbjct  1    YDVVVVGAGPAGASAAYRLADKGLRVLLLEKKSFPRYKPCGGALSPRALEELDLPGELIV  60
+
+Query  65   AT---GRVLQP----IHRFSIGMMGQAACINEHGTEPVSYGIRRCEFDSYLLDRA---PV  114
+                  R   P    +                     ++Y I R  FD  L +RA     
+Sbjct  61   NLVRGARFFSPNGDSVEIPIET--------------ELAYVIDRDAFDEQLAERAQEAGA  106
+
+Query  115  TKLLGEPVKTLL--RDHGEWVVNGR---WRAPWLVGAGGHFCPVARWLGDGPGRHEVAVA  169
+               LG  V  +    D    +V G      A  ++GA G    VA+ LG      E  VA
+Sbjct  107  ELRLGTRVLDVEIHDDRVVVIVRGSEGTVTAKIVIGADGSRSIVAKKLGLKKEPREYGVA  166
+
+Query  170  AKEVEFHLDAAQRAQCAVQG-----DCPELWFCRDL--KGYAWVFRKGDY-LNIGLG---  218
+            A           RA+  +       D  E++  R +   GY WVF KGD   N+G+G   
+Sbjct  167  A-----------RAEVEMPDEEVDEDFVEVYIDRGIVPGGYGWVFPKGDGTANVGVGSRS  215
+
+Query  219  REDNHHLSDHLADFVQSMQDRGRLPPNLPLHYKGHAYLLYGHAERPLSGDGVLLIGDAAG  278
+             E+      +L DF+     R  L     +   G   +  G  +  L    VLL+GDAAG
+Sbjct  216  AEEGEDPKKYLKDFL---ARRPELKDAETVEVCGAL-IPIGRPDEKLVRGNVLLVGDAAG  271
+
+Query  279  LAYTQSGEGIRPAVES  294
+                 +GEGI  A+ S
+Sbjct  272  HVNPLTGEGIYYAMRS  287
+
+
+>CDD:273932 TIGR02023, geranylgeranyl_bacteriochlorophyll_reductase, geranylgeranyl 
+reductase.  This model represents a group of geranylgeranyl 
+reductases specific for the biosyntheses of bacteriochlorophyll 
+and chlorophyll. It is unclear whether the processes 
+of isoprenoid ligation to the chlorin ring and reduction 
+of the geranylgeranyl chain to a phytyl chain are necessarily 
+ordered the same way in all species. [Biosynthesis of 
+cofactors, prosthetic groups, and carriers, Chlorophyll and 
+bacteriochlorphyll].
+Length=388
+
+ Score = 90.2 bits (224),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 76/312 (24%), Positives = 127/312 (41%), Gaps = 44/312 (14%)
+
+Query  5    YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPEDYA  64
+            YD+ ++GGGP+GAT A  +A +G   +++++A     K C G + P ++   + +P+   
+Sbjct  1    YDVAVIGGGPSGATAAETLARAGIETILLERALS-NIKPCGGAIPPCLIEEFD-IPDS--  56
+
+Query  65   ATGRVLQPIHRFSIGMMGQAACINEHGTEPVSYG----IRRCEFDSYLLDRAPVTKLLGE  120
+                      R +   M   + +    T P   G    +RR  FDSYL +RA   K   E
+Sbjct  57   ------LIDRRVTQMRMISPSRVPIKVTIPSEDGYVGMVRREVFDSYLRERA--QKAGAE  108
+
+Query  121  PVKTLLR--DHGEWVVNGRWRAP--------------WLVGAGGHFCPVARWLGDGPGRH  164
+             +  L    +     V   +R P               ++GA G   PVA+ LG  P   
+Sbjct  109  LIHGLFLKLERDRDGVTLTYRTPKKGAGGEKGSVEADVVIGADGANSPVAKELG-LPKNL  167
+
+Query  165  EVAVAAKEVEFHLDAAQRAQCAVQGDCPELWFCRDLKG--YAWVFRKGDYLNIGLGREDN  222
+               +A +E    L   + A      +  ++++  ++    Y WVF KGD++ +G G    
+Sbjct  168  PRVIAYQER-IKLPDDKMAY---YEELADVYYGGEVSPDFYGWVFPKGDHIAVGTGTGT-  222
+
+Query  223  HHLSDHLADFVQSMQDRGRLPPNLPLHYKGHAYLLYGHAERPLSGDGVLLIGDAAGLAYT  282
+                        +++ R  L     +  +     +             +L+GDAAGL   
+Sbjct  223  --HGFDAKQLQANLRRRAGLDGGQTIRREAAPIPM--KPRPRWDFGRAMLVGDAAGLVTP  278
+
+Query  283  QSGEGIRPAVES  294
+             SGEGI  A++S
+Sbjct  279  ASGEGIYFAMKS  290
+
+
+>CDD:182273 PRK10157, PRK10157, putative oxidoreductase FixC; Provisional.
+Length=428
+
+ Score = 60.7 bits (147),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 86/313 (27%), Positives = 130/313 (42%), Gaps = 46/313 (15%)
+
+Query  3    DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPED  62
+            D +D IIVG G AG+  A  +A  G +VLVI++      K   G    A   SL  +   
+Sbjct  4    DIFDAIIVGAGLAGSVAALVLAREGAQVLVIERGNSAGAKNVTGGRLYA--HSLEHIIPG  61
+
+Query  63   YAATGRVLQPIHRFSIGMMGQAACI-------NEHGTEPVSYGIRRCEFDSYLLDRAP--  113
+            +A +  V + I    +  M + + +       +E      SY + R +FD++L+++A   
+Sbjct  62   FADSAPVERLITHEKLAFMTEKSAMTMDYCNGDETSPSQRSYSVLRSKFDAWLMEQAEEA  121
+
+Query  114  -VTKLLGEPVKTLLRDHGEWV---VNGR-WRAPWLVGAGGHFCPVARWLGDGP--GRHEV  166
+                + G  V  L++  G+ V    +G    A  ++ A G    +A  LG        +V
+Sbjct  122  GAQLITGIRVDNLVQRDGKVVGVEADGDVIEAKTVILADGVNSILAEKLGMAKRVKPTDV  181
+
+Query  167  AVAAKEV----------EFHLDAAQRAQCAVQGDCPELWFCRDLKGYAWVFRKGDYLNIG  216
+            AV  KE+           F L   Q A C   G   +      L G  +++   + L++G
+Sbjct  182  AVGVKELIELPKSVIEDRFQLQGNQGAACLFAGSPTD-----GLMGGGFLYTNENTLSLG  236
+
+Query  217  L--GREDNHHLSDHLADFVQSMQDRGRLPPNLPL-------HYKGHAYLLYGHAERP-LS  266
+            L  G    HHL D      Q ++D  + P   PL        Y  H     G    P L 
+Sbjct  237  LVCGL---HHLHDAKKSVPQMLEDFKQHPAVAPLIAGGKLVEYSAHVVPEAGINMLPELV  293
+
+Query  267  GDGVLLIGDAAGL  279
+            GDGVL+ GDAAG+
+Sbjct  294  GDGVLIAGDAAGM  306
+
+
+>CDD:182194 PRK10015, PRK10015, oxidoreductase; Provisional.
+Length=429
+
+ Score = 60.0 bits (145),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 85/311 (27%), Positives = 129/311 (41%), Gaps = 42/311 (14%)
+
+Query  3    DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPED  62
+            D +D I+VG G AG+  A  MA +G  VLVI++ +    K   G    A   +L  +   
+Sbjct  4    DKFDAIVVGAGVAGSVAALVMARAGLDVLVIERGDSAGCKNMTGGRLYA--HTLEAIIPG  61
+
+Query  63   YAATGRVLQPIHRFSIGMMGQ--AACINEHGTEP-----VSYGIRRCEFDSYLLDRAP--  113
+            +AA+  V + + R  I  + +  A  ++ H  +P      SY + R   D +L+++A   
+Sbjct  62   FAASAPVERKVTREKISFLTEESAVTLDFHREQPDVPQHASYTVLRNRLDPWLMEQAEQA  121
+
+Query  114  -VTKLLGEPVKTLLRDHGEWVVNGR-----WRAPWLVGAGGHFCPVARWLGDGPGR--HE  165
+                + G  V  L+R+ G  V   +       A  ++ A G    + R LG  P    H 
+Sbjct  122  GAQFIPGVRVDALVRE-GNKVTGVQAGDDILEANVVILADGVNSMLGRSLGMVPASDPHH  180
+
+Query  166  VAVAAKEV----------EFHLDAAQRAQCAVQGDCPELWFCRDLKGYAWVFRKGDYLNI  215
+             AV  KEV           F++   + A     G  P       L G  +++   D +++
+Sbjct  181  YAVGVKEVIGLTPEQINDRFNITGEEGAAWLFAGS-PS----DGLMGGGFLYTNKDSISL  235
+
+Query  216  GL--GREDNHH----LSDHLADFVQSMQDRGRLPPNLPLHYKGHAYLLYGHAERP-LSGD  268
+            GL  G  D  H    +   L DF Q    R  +     L Y  H     G A  P L  D
+Sbjct  236  GLVCGLGDIAHAQKSVPQMLEDFKQHPAIRPLISGGKLLEYSAHMVPEGGLAMVPQLVND  295
+
+Query  269  GVLLIGDAAGL  279
+            GV+++GDAAG 
+Sbjct  296  GVMIVGDAAGF  306
+
+
+>CDD:223727 COG0654, UbiH, 2-polyprenyl-6-methoxyphenol hydroxylase and related 
+FAD-dependent oxidoreductases [Coenzyme metabolism / 
+Energy production and conversion].
+Length=387
+
+ Score = 56.3 bits (136),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 67/302 (22%), Positives = 102/302 (34%), Gaps = 42/302 (14%)
+
+Query  3    DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWV-TPA---VLTSLNV  58
+               D+ IVG GPAG  LA A+A +G  V ++++A     +   G   +P     L  L +
+Sbjct  1    KMLDVAIVGAGPAGLALALALARAGLDVTLLERAPRELLERGRGIALSPNALRALERLGL  60
+
+Query  59   LPEDYAATGRVLQPIHRFSIGMMGQAACI---NEHGTEPVSYGIRRCEFDSYLLDRA---  112
+                       + P+H   +   G+   I    E G   + Y + R +  + LL+ A   
+Sbjct  61   WD---RLEALGVPPLHVMVVDDGGRRLLIFDAAELGRGALGYVVPRSDLLNALLEAARAL  117
+
+Query  113  -PVTKLLGEPVKTLLRDHGEWVV----NGR-WRAPWLVGAGGHFCPVARWLGDGPGRHEV  166
+              VT   G  V+ + +D     V    +G    A  LVGA G    V R  G        
+Sbjct  118  PNVTLRFGAEVEAVEQDGDGVTVTLSFDGETLDADLLVGADGANSAVRRAAGIAE-----  172
+
+Query  167  AVAAKEVEFHLDAAQRA-QCAVQGDCP----ELWFCRDLKGYAWVFRKGDYLNIG-LGRE  220
+                       D  Q A    V+ + P              +A +    +  ++      
+Sbjct  173  -------FSGRDYGQTALVANVEPEEPHEGRAGERFTHAGPFALLPLPDNRSSVVWSLPP  225
+
+Query  221  DNHHLSDHLADFVQSMQDRGRLPPNLPLHY-----KGHAYLLYGHAERPLSGDGVLLIGD  275
+                    L+D     + + RL    PL          A+ L            V+LIGD
+Sbjct  226  GPAEDLQGLSDEEFLRELQRRLGERDPLGRVTLVSSRSAFPLSLRVAERYRRGRVVLIGD  285
+
+Query  276  AA  277
+            AA
+Sbjct  286  AA  287
+
+
+>CDD:235787 PRK06370, PRK06370, mercuric reductase; Validated.
+Length=463
+
+ Score = 49.4 bits (119),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+               YD I++G G AG  LA   A  G +V +I++   
+Sbjct  2   PAQRYDAIVIGAGQAGPPLAARAAGLGMKVALIERGLL  39
+
+
+ Score = 29.4 bits (67),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 11/31 (35%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+
+Query  7    LIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+            L+I+GGG  G   A      G  V VI++  
+Sbjct  174  LVIIGGGYIGLEFAQMFRRFGSEVTVIERGP  204
+
+
+>CDD:224169 COG1249, Lpd, Pyruvate/2-oxoglutarate dehydrogenase complex, 
+dihydrolipoamide dehydrogenase (E3) component, and related enzymes 
+[Energy production and conversion].
+Length=454
+
+ Score = 48.4 bits (116),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           M+  YD++++G GPAG   A   A  G +V +++K
+Sbjct  1   MMKEYDVVVIGAGPAGYVAAIRAAQLGLKVALVEK  35
+
+
+ Score = 30.3 bits (69),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  7    LIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+            L+IVGGG  G   A   A  G +V V+++ +
+Sbjct  176  LVIVGGGYIGLEFASVFAALGSKVTVVERGD  206
+
+
+>CDD:273913 TIGR01988, Ubiquinone_biosynthesis_monooxygenase_COQ6, Ubiquinone 
+biosynthesis hydroxylase, UbiH/UbiF/VisC/COQ6 family.  
+This model represents a family of FAD-dependent hydroxylases 
+(monooxygenases) which are all believed to act in the aerobic 
+ubiquinone biosynthesis pathway. A separate set of hydroxylases, 
+as yet undiscovered, are believed to be active under 
+anaerobic conditions. In E. coli three enzyme activities have 
+been described, UbiB (which acts first at position 6, see 
+TIGR01982), UbiH (which acts at position 4) and UbiF (which 
+acts at position 5). UbiH and UbiF are similar to one another 
+and form the basis of this subfamily. Interestingly, E. coli 
+contains another hydroxylase gene, called visC, that is 
+highly similar to UbiF, adjacent to UbiH and, when mutated, 
+results in a phenotype similar to that of UbiH (which has also 
+been named visB). Several other species appear to have three 
+homologs in this family, although they assort themselves 
+differently on phylogenetic trees (e.g. Xylella and Mesorhizobium) 
+making it difficult to ascribe a specific activity to 
+each one. Eukaryotes appear to have only a single homolog 
+in this subfamily (COQ6) which complements UbiH, but also possess 
+a non-orthologous gene, COQ7 which complements UbiF. [Biosynthesis 
+of cofactors, prosthetic groups, and carriers, 
+Menaquinone and ubiquinone].
+Length=385
+
+ Score = 47.6 bits (114),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 16/35 (46%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPR  40
+           D++IVGGG  G  LA A+A SG +V +I+    P 
+Sbjct  1   DIVIVGGGMVGLALALALARSGLKVALIEATPLPA  35
+
+
+>CDD:131083 TIGR02028, geranylgeranyl_reductase_partial, geranylgeranyl reductase. 
+ This model represents the reductase which acts reduces 
+the geranylgeranyl group to the phytyl group in the side 
+chain of chlorophyll. It is unclear whether the enzyme has 
+a preference for acting before or after the attachment of 
+the side chain to chlorophyllide a by chlorophyll synthase. 
+This clade is restricted to plants and cyanobacteria to separate 
+it from the homologues which act in the biosynthesis of 
+bacteriochlorophyll. [Biosynthesis of cofactors, prosthetic 
+groups, and carriers, Chlorophyll and bacteriochlorphyll].
+Length=398
+
+ Score = 47.2 bits (112),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 72/323 (22%), Positives = 124/323 (38%), Gaps = 68/323 (21%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPEDYAATGR  68
+            +VGGGPAGA+ A  +A++G +  ++++ +    K C G +   ++    +  +       
+Sbjct  5    VVGGGPAGASAAETLASAGIQTFLLER-KPDNAKPCGGAIPLCMVDEFALPRDIIDRRVT  63
+
+Query  69   VLQPIHRFSIGM-MGQAACINEHGTEPVSYGIRRCEFDSYLLDRAPVTKLLGEPVKTLLR  127
+             ++ I   +I + +G+   + EH    +   +RR   DS+L  RA               
+Sbjct  64   KMKMISPSNIAVDIGRT--LKEHEYIGM---LRREVLDSFLRRRAA--------------  104
+
+Query  128  DHGEWVVNG---------RWRAPWLV-----------------------GAGGHFCPVAR  155
+            D G  ++NG             P+ +                       GA G    VA+
+Sbjct  105  DAGATLINGLVTKLSLPADADDPYTLHYISSDSGGPSGTRCTLEVDAVIGADGANSRVAK  164
+
+Query  156  WLGDGPGRHEVAVAAKEVEFHLDAAQRAQCAVQGDCPELWFCRDLKG--YAWVFRKGDYL  213
+             +    G +  A+A +E     D       A   D  E++   D+    Y WVF K D++
+Sbjct  165  EID--AGDYSYAIAFQERIRLPDEKM----AYYDDLAEMYVGDDVSPDFYGWVFPKCDHV  218
+
+Query  214  NIGLGREDNHHLSDHLADFVQSMQDR--GRLPPNLPLHYKGHAYLLYGHAERPLSGDGVL  271
+             +G G          +      ++ R  G++     +  + H    +    R + G  V 
+Sbjct  219  AVGTGTVAA---KPEIKRLQSGIRARAAGKVAGGRIIRVEAHPIPEHPRPRR-VVGR-VA  273
+
+Query  272  LIGDAAGLAYTQSGEGIRPAVES  294
+            L+GDAAG     SGEGI  A +S
+Sbjct  274  LVGDAAGYVTKCSGEGIYFAAKS  296
+
+
+>CDD:235727 PRK06183, mhpA, 3-(3-hydroxyphenyl)propionate hydroxylase; Validated.
+Length=500
+
+ Score = 45.3 bits (108),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 23/43 (53%), Gaps = 4/43 (9%)
+
+Query  2   VDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE----FPR  40
+               D++IVG GP G TLA  +   G RVLV+++       PR
+Sbjct  8   AHDTDVVIVGAGPVGLTLANLLGQYGVRVLVLERWPTLYDLPR  50
+
+
+>CDD:177713 PLN00093, PLN00093, geranylgeranyl diphosphate reductase; Provisional.
+Length=450
+
+ Score = 45.1 bits (107),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 79/343 (23%), Positives = 130/343 (38%), Gaps = 108/343 (31%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPEDY-----  63
+            ++GGGPAGA  A  +A  G    +I++ +    K C G +   ++   + LP D      
+Sbjct  44   VIGGGPAGACAAETLAKGGIETFLIER-KLDNAKPCGGAIPLCMVGEFD-LPLDIIDRKV  101
+
+Query  64   ------------AATGRVLQPIHRFSIGMMGQAACINEHGTEPVSYGIRRCEFDSYLLDR  111
+                           G+ L+P H + IGM                  +RR   DS+L +R
+Sbjct  102  TKMKMISPSNVAVDIGKTLKP-HEY-IGM------------------VRREVLDSFLRER  141
+
+Query  112  A------PVTKLL------GEPVKTLLRDHGEWVVNGRWRAP------WLVGAGGHFCPV  153
+            A       +  L        +P    +  +  +        P       ++GA G    V
+Sbjct  142  AQSNGATLINGLFTRIDVPKDPNGPYVIHYTSYDSGSGAGTPKTLEVDAVIGADGANSRV  201
+
+Query  154  ARWLGDGPGRHEVAVAAKE--------VEFHLDAAQRAQCAVQGDC-PELWFCRDLKGYA  204
+            A+ +    G ++ A+A +E        +E++ D    A+  V  D  P+         Y 
+Sbjct  202  AKDID--AGDYDYAIAFQERIKIPDDKMEYYED---LAEMYVGDDVSPDF--------YG  248
+
+Query  205  WVFRKGDYLNIGLGREDNHHLSDHLADFVQSMQDR-------GRL------PPNLPLHYK  251
+            WVF K D++ +G G   N      +  + ++ ++R       G++      P  +P H +
+Sbjct  249  WVFPKCDHVAVGTGTVVN---KPAIKKYQRATRNRAKDKIAGGKIIRVEAHP--IPEHPR  303
+
+Query  252  GHAYLLYGHAERPLSGDGVLLIGDAAGLAYTQSGEGIRPAVES  294
+                       R + G  V L+GDAAG     SGEGI  A +S
+Sbjct  304  ----------PRRVRGR-VALVGDAAGYVTKCSGEGIYFAAKS  335
+
+
+>CDD:236385 PRK09126, PRK09126, hypothetical protein; Provisional.
+Length=392
+
+ Score = 44.5 bits (106),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 25/35 (71%), Gaps = 0/35 (0%)
+
+Query  2   VDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+           + H D+++VG GPAG + A ++A SG +V +I++ 
+Sbjct  1   MMHSDIVVVGAGPAGLSFARSLAGSGLKVTLIERQ  35
+
+
+>CDD:235774 PRK06292, PRK06292, dihydrolipoamide dehydrogenase; Validated.
+Length=460
+
+ Score = 44.4 bits (106),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 23/43 (53%), Gaps = 2/43 (5%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCA  45
+           + YD+I++G GPAG   A   A  G +V +I+K       TC 
+Sbjct  2   EKYDVIVIGAGPAGYVAARRAAKLGKKVALIEKGPL--GGTCL  42
+
+
+>CDD:236001 PRK07364, PRK07364, 2-octaprenyl-6-methoxyphenyl hydroxylase; 
+Validated.
+Length=415
+
+ Score = 44.2 bits (105),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 16/30 (53%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           YD+ IVGGG  G TLA A+  SG R+ +I+
+Sbjct  19  YDVAIVGGGIVGLTLAAALKDSGLRIALIE  48
+
+
+>CDD:180907 PRK07251, PRK07251, pyridine nucleotide-disulfide oxidoreductase; 
+Provisional.
+Length=438
+
+ Score = 43.2 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/41 (39%), Positives = 28/41 (68%), Gaps = 0/41 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTC  44
+            YDLI++G G AG TLA  +A++G +V ++++++     TC
+Sbjct  3   TYDLIVIGFGKAGKTLAAKLASAGKKVALVEESKAMYGGTC  43
+
+
+>CDD:181199 PRK08020, ubiF, 2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol 
+hydroxylase; Reviewed.
+Length=391
+
+ Score = 42.3 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+              D+ IVGGG  GA LA  +A  G+ V V++ A 
+Sbjct  4   QPTDIAIVGGGMVGAALALGLAQHGFSVAVLEHAA  38
+
+
+>CDD:181001 PRK07494, PRK07494, 2-octaprenyl-6-methoxyphenyl hydroxylase; 
+Provisional.
+Length=388
+
+ Score = 42.2 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 43/98 (44%), Gaps = 18/98 (18%)
+
+Query  1    MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAV--LTSLNV  58
+              +H D+ ++GGGPAG   A A+A +G  V ++       D      + P++  L  L +
+Sbjct  4    EKEHTDIAVIGGGPAGLAAAIALARAGASVALVAPEPPYADLRTTALLGPSIRFLERLGL  63
+
+Query  59   LP--EDYAA----------TGRVLQ-PIHRFS---IGM  80
+                  +AA          TGR+++ P  RF    IG 
+Sbjct  64   WARLAPHAAPLQSMRIVDATGRLIRAPEVRFRAAEIGE  101
+
+
+>CDD:223566 COG0492, TrxB, Thioredoxin reductase [Posttranslational modification, 
+protein turnover, chaperones].
+Length=305
+
+ Score = 41.9 bits (99),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/40 (43%), Positives = 24/40 (60%), Gaps = 4/40 (10%)
+
+Query  3   DHYDLIIVGGGPAG--ATLAGAMATSGWRVLVIDKAEFPR  40
+             YD+II+GGGPAG  A +  A A  G +V++I +   P 
+Sbjct  2   KIYDVIIIGGGPAGLTAAIYAARA--GLKVVLILEGGEPG  39
+
+
+>CDD:281484 pfam03486, HI0933_like, HI0933-like protein.  
+Length=405
+
+ Score = 42.2 bits (100),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/32 (47%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+           +D+I++GGG AG   A + A  G RVL+I+K 
+Sbjct  1   FDVIVIGGGAAGLMAAISAAKRGRRVLLIEKG  32
+
+
+>CDD:178082 PLN02463, PLN02463, lycopene beta cyclase.
+Length=447
+
+ Score = 41.2 bits (97),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 14/30 (47%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+            DL++VGGGPAG  +A  ++ +G  V  ID
+Sbjct  29  VDLVVVGGGPAGLAVAQQVSEAGLSVCCID  58
+
+
+>CDD:235373 PRK05249, PRK05249, soluble pyridine nucleotide transhydrogenase; 
+Provisional.
+Length=461
+
+ Score = 41.3 bits (98),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+            +  YDL+++G GPAG   A   A  G RV VI++
+Sbjct  2   HMYDYDLVVIGSGPAGEGAAMQAAKLGKRVAVIER  36
+
+
+>CDD:240384 PTZ00367, PTZ00367, squalene epoxidase; Provisional.
+Length=567
+
+ Score = 41.0 bits (96),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 24/34 (71%), Gaps = 0/34 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+           YD+IIVGG  AG  LA A++  G +VL++++  F
+Sbjct  34  YDVIIVGGSIAGPVLAKALSKQGRKVLMLERDLF  67
+
+
+>CDD:181057 PRK07608, PRK07608, ubiquinone biosynthesis hydroxylase family 
+protein; Provisional.
+Length=388
+
+ Score = 40.7 bits (96),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 18/44 (41%), Positives = 26/44 (59%), Gaps = 1/44 (2%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGW  47
+            +D+++VGGG  GA+LA A+A SG RV ++     PR      W
+Sbjct  5   KFDVVVVGGGLVGASLALALAQSGLRVALLAPRAPPRPAD-DAW  47
+
+
+>CDD:181196 PRK08010, PRK08010, pyridine nucleotide-disulfide oxidoreductase; 
+Provisional.
+Length=441
+
+ Score = 40.8 bits (95),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 27/43 (63%), Gaps = 0/43 (0%)
+
+Query  2   VDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTC  44
+           ++ Y  +I+G G AG TLA  +A +GWRV +I+++      TC
+Sbjct  1   MNKYQAVIIGFGKAGKTLAVTLAKAGWRVALIEQSNAMYGGTC  43
+
+
+>CDD:235584 PRK05732, PRK05732, 2-octaprenyl-6-methoxyphenyl hydroxylase; 
+Validated.
+Length=395
+
+ Score = 40.6 bits (96),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 22/37 (59%), Gaps = 3/37 (8%)
+
+Query  4   HYDLIIVGGGPAGATLAGA---MATSGWRVLVIDKAE  37
+             D+IIVGGG AGATLA A   ++  G  V +I+   
+Sbjct  3   RMDVIIVGGGMAGATLALALSRLSHGGLPVALIEAFA  39
+
+
+>CDD:223636 COG0562, Glf, UDP-galactopyranose mutase [Cell envelope biogenesis, 
+outer membrane].
+Length=374
+
+ Score = 40.4 bits (95),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           +D +IVG G +GA +A   A  G RVL+++K
+Sbjct  2   FDYLIVGAGLSGAVIAEVAAQLGKRVLIVEK  32
+
+
+>CDD:183139 PRK11445, PRK11445, putative oxidoreductase; Provisional.
+Length=351
+
+ Score = 40.4 bits (95),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 19/51 (37%), Positives = 26/51 (51%), Gaps = 5/51 (10%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRD----KTCAGWVTP  50
+           HYD+ I+G GPAG+ LA  +     +V+ IDK          K C G + P
+Sbjct  1   HYDVAIIGLGPAGSALA-RLLAGKMKVIAIDKKHQCGTEGFSKPCGGLLAP  50
+
+
+>CDD:224154 COG1233, COG1233, Phytoene dehydrogenase and related proteins 
+[Secondary metabolites biosynthesis, transport, and catabolism].
+Length=487
+
+ Score = 39.7 bits (93),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 11/36 (31%), Positives = 21/36 (58%), Gaps = 0/36 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+            YD++++G G  G   A  +A +G +V V++K +  
+Sbjct  3   MYDVVVIGAGLNGLAAAALLARAGLKVTVLEKNDRV  38
+
+
+>CDD:132187 TIGR03143, AhpF_homolog, putative alkyl hydroperoxide reductase 
+F subunit.  This family of thioredoxin reductase homologs 
+is found adjacent to alkylhydroperoxide reductase C subunit 
+predominantly in cases where there is only one C subunit in 
+the genome and that genome is lacking the F subunit partner 
+(also a thioredcxin reductase homolog) that is usually found 
+(TIGR03140).
+Length=555
+
+ Score = 39.8 bits (93),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+           YDLII+GGGPAG +       +    L+I+K +F
+Sbjct  5   YDLIIIGGGPAGLSAGIYAGRAKLDTLIIEKDDF  38
+
+
+>CDD:223981 COG1053, SdhA, Succinate dehydrogenase/fumarate reductase, flavoprotein 
+subunit [Energy production and conversion].
+Length=562
+
+ Score = 39.7 bits (93),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 3/64 (5%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCA--GWVTPAVLTSLNV  58
+            +  +D++++GGG AG   A   A +G +V ++ KA   R  T A  G +  A L +   
+Sbjct  3   TIHEFDVVVIGGGGAGLRAAIEAAEAGLKVALLSKAPPKRGHTVAAQGGIN-AALGNTVD  61
+
+Query  59  LPED  62
+           +  D
+Sbjct  62  VEGD  65
+
+
+>CDD:224992 COG2081, COG2081, Predicted flavoproteins [General function prediction 
+only].
+Length=408
+
+ Score = 39.1 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 0/33 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+            +D+II+GGGPAG   A + A +G RVL+IDK 
+Sbjct  3   RFDVIIIGGGPAGLMAAISAAKAGRRVLLIDKG  35
+
+
+>CDD:316012 pfam13450, NAD_binding_8, NAD(P)-binding Rossmann-like domain. 
+ 
+Length=66
+
+ Score = 35.6 bits (83),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  9   IVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           IVG G AG   A  +A  G RVLV++K +  
+Sbjct  1   IVGAGLAGLVAAYLLAKRGKRVLVLEKRDHL  31
+
+
+>CDD:274444 TIGR03140, AhpF, alkyl hydroperoxide reductase subunit F.  This 
+enzyme is the partner of the peroxiredoxin (alkyl hydroperoxide 
+reductase) AhpC which contains the peroxide-reactive 
+cysteine. AhpF contains the reductant (NAD(P)H) binding domain 
+(pfam00070) and presumably acts to resolve the disulfide 
+which forms after oxidation of the active site cysteine in AphC. 
+This proteins contains two paired conserved cysteine motifs, 
+CxxCP and CxHCDGP. [Cellular processes, Detoxification, 
+Cellular processes, Adaptations to atypical conditions].
+Length=515
+
+ Score = 39.3 bits (92),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  3    DHYDLIIVGGGPAGATLAGAMATSGWRVLVI  33
+            D YD+++VGGGPAGA  A   A  G R  ++
+Sbjct  211  DPYDVLVVGGGPAGAAAAIYAARKGLRTAMV  241
+
+
+>CDD:225186 COG2303, BetA, Choline dehydrogenase and related flavoproteins 
+[Amino acid transport and metabolism].
+Length=542
+
+ Score = 39.0 bits (91),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           M   YD +IVG G AG+ LA  ++ +G  VLV++
+Sbjct  4   MKMEYDYVIVGSGSAGSVLAARLSDAGLSVLVLE  37
+
+
+>CDD:236199 PRK08244, PRK08244, hypothetical protein; Provisional.
+Length=493
+
+ Score = 38.6 bits (90),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           Y++II+GGGP G  LA  +A +G +  VI++ +  
+Sbjct  3   YEVIIIGGGPVGLMLASELALAGVKTCVIERLKET  37
+
+
+>CDD:178566 PLN02985, PLN02985, squalene monooxygenase.
+Length=514
+
+ Score = 38.3 bits (89),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 27/84 (32%), Positives = 35/84 (42%), Gaps = 22/84 (26%)
+
+Query  6    DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPEDYAA  65
+            D+IIVG G  G+ LA A+A  G RV VI+     RD                 L E    
+Sbjct  45   DVIIVGAGVGGSALAYALAKDGRRVHVIE-----RD-----------------LREPERM  82
+
+Query  66   TGRVLQPIHRFSIGMMGQAACINE  89
+             G  +QP  RF +  +G   C+  
+Sbjct  83   MGEFMQPGGRFMLSKLGLEDCLEG  106
+
+
+>CDD:311792 pfam07992, Pyr_redox_2, Pyridine nucleotide-disulphide oxidoreductase. 
+ This family includes both class I and class II oxidoreductases 
+and also NADH oxidases and peroxidases. This domain 
+is actually a small NADH binding domain within a larger 
+FAD binding domain.
+Length=301
+
+ Score = 37.7 bits (88),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 25/43 (58%), Gaps = 5/43 (12%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGW  47
+           YD++I+GGGPAG   A  +A +G +V +I+      + TC   
+Sbjct  1   YDVVIIGGGPAGLAAALTLARAGGKVTLIE-----DEGTCPYG  38
+
+
+>CDD:136171 PRK07045, PRK07045, putative monooxygenase; Reviewed.
+Length=388
+
+ Score = 38.0 bits (88),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 20/70 (29%), Positives = 36/70 (51%), Gaps = 3/70 (4%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPA---VLTSLNVL  59
+           +  D++I G G AG  LA  +   G  V V+++A   R +  A  + P+   V+ ++ +L
+Sbjct  4   NPVDVLINGSGIAGVALAHLLGARGHSVTVVERAARNRAQNGADLLKPSGIGVVRAMGLL  63
+
+Query  60  PEDYAATGRV  69
+            + +AA G  
+Sbjct  64  DDVFAAGGLR  73
+
+
+>CDD:223651 COG0578, GlpA, Glycerol-3-phosphate dehydrogenase [Energy production 
+and conversion].
+Length=532
+
+ Score = 38.0 bits (89),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 12/34 (35%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+           +D+I++GGG  GA +A   A  G +V +++K + 
+Sbjct  13  FDVIVIGGGITGAGIARDAAGRGLKVALVEKGDL  46
+
+
+>CDD:273911 TIGR01984, 2-polyprenyl-6-methoxyphenol_hydroxylase, 2-polyprenyl-6-methoxyphenol 
+4-hydroxylase.  This model represents the 
+FAD-dependent monoxygenase responsible for the second hydroxylation 
+step in the aerobic ubiquinone bioynthetic pathway. 
+The scope of this model is limited to the proteobacteria. 
+This family is closely related to the UbiF hydroxylase which 
+catalyzes the final hydroxylation step. The enzyme has also 
+been named VisB due to a mutant VISible light sensitive phenotype. 
+[Biosynthesis of cofactors, prosthetic groups, and 
+carriers, Menaquinone and ubiquinone].
+Length=382
+
+ Score = 37.7 bits (88),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 20/31 (65%), Gaps = 1/31 (3%)
+
+Query  6   DLIIVGGGPAGATLAGAMAT-SGWRVLVIDK  35
+           D+IIVGGG  G +LA A++     ++ +I+ 
+Sbjct  1   DVIIVGGGLVGLSLALALSRLGKIKIALIEA  31
+
+
+>CDD:224550 COG1635, THI4, Ribulose 1,5-bisphosphate synthetase, converts 
+PRPP to RuBP, flavoprotein [Carbohydrate    transport and metabolism].
+Length=262
+
+ Score = 37.3 bits (87),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           D+IIVG GP+G T A  +A +G +V + ++
+Sbjct  32  DVIIVGAGPSGLTAAYYLAKAGLKVAIFER  61
+
+
+>CDD:338767 pfam13478, XdhC_C, XdhC Rossmann domain.  This entry is the rossmann 
+domain found in the Xanthine dehydrogenase accessory 
+protein.
+Length=141
+
+ Score = 36.3 bits (85),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 22/93 (24%), Positives = 33/93 (35%), Gaps = 18/93 (19%)
+
+Query  7   LIIVGGGPAGATLAGAMATSGWRVLVID-------KAEFPRDKTCAGWVTPAVLTSLN--  57
+           L+I G G     LA   A  G+RV V+D          FP             L +++  
+Sbjct  1   LVIFGAGHVAQALARLAAALGFRVTVVDPRPEFANPERFPDADEVIVGDPEEALLAIDAR  60
+
+Query  58  ----VL----PEDYAATGRVLQPIHRFSIGMMG  82
+               V+      D  A    L+    + IG++G
+Sbjct  61  TAVVVMTHDHKLDLEALEAALRGDAAY-IGLIG  92
+
+
+>CDD:307580 pfam01494, FAD_binding_3, FAD binding domain.  This domain is 
+involved in FAD binding in a number of enzymes.
+Length=349
+
+ Score = 37.3 bits (87),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+            D++IVGGGPAG  LA  +A +G RV+++++
+Sbjct  2   TDVLIVGGGPAGLMLALLLARAGVRVVLVER  32
+
+
+>CDD:235729 PRK06185, PRK06185, hypothetical protein; Provisional.
+Length=407
+
+ Score = 37.5 bits (88),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 20/42 (48%), Positives = 26/42 (62%), Gaps = 1/42 (2%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK-AEFPRD  41
+            V+  D  IVGGGPAG  L   +A +G  V V++K A+F RD
+Sbjct  3   EVETTDCCIVGGGPAGMMLGLLLARAGVDVTVLEKHADFLRD  44
+
+
+>CDD:235241 PRK04176, PRK04176, ribulose-1,5-biphosphate synthetase; Provisional.
+Length=257
+
+ Score = 37.1 bits (87),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 20/30 (67%), Gaps = 0/30 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           D+ IVG GP+G T A  +A +G +V V ++
+Sbjct  27  DVAIVGAGPSGLTAAYYLAKAGLKVAVFER  56
+
+
+>CDD:307168 pfam00890, FAD_binding_2, FAD binding domain.  This family includes 
+members that bind FAD. This family includes the flavoprotein 
+subunits from succinate and fumarate dehydrogenase, 
+aspartate oxidase and the alpha subunit of adenylylsulphate 
+reductase.
+Length=398
+
+ Score = 37.3 bits (87),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 17/59 (29%), Positives = 29/59 (49%), Gaps = 4/59 (7%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKT--CAGWVTPAVLTSLNVLPED  62
+           D++++GGG AG   A A A +G +V V++K +     T   +G +    L +      D
+Sbjct  1   DVLVIGGGLAGLAAALAAAEAGLKVAVVEKGQPFGGATAWSSGGI--DALGNPPQGGID  57
+
+
+>CDD:223737 COG0665, DadA, Glycine/D-amino acid oxidases (deaminating) [Amino 
+acid transport and metabolism].
+Length=387
+
+ Score = 37.2 bits (86),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           M    D++I+GGG  G + A  +A  G  V V++  E  
+Sbjct  1   MSMKMDVVIIGGGIVGLSAAYYLAERGADVTVLEAGEAG  39
+
+
+>CDD:273914 TIGR01989, Ubiquinone_biosynthesis_monooxygenase_COQ6, ubiquinone 
+biosynthesis monooxygenase COQ6.  This model represents 
+the monooxygenase responsible for the 4-hydroxylateion of the 
+phenol ring in the aerobic biosynthesis of ubiquinone.
+Length=437
+
+ Score = 37.4 bits (87),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 16/39 (41%), Positives = 24/39 (62%), Gaps = 4/39 (10%)
+
+Query  5   YDLIIVGGGPAGATLAGAMA----TSGWRVLVIDKAEFP  39
+           +D++IVGGGP G  LA A+     T   +VL++D  + P
+Sbjct  1   FDVVIVGGGPVGLALAAALGNNPLTKDLKVLLLDAVDNP  39
+
+
+>CDD:237223 PRK12839, PRK12839, hypothetical protein; Provisional.
+Length=572
+
+ Score = 37.5 bits (87),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 18/42 (43%), Positives = 25/42 (60%), Gaps = 5/42 (12%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAG  46
+           YD+++VG G  G + A A A  G +VLV++KA      TC G
+Sbjct  9   YDVVVVGSGAGGLSAAVAAAYGGAKVLVVEKAS-----TCGG  45
+
+
+>CDD:273568 TIGR01350, Dihydrolipoyl_dehydrogenase, dihydrolipoamide dehydrogenase. 
+ This model describes dihydrolipoamide dehydrogenase, 
+a flavoprotein that acts in a number of ways. It is the 
+E3 component of dehydrogenase complexes for pyruvate, 2-oxoglutarate, 
+2-oxoisovalerate, and acetoin. It can also serve 
+as the L protein of the glycine cleavage system. This family 
+includes a few members known to have distinct functions (ferric 
+leghemoglobin reductase and NADH:ferredoxin oxidoreductase) 
+but that may be predicted by homology to act as dihydrolipoamide 
+dehydrogenase as well. The motif GGXCXXXGCXP near 
+the N-terminus contains a redox-active disulfide.
+Length=460
+
+ Score = 36.9 bits (86),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+            YD+I++GGGP G   A   A  G +V +++K   
+Sbjct  1   AYDVIVIGGGPGGYVAAIRAAQLGLKVALVEKEYL  35
+
+
+>CDD:234978 PRK01747, mnmC, bifunctional tRNA (mnm(5)s(2)U34)-methyltransferase/FAD-dependent 
+cmnm(5)s(2)U34 oxidoreductase; Reviewed.
+Length=662
+
+ Score = 37.1 bits (87),  Expect = 0.017, Method: Composition-based stats.
+ Identities = 17/34 (50%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  6    DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+            D  I+GGG AGA LA A+A  GW+V + +  E P
+Sbjct  262  DAAIIGGGIAGAALALALARRGWQVTLYEADEAP  295
+
+
+>CDD:273624 TIGR01438, Thioredoxin_reductase_1_cytoplasmic, thioredoxin and 
+glutathione reductase selenoprotein.  This homodimeric, FAD-containing 
+member of the pyridine nucleotide disulfide oxidoreductase 
+family contains a C-terminal motif Cys-SeCys-Gly, 
+where SeCys is selenocysteine encoded by TGA (in some sequence 
+reports interpreted as a stop codon). In some members 
+of this subfamily, Cys-SeCys-Gly is replaced by Cys-Cys-Gly. 
+The reach of the selenium atom at the C-term arm of the protein 
+is proposed to allow broad substrate specificity.
+Length=484
+
+ Score = 36.8 bits (85),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           YDLI++GGG  G   A   A  G +V+++D
+Sbjct  3   YDLIVIGGGSGGLAAAKEAAAYGAKVMLLD  32
+
+
+>CDD:237942 PRK15317, PRK15317, alkyl hydroperoxide reductase subunit F; 
+Provisional.
+Length=517
+
+ Score = 36.7 bits (86),  Expect = 0.019, Method: Composition-based stats.
+ Identities = 17/35 (49%), Positives = 22/35 (63%), Gaps = 2/35 (6%)
+
+Query  3    DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+            D YD+++VGGGPAGA  A   A  G R  ++  AE
+Sbjct  210  DPYDVLVVGGGPAGAAAAIYAARKGIRTGIV--AE  242
+
+
+>CDD:273540 TIGR01292, Thioredoxin_reductase, thioredoxin-disulfide reductase. 
+ This model describes thioredoxin-disulfide reductase, 
+a member of the pyridine nucleotide-disulphide oxidoreductases 
+(pfam00070). [Energy metabolism, Electron transport].
+Length=299
+
+ Score = 36.1 bits (84),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+           D+II+G GPAG T A   A +  + L+I+  E 
+Sbjct  1   DVIIIGAGPAGLTAAIYAARANLKPLLIEGMEP  33
+
+
+>CDD:235728 PRK06184, PRK06184, hypothetical protein; Provisional.
+Length=502
+
+ Score = 36.5 bits (85),  Expect = 0.023, Method: Composition-based stats.
+ Identities = 24/66 (36%), Positives = 31/66 (47%), Gaps = 3/66 (5%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTP---AVLTSLNVLPED  62
+           D++IVG GP G TLA  +A  G    +I+KA  P   +    + P    V   L VL   
+Sbjct  5   DVLIVGAGPTGLTLAIELARRGVSFRLIEKAPEPFPGSRGKGIQPRTQEVFDDLGVLDRV  64
+
+Query  63  YAATGR  68
+            AA G 
+Sbjct  65  VAAGGL  70
+
+
+>CDD:236341 PRK08850, PRK08850, 2-octaprenyl-6-methoxyphenol hydroxylase; 
+Validated.
+Length=405
+
+ Score = 36.3 bits (84),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 20/34 (59%), Gaps = 0/34 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           M+   D+ I+GGG  G  LA A+  S  R+ VI+
+Sbjct  1   MMQSVDVAIIGGGMVGLALAAALKESDLRIAVIE  34
+
+
+>CDD:273584 TIGR01372, sarcosine_oxidase_alpha_subunit, sarcosine oxidase, 
+alpha subunit family, heterotetrameric form.  This model describes 
+the alpha subunit of a family of known and putative 
+heterotetrameric sarcosine oxidases. Five operons of such oxidases 
+are found in Mesorhizobium loti and three in Agrobacterium 
+tumefaciens, a high enough copy number to suggest that 
+not all members are share the same function. The model is 
+designated as subfamily rather than equivalog for this reason.Sarcosine 
+oxidase catalyzes the oxidative demethylation of 
+sarcosine to glycine. The reaction converts tetrahydrofolate 
+to 5,10-methylene-tetrahydrofolate. The enzyme is known in 
+monomeric and heterotetrameric (alpha,beta,gamma,delta) forms 
+[Energy metabolism, Amino acids and amines].
+Length=985
+
+ Score = 36.6 bits (85),  Expect = 0.025, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 22/31 (71%), Gaps = 0/31 (0%)
+
+Query  4    HYDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+            H D+++VG GPAG   A A A +G RV+++D
+Sbjct  163  HCDVLVVGAGPAGLAAALAAARAGARVILVD  193
+
+
+>CDD:130850 TIGR01790, Uncharacterized_carotenoid_cyclase_DR_0801, lycopene 
+cyclase family protein.  This family includes lycopene beta 
+and epsilion cyclases (which form beta and delta carotene, 
+respectively) from bacteria and plants as well as the plant 
+capsanthin/capsorubin and neoxanthin cyclases which appear 
+to have evolved from the plant lycopene cyclases. The plant 
+lycopene epsilon cyclases also transform neurosporene to alpha 
+zeacarotene.
+Length=388
+
+ Score = 36.3 bits (84),  Expect = 0.028, Method: Composition-based stats.
+ Identities = 14/29 (48%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           DL ++GGGPAG  +A  +A  G RV +I+
+Sbjct  1   DLAVIGGGPAGLAIALELARPGLRVQLIE  29
+
+
+>CDD:272864 TIGR00031, UDP-galactopyranose_mutase, UDP-galactopyranose mutase. 
+ This enzyme is involved in the conversion of UDP-GALP 
+into UDP-GALF through a 2-keto intermediate. It contains FAD 
+as a cofactor. The gene is known as glf, ceoA, and rfbD. It 
+is known experimentally in E. coli, Mycobacterium tuberculosis, 
+and Klebsiella pneumoniae. [Cell envelope, Biosynthesis 
+and degradation of surface polysaccharides and lipopolysaccharides].
+Length=377
+
+ Score = 35.9 bits (83),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           +D IIVG G +G  LA  +A    RVLV++K
+Sbjct  2   FDYIIVGAGLSGIVLANILAQLNKRVLVVEK  32
+
+
+>CDD:236158 PRK08132, PRK08132, FAD-dependent oxidoreductase; Provisional.
+Length=547
+
+ Score = 36.0 bits (84),  Expect = 0.034, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 21/44 (48%), Gaps = 4/44 (9%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAG  46
+             + +++VG GP G  LA  +A  G  V+++D      D    G
+Sbjct  22  ARHPVVVVGAGPVGLALAIDLAQQGVPVVLLDDD----DTLSTG  61
+
+
+>CDD:272992 TIGR00275, TIGR00275, flavoprotein, HI0933 family.  The model 
+when searched with a partial length search brings in proteins 
+with a dinucleotide-binding motif (Rossman fold) over the 
+initial 40 residues of the model, including oxidoreductases 
+and dehydrogenases. Partially characterized members include 
+an FAD-binding protein from Bacillus cereus and flavoprotein 
+HI0933 from Haemophilus influenzae. [Unknown function, Enzymes 
+of unknown specificity].
+Length=400
+
+ Score = 36.0 bits (84),  Expect = 0.034, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  8   IIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           II+GGG AG   A   A +G  VL+++K +
+Sbjct  1   IIIGGGAAGLMAAITAARAGLSVLLLEKNK  30
+
+
+>CDD:180582 PRK06475, PRK06475, salicylate hydroxylase; Provisional.
+Length=400
+
+ Score = 35.6 bits (82),  Expect = 0.042, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  8   IIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           +I G G AG + A  +A  GW V +I+KA+
+Sbjct  6   LIAGAGVAGLSAALELAARGWAVTIIEKAQ  35
+
+
+>CDD:236111 PRK07843, PRK07843, 3-ketosteroid-delta-1-dehydrogenase; Reviewed.
+Length=557
+
+ Score = 35.4 bits (82),  Expect = 0.049, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+            V  YD+++VG G AG   A   A  G   +V++KA 
+Sbjct  4   TVQEYDVVVVGSGAAGMVAALTAAHRGLSTVVVEKAP  40
+
+
+>CDD:180567 PRK06452, sdhA, succinate dehydrogenase flavoprotein subunit; 
+Reviewed.
+Length=566
+
+ Score = 35.2 bits (81),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 16/35 (46%), Positives = 24/35 (69%), Gaps = 1/35 (3%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           YD +++GGG AG   A  +A++G++V VI K  FP
+Sbjct  6   YDAVVIGGGLAGLMSAHEIASAGFKVAVISKV-FP  39
+
+
+>CDD:185577 PTZ00363, PTZ00363, rab-GDP dissociation inhibitor; Provisional.
+Length=443
+
+ Score = 34.6 bits (80),  Expect = 0.080, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           M + YD+I+ G G     L+G ++ +G +VL +D+
+Sbjct  1   MDETYDVIVCGTGLKECILSGLLSVNGKKVLHMDR  35
+
+
+>CDD:273001 TIGR00292, Putative_ribose_15-bisphosphate_isomerase, thiazole 
+biosynthesis enzyme.  This enzyme is involved in the biosynthesis 
+of the thiamine precursor thiazole, and is repressed 
+by thiamine. This family includes c-thi1, a Citrus gene induced 
+during natural and ethylene induced fruit maturation and 
+is highly homologous to plant and yeast thi genes involved 
+in thiamine biosynthesis. [Biosynthesis of cofactors, prosthetic 
+groups, and carriers, Thiamine].
+Length=254
+
+ Score = 34.4 bits (79),  Expect = 0.083, Method: Composition-based stats.
+ Identities = 14/30 (47%), Positives = 22/30 (73%), Gaps = 0/30 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           D+IIVG GP+G T A  +A +G +V V+++
+Sbjct  23  DVIIVGAGPSGLTAAYYLAKNGLKVCVLER  52
+
+
+>CDD:132407 TIGR03364, putative_secreted_oxidoreductase, FAD dependent oxidoreductase 
+TIGR03364.  This clade of FAD dependent oxidoreductases 
+(members of the pfam01266 family) is syntenically associated 
+with a family of proposed phosphonatase-like enzymes 
+(TIGR03351) and is also found (less frequently) in association 
+with phosphonate transporter components. A likely role 
+for this enzyme involves the oxidative deamination of an aminophosphonate 
+differring slightly from 2-aminoethylphosphonate, 
+possibly 1-hydroxy-2-aminoethylphosphonate (see the comments 
+for TIGR03351). Many members of the larger FAD dependent 
+oxidoreductase family act as amino acid oxidative deaminases.
+Length=365
+
+ Score = 34.6 bits (80),  Expect = 0.091, Method: Composition-based stats.
+ Identities = 16/39 (41%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKT  43
+           YDLIIVG G  G   A A A  G  V VI+++   +  +
+Sbjct  1   YDLIIVGAGILGLAHAYAAARRGLSVTVIERSSRAQGAS  39
+
+
+>CDD:168201 PRK05714, PRK05714, 2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol 
+hydroxylase; Provisional.
+Length=405
+
+ Score = 34.4 bits (79),  Expect = 0.098, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+             DL+IVG G  G+ LA A+  SG  VL++D
+Sbjct  2   RADLLIVGAGMVGSALALALQGSGLEVLLLD  32
+
+
+>CDD:235412 PRK05329, PRK05329, anaerobic glycerol-3-phosphate dehydrogenase 
+subunit B; Validated.
+Length=422
+
+ Score = 34.4 bits (80),  Expect = 0.10, Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 22/33 (67%), Gaps = 0/33 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+            +D++++GGG AG T A A A +G RV ++ K 
+Sbjct  2   KFDVLVIGGGLAGLTAALAAAEAGKRVALVAKG  34
+
+
+>CDD:185416 PTZ00052, PTZ00052, thioredoxin reductase; Provisional.
+Length=499
+
+ Score = 34.4 bits (79),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 12/30 (40%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           YDL+++GGG  G   A   A  G +V + D
+Sbjct  6   YDLVVIGGGSGGMAAAKEAAAHGKKVALFD  35
+
+
+>CDD:235905 PRK06996, PRK06996, hypothetical protein; Provisional.
+Length=398
+
+ Score = 34.3 bits (79),  Expect = 0.11, Method: Composition-based stats.
+ Identities = 15/30 (50%), Positives = 18/30 (60%), Gaps = 1/30 (3%)
+
+Query  5   YDLIIVGGGPAGATLAGAMA-TSGWRVLVI  33
+           +D+ IVG GP G  LAG +A  S  R L I
+Sbjct  12  FDIAIVGAGPVGLALAGWLARRSATRALSI  41
+
+
+>CDD:180743 PRK06912, acoL, dihydrolipoamide dehydrogenase; Validated.
+Length=458
+
+ Score = 34.3 bits (79),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  7   LIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           L+++GGGPAG   A   A +G  V +ID+A+
+Sbjct  3   LVVIGGGPAGYVAAITAAQNGKNVTLIDEAD  33
+
+
+>CDD:307232 pfam00996, GDI, GDP dissociation inhibitor.  
+Length=436
+
+ Score = 34.3 bits (79),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           M + YD+I++G G     L+G ++  G +VL ID+
+Sbjct  1   MDEEYDVIVLGTGLKECILSGLLSVDGKKVLHIDR  35
+
+
+>CDD:181564 PRK08849, PRK08849, 2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol 
+hydroxylase; Provisional.
+Length=384
+
+ Score = 34.0 bits (78),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 15/33 (45%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           YD+ +VGGG  GA  A   A  G  V VI+  E
+Sbjct  4   YDIAVVGGGMVGAATALGFAKQGRSVAVIEGGE  36
+
+
+>CDD:226160 COG3634, AhpF, Alkyl hydroperoxide reductase, large subunit [Posttranslational 
+modification, protein turnover, chaperones].
+Length=520
+
+ Score = 34.3 bits (79),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 15/31 (48%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  3    DHYDLIIVGGGPAGATLAGAMATSGWRVLVI  33
+            D YD+++VGGGPAGA  A   A  G R  ++
+Sbjct  210  DAYDVLVVGGGPAGAAAAIYAARKGIRTGLV  240
+
+
+>CDD:227377 COG5044, MRS6, RAB proteins geranylgeranyltransferase component 
+A (RAB escort protein) [Posttranslational modification, protein 
+turnover, chaperones].
+Length=434
+
+ Score = 34.0 bits (78),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+           YD+II+G G   + L+ A++  G  VL IDK ++
+Sbjct  7   YDVIILGTGLRESILSAALSWDGKNVLHIDKNDY  40
+
+
+>CDD:223652 COG0579, COG0579, Predicted dehydrogenase [General function prediction 
+only].
+Length=429
+
+ Score = 33.8 bits (78),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 11/37 (30%), Positives = 20/37 (54%), Gaps = 2/37 (5%)
+
+Query  5   YDLIIVGGGPAGATLAGAMA--TSGWRVLVIDKAEFP  39
+           YD++I+GGG  GA  A  ++       V +++K +  
+Sbjct  4   YDVVIIGGGIMGAATAYELSEYEPDLSVALLEKEDGV  40
+
+
+>CDD:315498 pfam12831, FAD_oxidored, FAD dependent oxidoreductase.  This 
+family of proteins contains FAD dependent oxidoreductases and 
+related proteins.
+Length=423
+
+ Score = 33.7 bits (78),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 14/30 (47%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           D+++VGGGPAG   A A A +G +VL++++
+Sbjct  1   DVVVVGGGPAGVAAAIAAARAGAKVLLVER  30
+
+
+>CDD:223522 COG0445, GidA, Flavin-dependent tRNA uridine 5-carboxymethylaminomethyl 
+modification enzyme GidA    [Cell cycle control, 
+cell division, chromosome partitioning].
+Length=621
+
+ Score = 34.1 bits (79),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVI  33
+           M   YD+I++GGG AG   A A A  G + L++
+Sbjct  1   MPKEYDVIVIGGGHAGVEAALAAARMGAKTLLL  33
+
+
+>CDD:226103 COG3573, COG3573, Predicted oxidoreductase [General function 
+prediction only].
+Length=552
+
+ Score = 33.6 bits (77),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+            D+I+VG G AG   A  +A +G RVL++D+
+Sbjct  6   ADVIVVGAGLAGLVAAAELADAGKRVLILDQ  36
+
+
+>CDD:273815 TIGR01812, Fumarate_reductase_flavoprotein_subunit, succinate 
+dehydrogenase or fumarate reductase, flavoprotein subunitGram-negative/mitochondrial 
+subgroup.  This model represents the 
+succinate dehydrogenase flavoprotein subunit as found in 
+Gram-negative bacteria, mitochondria, and some Archaea. Mitochondrial 
+forms interact with ubiquinone and are designated 
+EC 1.3.5.1, but can be degraded to 1.3.99.1. Some isozymes in 
+E. coli and other species run primarily in the opposite direction 
+and are designated fumarate reductase. [Energy metabolism, 
+Aerobic, Energy metabolism, Anaerobic, Energy metabolism, 
+TCA cycle].
+Length=566
+
+ Score = 33.8 bits (78),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 16/40 (40%), Positives = 19/40 (48%), Gaps = 0/40 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCA  45
+           D++IVG G AG   A   A +G    VI K    R  T A
+Sbjct  1   DVVIVGAGLAGLRAAVEAAKAGLNTAVISKVYPTRSHTVA  40
+
+
+>CDD:240286 PTZ00139, PTZ00139, Succinate dehydrogenase [ubiquinone] flavoprotein 
+subunit; Provisional.
+Length=617
+
+ Score = 33.6 bits (77),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 25/47 (53%), Gaps = 3/47 (6%)
+
+Query  1   MVDH-YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP-RDKTCA  45
+           ++DH YD ++VG G AG   A  +   G++   I K  FP R  T A
+Sbjct  25  VIDHTYDAVVVGAGGAGLRAALGLVELGYKTACISKL-FPTRSHTVA  70
+
+
+>CDD:188533 TIGR04018, thioredoxin_reductase, putative bacillithiol system 
+oxidoreductase, YpdA family.  Members of this protein family, 
+including YpdA from Bacillus subtilis, are apparent oxidoreductases 
+present only in species with an active bacillithiol 
+system. They have been suggested actually to be thiol disulfide 
+oxidoreductases (TDOR), although the evidence is incomplete. 
+[Unknown function, Enzymes of unknown specificity].
+Length=316
+
+ Score = 33.3 bits (77),  Expect = 0.20, Method: Composition-based stats.
+ Identities = 12/30 (40%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           D+II+G GP G   A     +G   L+I+K
+Sbjct  1   DVIIIGAGPCGLACAIEAQKAGLSYLIIEK  30
+
+
+>CDD:236106 PRK07818, PRK07818, dihydrolipoamide dehydrogenase; Reviewed.
+Length=466
+
+ Score = 33.5 bits (77),  Expect = 0.23, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           M+ HYD++++G GP G   A   A  G +  V++K
+Sbjct  1   MMTHYDVVVLGAGPGGYVAAIRAAQLGLKTAVVEK  35
+
+
+>CDD:183782 PRK12834, PRK12834, putative FAD-binding dehydrogenase; Reviewed.
+Length=549
+
+ Score = 33.3 bits (77),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           M    D+I+VG G AG   A  +A +G RVL++D
+Sbjct  1   MAMDADVIVVGAGLAGLVAAAELADAGKRVLLLD  34
+
+
+>CDD:181346 PRK08275, PRK08275, putative oxidoreductase; Provisional.
+Length=554
+
+ Score = 33.5 bits (77),  Expect = 0.24, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 21/38 (55%), Gaps = 2/38 (5%)
+
+Query  5   YDLIIVGGGPAG--ATLAGAMATSGWRVLVIDKAEFPR  40
+            D++++GGG AG  A +         RVL+++KA   R
+Sbjct  10  TDILVIGGGTAGPMAAIKAKERNPALRVLLLEKANVKR  47
+
+
+>CDD:183787 PRK12844, PRK12844, 3-ketosteroid-delta-1-dehydrogenase; Reviewed.
+Length=557
+
+ Score = 33.2 bits (76),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+           YD+++VG G  G   A A A SG   L+++K 
+Sbjct  7   YDVVVVGSGGGGMCAALAAADSGLEPLIVEKQ  38
+
+
+>CDD:235704 PRK06126, PRK06126, hypothetical protein; Provisional.
+Length=545
+
+ Score = 33.0 bits (76),  Expect = 0.29, Method: Composition-based stats.
+ Identities = 10/27 (37%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  8   IIVGGGPAGATLAGAMATSGWRVLVID  34
+           +IVGGGP G  LA  +   G   ++++
+Sbjct  11  LIVGGGPVGLALALDLGRRGVDSILVE  37
+
+
+>CDD:236887 PRK11259, solA, N-methyltryptophan oxidase; Provisional.
+Length=376
+
+ Score = 32.9 bits (76),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDK  42
+            YD+I++G G  G+     +A  G RVL +D+   P  +
+Sbjct  3   RYDVIVIGLGSMGSAAGYYLARRGLRVLGLDRFMPPHQQ  41
+
+
+>CDD:236139 PRK08013, PRK08013, oxidoreductase; Provisional.
+Length=400
+
+ Score = 32.7 bits (75),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+            D++I GGG  G  +A  +  SG RV V+++
+Sbjct  4   VDVVIAGGGMVGLAVACGLQGSGLRVAVLEQ  34
+
+
+>CDD:215420 PLN02785, PLN02785, Protein HOTHEAD.
+Length=587
+
+ Score = 32.9 bits (75),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 22/35 (63%), Gaps = 1/35 (3%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           YD I+VGGG AG  LA A  +  + VL++++   P
+Sbjct  56  YDYIVVGGGTAGCPLA-ATLSQNFSVLLLERGGVP  89
+
+
+>CDD:107330 cd06335, PBP1_ABC_ligand_binding_like_2, Type I periplasmic ligand-binding 
+domain of uncharacterized ABC (ATPase Binding 
+Cassette)-type active transport systems that are predicted to 
+be involved in transport of amino acids, peptides, or inorganic 
+ions.  This subgroup includes the type I periplasmic ligand-binding 
+domain of uncharacterized ABC (ATPase Binding 
+Cassette)-type active transport systems that are predicted to 
+be involved in transport of amino acids, peptides, or inorganic 
+ions. Members of this group are sequence-similar to members 
+of the family of ABC-type hydrophobic amino acid transporters, 
+such as leucine-isoleucine-valine-binding protein (LIVBP); 
+however their ligand specificity has not been determined 
+experimentally.
+Length=347
+
+ Score = 32.6 bits (75),  Expect = 0.35, Method: Composition-based stats.
+ Identities = 15/27 (56%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  7    LIIVGGGPAGATLAGAMATSGWRVLVI  33
+            +IIVG GP GA +A  MA  GW+V +I
+Sbjct  197  IIIVGNGPEGAQIANGMAKLGWKVPII  223
+
+
+>CDD:181552 PRK08773, PRK08773, 2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol 
+hydroxylase; Validated.
+Length=392
+
+ Score = 32.5 bits (74),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 25/81 (31%), Positives = 35/81 (43%), Gaps = 11/81 (14%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWV--------TPAVLTSLN  57
+           D +IVGGG  GA  A A+A +G  V +++  E PR +     +          A+L  L 
+Sbjct  8   DAVIVGGGVVGAACALALADAGLSVALVEGREPPRWQADQPDLRVYAFAADNAALLDRLG  67
+
+Query  58  VLPEDYAATGRVLQPIHRFSI  78
+           V P   A      QP  R  +
+Sbjct  68  VWP---AVRAARAQPYRRMRV  85
+
+
+>CDD:333813 pfam00070, Pyr_redox, Pyridine nucleotide-disulphide oxidoreductase. 
+ This family includes both class I and class II oxidoreductases 
+and also NADH oxidases and peroxidases. This domain 
+is actually a small NADH binding domain within a larger 
+FAD binding domain.
+Length=79
+
+ Score = 30.2 bits (69),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 3/46 (7%)
+
+Query  7   LIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPR---DKTCAGWVT  49
+           +++VGGG  G  LAGA+A  G +V V+++ +      D+  A  + 
+Sbjct  2   VVVVGGGYIGLELAGALARLGSKVTVVERRDRLLRGLDEEIAKILQ  47
+
+
+>CDD:225915 COG3380, COG3380, Predicted NAD/FAD-dependent oxidoreductase 
+[General function prediction only].
+Length=331
+
+ Score = 32.1 bits (73),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+            + IVG G AG   A A+  +G  V V +K
+Sbjct  3   SIAIVGAGIAGLAAAYALREAGREVTVFEK  32
+
+
+>CDD:237200 PRK12778, PRK12778, putative bifunctional 2-polyprenylphenol 
+hydroxylase/glutamate synthase subunit beta; Provisional.
+Length=752
+
+ Score = 32.4 bits (74),  Expect = 0.46, Method: Composition-based stats.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLV  32
+            ++G GPAG + AG +A  G+ V V
+Sbjct  436  VIGSGPAGLSFAGDLAKRGYDVTV  459
+
+
+>CDD:335910 pfam04820, Trp_halogenase, Tryptophan halogenase.  Tryptophan 
+halogenase catalyzes the chlorination of tryptophan to form 
+7-chlorotryptophan. This is the first step in the biosynthesis 
+of pyrrolnitrin, an antibiotic with broad-spectrum anti-fungal 
+activity. Tryptophan halogenase is NADH-dependent.
+Length=457
+
+ Score = 32.3 bits (74),  Expect = 0.47, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 19/38 (50%), Gaps = 3/38 (8%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGW---RVLVIDKAEFPR  40
+            ++IVGGG AG   A A+A +      V +++  E   
+Sbjct  1   KIVIVGGGTAGWMAAAALARALQGGLDVTLVESEEIGT  38
+
+
+>CDD:235362 PRK05192, PRK05192, tRNA uridine 5-carboxymethylaminomethyl modification 
+enzyme GidA; Validated.
+Length=618
+
+ Score = 32.3 bits (75),  Expect = 0.51, Method: Composition-based stats.
+ Identities = 17/36 (47%), Positives = 23/36 (64%), Gaps = 6/36 (17%)
+
+Query  1   MVDHYDLIIVGGGPAG--ATLAGA-MATSGWRVLVI  33
+           M + YD+I+VGGG AG  A LA A M   G + L++
+Sbjct  1   MPEEYDVIVVGGGHAGCEAALAAARM---GAKTLLL  33
+
+
+>CDD:308070 pfam02254, TrkA_N, TrkA-N domain.  This domain is found in a 
+wide variety of proteins. These protein include potassium channels, 
+phosphoesterases, and various other transporters. This 
+domain binds to NAD.
+Length=116
+
+ Score = 30.6 bits (70),  Expect = 0.53, Method: Composition-based stats.
+ Identities = 14/30 (47%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  8   IIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           II+G G  G +LA  ++  G  V+VIDK E
+Sbjct  2   IIIGYGRVGRSLARELSEGGIPVVVIDKDE  31
+
+
+>CDD:237225 PRK12843, PRK12843, putative FAD-binding dehydrogenase; Reviewed.
+Length=578
+
+ Score = 32.4 bits (74),  Expect = 0.54, Method: Composition-based stats.
+ Identities = 12/36 (33%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+             +D+I++G G AG + A   A +G +VL++++ E+
+Sbjct  15  AEFDVIVIGAGAAGMSAALFAAIAGLKVLLVERTEY  50
+
+
+>CDD:223523 COG0446, HcaD, Uncharacterized NAD(FAD)-dependent dehydrogenases 
+[General function prediction only].
+Length=415
+
+ Score = 31.8 bits (72),  Expect = 0.61, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  1    MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+                 D+++VG GP G   A A A  G +V +I+ A+  
+Sbjct  133  AEPPKDVVVVGAGPIGLEAAEAAAKRGKKVTLIEAADRL  171
+
+
+>CDD:236375 PRK09078, sdhA, succinate dehydrogenase flavoprotein subunit; 
+Reviewed.
+Length=598
+
+ Score = 31.8 bits (73),  Expect = 0.62, Method: Composition-based stats.
+ Identities = 22/48 (46%), Positives = 28/48 (58%), Gaps = 7/48 (15%)
+
+Query  2   VDH-YDLIIVGGGPAG--ATLAGAMATSGWRVLVIDKAEFP-RDKTCA  45
+           +DH YD+++VG G AG  ATL   MA +G +   I K  FP R  T A
+Sbjct  9   IDHKYDVVVVGAGGAGLRATL--GMAEAGLKTACITKV-FPTRSHTVA  53
+
+
+>CDD:274912 TIGR03997, NADH:flavin_oxidoreductase, mycofactocin system FadH/OYE 
+family oxidoreductase 2.  The yeast protein called old 
+yellow enzyme and FadH from Escherichia coli (2,4-dienoyl 
+CoA reductase) are enzymes with 4Fe-4S, FMN, and FAD prosthetic 
+groups, and interact with NADPH as well as substrate. Members 
+of this related protein family occur in the vicinity of 
+the putative mycofactocin biosynthesis operon in a number 
+of Actinobacteria such as Frankia sp. and Rhodococcus sp., in 
+Pelotomaculum thermopropionicum SI (Firmicutes), and in Geobacter 
+uraniireducens Rf4 (Deltaproteobacteria). The function 
+of this oxidoreductase is unknown.
+Length=644
+
+ Score = 32.0 bits (73),  Expect = 0.63, Method: Composition-based stats.
+ Identities = 12/32 (38%), Positives = 18/32 (56%), Gaps = 0/32 (0%)
+
+Query  8    IIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+            ++VGGGPAG   A   A  G RV + ++ +  
+Sbjct  382  LVVGGGPAGLEAAATAARRGHRVTLFEREDRL  413
+
+
+>CDD:180814 PRK07057, sdhA, succinate dehydrogenase flavoprotein subunit; 
+Reviewed.
+Length=591
+
+ Score = 32.1 bits (73),  Expect = 0.63, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 2/42 (5%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP-RDKTCA  45
+           +D++IVG G +G   +  +A +G  V V+ K  FP R  T A
+Sbjct  13  FDVVIVGAGGSGMRASLQLARAGLSVAVLSKV-FPTRSHTVA  53
+
+
+>CDD:235000 PRK02106, PRK02106, choline dehydrogenase; Validated.
+Length=560
+
+ Score = 32.1 bits (74),  Expect = 0.64, Method: Composition-based stats.
+ Identities = 10/20 (50%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLA  20
+               YD II+G G AG  LA
+Sbjct  2   TTMEYDYIIIGAGSAGCVLA  21
+
+
+>CDD:273131 TIGR00551, L-aspartate_oxidase, L-aspartate oxidase.  L-aspartate 
+oxidase is the B protein, NadB, of the quinolinate synthetase 
+complex. Quinolinate synthetase makes a precursor of 
+the pyridine nucleotide portion of NAD. This model identifies 
+proteins that cluster as L-aspartate oxidase (a flavoprotein 
+difficult to separate from the set of closely related flavoprotein 
+subunits of succinate dehydrogenase and fumarate reductase) 
+by both UPGMA and neighbor-joining trees. The most 
+distant protein accepted as an L-aspartate oxidase (NadB), 
+that from Pyrococcus horikoshii, not only clusters with other 
+NadB but is just one gene away from NadA. [Biosynthesis of 
+cofactors, prosthetic groups, and carriers, Pyridine nucleotides].
+Length=489
+
+ Score = 31.7 bits (72),  Expect = 0.68, Method: Composition-based stats.
+ Identities = 15/35 (43%), Positives = 21/35 (60%), Gaps = 1/35 (3%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+              D++++G G AG + A A+A  G RV VI KA 
+Sbjct  1   MEMDVVVIGSGAAGLSAALALAEKG-RVSVITKAS  34
+
+
+>CDD:198177 cd09921, SH2_Jak_family, Src homology 2 (SH2) domain in the Janus 
+kinase (Jak) family.  The Janus kinases (Jak) are a family 
+of 4 non-receptor tyrosine kinases (Jak1, Jak2, Jak3, Tyk2) 
+which respond to cytokine or growth factor receptor activation. 
+To transduce cytokine signaling, a series of conformational 
+changes occur in the receptor-Jak complex upon extracellular 
+ligand binding. This results in trans-activation of 
+the receptor-associated Jaks followed by phosphorylation of 
+receptor tail tyrosine sites. The Signal Transducers and Activators 
+of Transcription (STAT) are then recruited to the receptor 
+tail, become phosphorylated and translocate to the nucleus 
+to regulate transcription. Jaks have four domains: the 
+pseudokinase domain, the catalytic tyrosine kinase domain, 
+the FERM (band four-point-one, ezrin, radixin, and moesin) 
+domain, and the SH2 (Src Homology-2) domain.  The Jak kinases 
+are regulated by several enzymatic and non-enzymatic mechanisms. 
+First, the Jak kinase domain is regulated by phosphorylation 
+of the activation loop which is associated with the 
+catalytically competent kinase conformation and is distinct 
+from the inactive kinase conformation. Second, the pseudokinase 
+domain directly modulates Jak catalytic activity with the 
+FERM domain maintaining an active state. Third, the suppressor 
+of cytokine signaling (SOCS) family and tyrosine phosphatases 
+directly regulate Jak activity. Dysregulation of Jak 
+activity can manifest as either a reduction or an increase in 
+kinase activity resulting in immunodeficiency, inflammatory 
+diseases, hematological defects, autoimmune and myeloproliferative 
+disorders, and susceptibility to infection. Altered 
+Jak regulation occurs by many mechanisms, including: gene translocations, 
+somatic or inherited point mutations, receptor 
+mutations, and alterations in the activity of Jak regulators 
+such as SOCS or phosphatases.  In general SH2 domains are 
+involved in signal transduction.  They typically bind pTyr-containing 
+ligands via two surface pockets, a pTyr and hydrophobic 
+binding pocket, allowing proteins with SH2 domains to 
+localize to tyrosine phosphorylated sites.
+Length=97
+
+ Score = 29.9 bits (68),  Expect = 0.70, Method: Composition-based stats.
+ Identities = 10/26 (38%), Positives = 16/26 (62%), Gaps = 2/26 (8%)
+
+Query  87   INEHGTEPVSYGIRRC--EFDSYLLD  110
+            + E G +P SY +R    E+D+Y +D
+Sbjct  28   LKERGNKPGSYILRESETEYDTYYID  53
+
+
+>CDD:274273 TIGR02734, Phytoene_desaturase_lycopene-forming, phytoene desaturase. 
+ Phytoene is converted to lycopene by desaturation 
+at four (two symmetrical pairs of) sites. This is achieved by 
+two enzymes (crtP and crtQ) in cyanobacteria (Gloeobacter 
+being an exception) and plants, but by a single enzyme in most 
+other bacteria and in fungi. This single enzyme is called 
+the bacterial-type phytoene desaturase, or CrtI. Most members 
+of this family, part of the larger pfam01593, which also 
+contains amino oxidases, are CrtI itself; it is likely that 
+all members act on either phytoene or on related compounds such 
+as dehydrosqualene, for carotenoid biosynthesis. [Biosynthesis 
+of cofactors, prosthetic groups, and carriers, Other].
+Length=495
+
+ Score = 31.9 bits (73),  Expect = 0.71, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 33/72 (46%), Gaps = 15/72 (21%)
+
+Query  8   IIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTC--AGWVT---------PAVLTSL  56
+           +++G G  G  LA  +A +G  V V+++    RDK    AG +          P V+T  
+Sbjct  2   VVIGAGFGGLALAIRLAAAGIPVTVVEQ----RDKPGGRAGVLEDDGFRFDTGPTVITMP  57
+
+Query  57  NVLPEDYAATGR  68
+             L E +A  GR
+Sbjct  58  EALEELFALAGR  69
+
+
+>CDD:236102 PRK07804, PRK07804, L-aspartate oxidase; Provisional.
+Length=541
+
+ Score = 31.9 bits (73),  Expect = 0.73, Method: Composition-based stats.
+ Identities = 17/35 (49%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  2   VDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+            D  D+++VG G AG T A A   +G RVLV+ KA
+Sbjct  14  RDAADVVVVGSGVAGLTAALAARRAGRRVLVVTKA  48
+
+
+>CDD:235779 PRK06327, PRK06327, dihydrolipoamide dehydrogenase; Validated.
+Length=475
+
+ Score = 31.8 bits (73),  Expect = 0.74, Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 27/58 (47%), Gaps = 6/58 (10%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNV  58
+           M   +D++++G GP G   A   A  G +V  I+  + P+ K   G       T LNV
+Sbjct  1   MSKQFDVVVIGAGPGGYVAAIRAAQLGLKVACIEAWKNPKGKPALGG------TCLNV  52
+
+
+>CDD:236214 PRK08274, PRK08274, tricarballylate dehydrogenase; Validated.
+Length=466
+
+ Score = 31.8 bits (73),  Expect = 0.76, Method: Composition-based stats.
+ Identities = 13/37 (35%), Positives = 22/37 (59%), Gaps = 2/37 (5%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRD  41
+            D++++GGG A    A A   +G  VL+++ A  PR+
+Sbjct  5   VDVLVIGGGNAALCAALAAREAGASVLLLEAA--PRE  39
+
+
+>CDD:237221 PRK12835, PRK12835, 3-ketosteroid-delta-1-dehydrogenase; Reviewed.
+Length=584
+
+ Score = 31.7 bits (72),  Expect = 0.78, Method: Composition-based stats.
+ Identities = 12/33 (36%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+             D+++VG G  G T A   A  G   LV++K+
+Sbjct  11  EVDVLVVGSGGGGMTAALTAAARGLDTLVVEKS  43
+
+
+>CDD:235967 PRK07208, PRK07208, hypothetical protein; Provisional.
+Length=479
+
+ Score = 31.4 bits (72),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           M +   ++I+G GPAG T A  +   G+ V V++ 
+Sbjct  1   MTNKKSVVIIGAGPAGLTAAYELLKRGYPVTVLEA  35
+
+
+>CDD:274143 TIGR02462, Pyranose_2-oxidase, pyranose oxidase.  Pyranose oxidase 
+(also called glucose 2-oxidase) converts D-glucose and 
+molecular oxygen to 2-dehydro-D-glucose and hydrogen peroxide. 
+Peroxide production is believed to be important to the wood 
+rot fungi in which this enzyme is found for lignin degradation.
+Length=547
+
+ Score = 31.8 bits (72),  Expect = 0.86, Method: Composition-based stats.
+ Identities = 11/30 (37%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+           YD+ I G GP G T A     +G +V +++
+Sbjct  1   YDVFIAGSGPIGCTYARLCVDAGLKVAMVE  30
+
+
+>CDD:225617 COG3075, GlpB, Anaerobic glycerol-3-phosphate dehydrogenase [Amino 
+acid transport and metabolism].
+Length=421
+
+ Score = 31.6 bits (72),  Expect = 0.87, Method: Composition-based stats.
+ Identities = 11/30 (37%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVI  33
+           ++D+ I+GGG AG T   A+  +G R  ++
+Sbjct  2   NFDVAIIGGGLAGLTCGLALQQAGKRCAIV  31
+
+
+>CDD:272927 TIGR00136, Mitochondrial_translation_optimization_protein, glucose-inhibited 
+division protein A.  GidA, the longer of two 
+forms of GidA-related proteins, appears to be present in all 
+complete eubacterial genomes so far, as well as Saccharomyces 
+cerevisiae. A subset of these organisms have a closely related 
+protein. GidA is absent in the Archaea. It appears to 
+act with MnmE, in an alpha2/beta2 heterotetramer, in the 5-carboxymethylaminomethyl 
+modification of uridine 34 in certain 
+tRNAs. The shorter, related protein, previously called gid 
+or gidA(S), is now called TrmFO (see model TIGR00137). [Protein 
+synthesis, tRNA and rRNA base modification].
+Length=616
+
+ Score = 31.6 bits (72),  Expect = 0.90, Method: Composition-based stats.
+ Identities = 12/29 (41%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVI  33
+           +D+I++GGG AG   A A A  G + L++
+Sbjct  1   FDVIVIGGGHAGCEAALAAARLGAKTLLL  29
+
+
+>CDD:235870 PRK06834, PRK06834, hypothetical protein; Provisional.
+Length=488
+
+ Score = 31.5 bits (72),  Expect = 0.91, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 23/35 (66%), Gaps = 1/35 (3%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           M +H  ++I GGGP G  LAG +A +G  V ++++
+Sbjct  1   MTEH-AVVIAGGGPTGLMLAGELALAGVDVAIVER  34
+
+
+>CDD:180854 PRK07121, PRK07121, hypothetical protein; Validated.
+Length=492
+
+ Score = 31.4 bits (72),  Expect = 0.93, Method: Composition-based stats.
+ Identities = 16/34 (47%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+           D  D+++VG G AGA  A   A +G RVLV+++A
+Sbjct  19  DEADVVVVGFGAAGACAAIEAAAAGARVLVLERA  52
+
+
+>CDD:237093 PRK12409, PRK12409, D-amino acid dehydrogenase small subunit; 
+Provisional.
+Length=410
+
+ Score = 31.1 bits (71),  Expect = 0.96, Method: Composition-based stats.
+ Identities = 11/33 (33%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  7   LIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           + ++G G  G T A A+A  G++V V D+  + 
+Sbjct  4   IAVIGAGITGVTTAYALAQRGYQVTVFDRHRYA  36
+
+
+>CDD:270893 cd13991, STKc_NIK, Catalytic domain of the Serine/Threonine kinase, 
+NF-kappaB Inducing Kinase (NIK).  STKs catalyze the transfer 
+of the gamma-phosphoryl group from ATP to serine/threonine 
+residues on protein substrates. NIK, also called mitogen 
+activated protein kinase kinase kinase 14 (MAP3K14), phosphorylates 
+and activates Inhibitor of NF-KappaB Kinase (IKK) 
+alpha, which is a regulator of NF-kB proteins, a family of 
+transcription factors which are critical in many cellular functions 
+including inflammatory responses, immune development, 
+cell survival, and cell proliferation, among others. NIK 
+is essential in the IKKalpha-mediated non-canonical NF-kB signaling 
+pathway, in which IKKalpha processes the IkB-like C-terminus 
+of NF-kB2/p100 to produce p52, allowing the p52/RelB 
+dimer to migrate to the nucleus where it regulates gene transcription. 
+NIK also plays an important role in Toll-like receptor 
+7/9 signaling cascades. The NIK subfamily is part of 
+a larger superfamily that includes the catalytic domains of 
+other protein STKs, protein tyrosine kinases, RIO kinases, 
+aminoglycoside phosphotransferase, choline kinase, and phosphoinositide 
+3-kinase.
+Length=268
+
+ Score = 30.9 bits (70),  Expect = 0.97, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 26/48 (54%), Gaps = 6/48 (13%)
+
+Query  234  QSMQDRGRLPPNLPLHYKGHAY--LLYGHAERPLSGD----GVLLIGD  275
+            Q ++++G LP +  LHY G A   L Y H+ + L GD     VLL  D
+Sbjct  87   QLIKEQGCLPEDRALHYLGQALEGLEYLHSRKILHGDVKADNVLLSSD  134
+
+
+>CDD:235798 PRK06416, PRK06416, dihydrolipoamide dehydrogenase; Reviewed.
+Length=462
+
+ Score = 31.3 bits (72),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 12/37 (32%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+               YD+I++G GP G   A   A  G +V +++K +
+Sbjct  1   FAFEYDVIVIGAGPGGYVAAIRAAQLGLKVAIVEKEK  37
+
+
+>CDD:236967 PRK11749, PRK11749, dihydropyrimidine dehydrogenase subunit A; 
+Provisional.
+Length=457
+
+ Score = 30.9 bits (71),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 10/29 (34%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+            ++G GPAG T A  +A  G+ V + +  +
+Sbjct  145  VIGAGPAGLTAAHRLARKGYDVTIFEARD  173
+
+
+>CDD:180584 PRK06481, PRK06481, fumarate reductase flavoprotein subunit; 
+Validated.
+Length=506
+
+ Score = 31.0 bits (70),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+           + D YD++IVG G AG + A     +G   ++++K
+Sbjct  58  LKDKYDIVIVGAGGAGMSAAIEAKDAGMNPVILEK  92
+
+
+>CDD:223108 COG0029, NadB, Aspartate oxidase [Coenzyme metabolism].
+Length=518
+
+ Score = 30.7 bits (70),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 15/37 (41%), Positives = 22/37 (59%), Gaps = 1/37 (3%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+             +H D++I+G G AG T A ++A S  RV V+ K  
+Sbjct  4   DFEHPDVLIIGSGLAGLTAALSLAPSF-RVTVLTKGP  39
+
+
+>CDD:273614 TIGR01421, Glutathione_reductase, glutathione-disulfide reductase, 
+animal/bacterial.  The tripeptide glutathione is an important 
+reductant, e.g., for maintaining the cellular thiol/disulfide 
+status and for protecting against reactive oxygen 
+species such as hydrogen peroxide. Glutathione-disulfide reductase 
+regenerates reduced glutathione from oxidized glutathione 
+(glutathione disulfide) + NADPH. This model represents 
+one of two closely related subfamilies of glutathione-disulfide 
+reductase. Both are closely related to trypanothione reductase, 
+and separate models are built so each of the three can 
+describe proteins with conserved function. This model describes 
+glutathione-disulfide reductases of animals, yeast, and 
+a number of animal-resident bacteria. [Energy metabolism, 
+Electron transport].
+Length=450
+
+ Score = 30.6 bits (69),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 19/34 (56%), Gaps = 0/34 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           HYD +++GGG  G   A   A  G + L+++  +
+Sbjct  2   HYDYLVIGGGSGGIASARRAAEHGAKALLVEAKK  35
+
+
+>CDD:225885 COG3349, COG3349, Uncharacterized conserved protein [Function 
+unknown].
+Length=485
+
+ Score = 30.9 bits (70),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 12/43 (28%), Positives = 18/43 (42%), Gaps = 1/43 (2%)
+
+Query  8   IIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTP  50
+            I G G AG   A  +A +G+ V + +  +    K  A W   
+Sbjct  4   AIAGAGLAGLAAAYELADAGYDVTLYEARDRLGGK-VASWRDS  45
+
+
+>CDD:188426 TIGR03911, hypothetical_protein_DtoxDRAFT_11660, pyrrolysine 
+biosynthesis protein PylD.  This protein is PylD, part of a 
+three-gene cassette that is sufficient to direct the biosynthesis 
+of pyrrolysine, the twenty-second amino acid, incorporated 
+in some species at a UAG canonical stop codon. [Amino acid 
+biosynthesis, Other].
+Length=266
+
+ Score = 30.5 bits (69),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 19/73 (26%), Positives = 30/73 (41%), Gaps = 13/73 (18%)
+
+Query  6    DLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTSLNVLPEDYAA  65
+            D++++G GP G   A  +   G+ V V DK     +K          L S+ +  E   A
+Sbjct  147  DVLVIGLGPVGRAAAFHLVDKGFHVYVYDKNLEVSEKLAQD------LCSIGIERELDEA  200
+
+Query  66   TGRVLQPIHRFSI  78
+                   +H+FS 
+Sbjct  201  -------MHKFSA  206
+
+
+>CDD:235955 PRK07190, PRK07190, hypothetical protein; Provisional.
+Length=487
+
+ Score = 30.6 bits (69),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 11/36 (31%), Positives = 19/36 (53%), Gaps = 0/36 (0%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+             D++I+G GP G   A      G   +++DK++ P
+Sbjct  5   VTDVVIIGAGPVGLMCAYLGQLCGLNTVIVDKSDGP  40
+
+
+>CDD:236223 PRK08294, PRK08294, phenol 2-monooxygenase; Provisional.
+Length=634
+
+ Score = 30.7 bits (70),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 12/23 (52%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMAT  25
+           D  D++IVG GPAG TLA  ++ 
+Sbjct  31  DEVDVLIVGCGPAGLTLAAQLSA  53
+
+
+>CDD:213807 TIGR03378, glycerol3P_GlpB, glycerol-3-phosphate dehydrogenase, 
+anaerobic, B subunit.  Members of this protein family are 
+the B subunit, product of the glpB gene, of a three-subunit, 
+membrane-anchored, FAD-dependent anaerobic glycerol-3-phosphate 
+dehydrogenase. [Energy metabolism, Anaerobic].
+Length=419
+
+ Score = 30.4 bits (69),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 12/29 (41%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVI  33
+           +D+II+GGG AG + A  +A +G +  +I
+Sbjct  1   FDVIIIGGGLAGLSCALRLAEAGKKCAII  29
+
+
+>CDD:236541 PRK09496, trkA, potassium transporter peripheral membrane component; 
+Reviewed.
+Length=453
+
+ Score = 30.5 bits (70),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 11/28 (39%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+
+Query  8    IIVGGGPAGATLAGAMATSGWRVLVIDK  35
+            +IVGGG  G  LA  +   G+ V +I++
+Sbjct  235  MIVGGGNIGYYLAKLLEKEGYSVKLIER  262
+
+
+>CDD:237197 PRK12770, PRK12770, putative glutamate synthase subunit beta; 
+Provisional.
+Length=352
+
+ Score = 30.3 bits (69),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 14/27 (52%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  9   IVGGGPAGATLAGAMATSGWRVLVIDK  35
+           I+G GPAG   AG +A  G+ V V DK
+Sbjct  23  IIGAGPAGLAAAGYLACLGYEVHVYDK  49
+
+
+>CDD:183780 PRK12831, PRK12831, putative oxidoreductase; Provisional.
+Length=464
+
+ Score = 30.4 bits (69),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLV  32
+            ++G GPAG T AG +A  G+ V +
+Sbjct  145  VIGSGPAGLTCAGDLAKMGYDVTI  168
+
+
+>CDD:181262 PRK08163, PRK08163, salicylate hydroxylase; Provisional.
+Length=396
+
+ Score = 30.4 bits (69),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  7   LIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           ++IVGGG  G   A A+A  G +V ++++A 
+Sbjct  7   VLIVGGGIGGLAAALALARQGIKVKLLEQAA  37
+
+
+>CDD:349760 cd02042, ParAB_family, partition proteins ParAB family.  ParA 
+and ParB of Caulobacter crescentus belong to a conserved family 
+of bacterial proteins implicated in chromosome segregation. 
+ParB binds to DNA sequences adjacent to the origin of replication 
+and localizes to opposite cell poles shortly following 
+the initiation of DNA replication. ParB regulates the 
+ParA ATPase activity by promoting nucleotide exchange in a fashion 
+reminiscent of the exchange factors of eukaryotic G proteins. 
+ADP-bound ParA binds single-stranded DNA, whereas the 
+ATP-bound form dissociates ParB from its DNA binding sites. 
+Increasing the fraction of ParA-ADP in the cell inhibits 
+cell division, suggesting that this simple nucleotide switch 
+may regulate cytokinesis. ParA shares sequence similarity to 
+a conserved and widespread family of ATPases which includes 
+the repA protein of the repABC operon in Rhizobium etli symbiotic 
+plasmid. This operon is involved in the plasmid replication 
+and partition.
+Length=130
+
+ Score = 29.0 bits (66),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  19  LAGAMATSGWRVLVID  34
+           LA A+A  G RVL+ID
+Sbjct  21  LAAALALRGKRVLLID  36
+
+
+>CDD:223563 COG0489, Mrp, ATPases involved in chromosome partitioning [Cell 
+division and chromosome partitioning].
+Length=265
+
+ Score = 30.1 bits (68),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 12/33 (36%), Positives = 17/33 (52%), Gaps = 5/33 (15%)
+
+Query  7   LIIVGGGPAGAT-----LAGAMATSGWRVLVID  34
+            +  G G  G +     LA A+A  G RVL++D
+Sbjct  61  AVTSGKGGVGKSTVAVNLAAALAQLGKRVLLLD  93
+
+
+>CDD:273944 TIGR02053, Mercuric_reductase, mercury(II) reductase.  This model 
+represents the mercuric reductase found in the mer operon 
+for the detoxification of mercury compounds. MerA is a FAD-containing 
+flavoprotein which reduces Hg(II) to Hg(0) utilizing 
+NADPH. [Cellular processes, Detoxification].
+Length=463
+
+ Score = 30.1 bits (68),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/37 (35%), Positives = 21/37 (57%), Gaps = 2/37 (5%)
+
+Query  7    LIIVGGGPAGATLAGAMATSGWRVLVIDKAE--FPRD  41
+            L ++GGG  G  LA A A  G  V ++ +++   PR+
+Sbjct  169  LAVIGGGAIGVELAQAFARLGSEVTILQRSDRLLPRE  205
+
+
+ Score = 28.5 bits (64),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 14/40 (35%), Positives = 20/40 (50%), Gaps = 2/40 (5%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTC  44
+           YDL+I+G G A    A   A  G  V ++++   P   TC
+Sbjct  1   YDLVIIGSGAAAFAAAIKAAELGASVAMVERG--PLGGTC  38
+
+
+>CDD:310433 pfam05834, Lycopene_cycl, Lycopene cyclase protein.  This family 
+consists of lycopene beta and epsilon cyclase proteins. 
+Carotenoids with cyclic end groups are essential components 
+of the photosynthetic membranes in all plants, algae, and cyanobacteria. 
+These lipid-soluble compounds protect against photo-oxidation, 
+harvest light for photosynthesis, and dissipate 
+excess light energy absorbed by the antenna pigments. The 
+cyclisation of lycopene (psi, psi-carotene) is a key branch 
+point in the pathway of carotenoid biosynthesis. Two types 
+of cyclic end groups are found in higher plant carotenoids: 
+the beta and epsilon rings. Carotenoids with two beta rings 
+are ubiquitous, and those with one beta and one epsilon ring 
+are common; however, carotenoids with two epsilon rings are 
+rare.
+Length=380
+
+ Score = 30.1 bits (68),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 22/31 (71%), Gaps = 2/31 (6%)
+
+Query  6   DLIIVGGGPAGATLAGAMATS--GWRVLVID  34
+           D++I+G GPAG +LA  +A +  G  V++I+
+Sbjct  1   DVVIIGAGPAGLSLAARLAAAKPGLSVVLIE  31
+
+
+>CDD:338739 pfam13434, K_oxygenase, L-lysine 6-monooxygenase (NADPH-requiring). 
+ This is family of Rossmann fold oxidoreductases that 
+catalyzes the NADPH-dependent hydroxylation of lysine at the 
+N6 position, EC:1.14.13.59.
+Length=337
+
+ Score = 29.9 bits (68),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 17/38 (45%), Gaps = 2/38 (5%)
+
+Query  3   DHYDLIIVGGGPAGATLAGAMA-TSGWRVLVIDK-AEF  38
+              DLI +G GP   +LA  +      R L  ++  EF
+Sbjct  1   QILDLIGIGIGPFNLSLAALLEEIPELRALFFERQPEF  38
+
+
+>CDD:200385 TIGR04134, hypothetical_protein, putative lipoprotein, rSAM/lipoprotein 
+system.  Members of this family are Bacteroidetes 
+lineage putative lipoproteins that always occur in pairs with 
+a radical SAM enzyme, TIGR04133, from a branch of the radical 
+SAM superfamily in which many members perform peptide or 
+protein modifications. In some members, the region distal 
+to the Cys of the putative lipoprotein cleavage motif is duplicated.
+Length=150
+
+ Score = 28.9 bits (65),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 18/59 (31%), Positives = 32/59 (54%), Gaps = 7/59 (12%)
+
+Query  68   RVLQPIHRFS---IGMMGQAACINEHGTEPVSYGIRRCEFDSYLLDRAPVTKLLGEPVK  123
+            +VL+ ++R     +G++G A+C  E G  PV YG    +++     +  VT   GEP++
+Sbjct  1    KVLRLLNRLLSGFLGLLGFASCDEEGGEIPVEYGTPYAKYEV----KGKVTDEEGEPIE  55
+
+
+>CDD:131777 TIGR02730, Carotenoid_isomerase, carotene isomerase.  Members 
+of this family, including sll0033 (crtH) of Synechocystis sp. 
+PCC 6803, catalyze a cis-trans isomerization of carotenes 
+to the all-trans lycopene, a reaction that can also occur non-enzymatically 
+in light through photoisomerization. [Biosynthesis 
+of cofactors, prosthetic groups, and carriers, Other].
+Length=493
+
+ Score = 29.8 bits (67),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           YD I++G G  G   A  +A  G +VLV+++   P
+Sbjct  1   YDAIVIGSGIGGLVTATQLAVKGAKVLVLERYLIP  35
+
+
+>CDD:224983 COG2072, TrkA, Predicted flavoprotein involved in K+ transport 
+[Inorganic ion transport and metabolism].
+Length=443
+
+ Score = 29.7 bits (67),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 10/38 (26%), Positives = 20/38 (53%), Gaps = 1/38 (3%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGW-RVLVIDKAE  37
+           +  H D+ I+G G +G   A A+  +G    ++ +K +
+Sbjct  5   VATHTDVAIIGAGQSGLAAAYALKQAGVPDFVIFEKRD  42
+
+
+>CDD:215257 PLN02464, PLN02464, glycerol-3-phosphate dehydrogenase.
+Length=627
+
+ Score = 29.7 bits (67),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 23/34 (68%), Gaps = 0/34 (0%)
+
+Query  5    YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+             D+++VGGG  GA +A   AT G RV ++++ +F
+Sbjct  72   LDVLVVGGGATGAGVALDAATRGLRVGLVEREDF  105
+
+
+>CDD:235689 PRK06069, sdhA, succinate dehydrogenase flavoprotein subunit; 
+Reviewed.
+Length=577
+
+ Score = 29.6 bits (67),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 22/57 (39%), Positives = 29/57 (51%), Gaps = 4/57 (7%)
+
+Query  1   MVDHYDLIIVGGGPAG--ATLAGAMATSGW-RVLVIDKAEFPRDKT-CAGWVTPAVL  53
+            V  YD++IVG G AG  A +A A  + G   V V+ K +  R  +  A   T AVL
+Sbjct  2   EVLKYDVVIVGSGLAGLRAAVAAAERSGGKLSVAVVSKTQPMRSHSVSAEGGTAAVL  58
+
+
+>CDD:179902 PRK04965, PRK04965, NADH:flavorubredoxin oxidoreductase; Provisional.
+Length=377
+
+ Score = 29.5 bits (67),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 11/28 (39%), Positives = 16/28 (57%), Gaps = 0/28 (0%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLVIDKA  36
+            +VGGG  G  LA  +  +G  V ++D A
+Sbjct  146  VVGGGLIGTELAMDLCRAGKAVTLVDNA  173
+
+
+>CDD:235977 PRK07233, PRK07233, hypothetical protein; Provisional.
+Length=434
+
+ Score = 29.9 bits (68),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 15/31 (48%), Gaps = 0/31 (0%)
+
+Query  9   IVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+           IVGGG AG   A  +A  G  V V +  +  
+Sbjct  4   IVGGGIAGLAAAYRLAKRGHEVTVFEADDQL  34
+
+
+>CDD:215375 PLN02697, PLN02697, lycopene epsilon cyclase.
+Length=529
+
+ Score = 29.8 bits (67),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+
+Query  6    DLIIVGGGPAGATLAGAMATSGWRVLVI  33
+            DL+++G GPAG  LA   A  G  V +I
+Sbjct  110  DLVVIGCGPAGLALAAESAKLGLNVGLI  137
+
+
+>CDD:274272 TIGR02733, similar_to_to_phytoene_dehydrogenase, C-3',4' desaturase 
+CrtD.  Members of this family are slr1293, a carotenoid 
+biosynthesis protein which was shown to be the C-3',4' desaturase 
+(CrtD) of myxoxanthophyll biosynthesis in Synechocystis 
+sp. strain PCC 6803, and close homologs (presumed to be 
+functionally equivalent) from other cyanobacteria, where myxoxanthophyll 
+biosynthesis is either known or expected. This 
+enzyme can act on neurosporene and so presumably catalyzes 
+the first step that is committed to myxoxanthophyll. [Biosynthesis 
+of cofactors, prosthetic groups, and carriers, Other].
+Length=492
+
+ Score = 29.7 bits (67),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 14/39 (36%), Positives = 23/39 (59%), Gaps = 2/39 (5%)
+
+Query  8   IIVGGGPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAG  46
+           +++G G AG T A  +A  G+RV ++++   P    CAG
+Sbjct  5   VVIGAGIAGLTAAALLAKRGYRVTLLEQHAQP--GGCAG  41
+
+
+>CDD:284295 pfam06832, BiPBP_C, Penicillin-Binding Protein C-terminus Family. 
+ This conserved region of approximately 90 residues is 
+found in a sub-group of bacterial Penicillin-Binding Proteins 
+(PBPs). A variable length loop region separates this region 
+from the transpeptidase unit (pfam00905). It is predicted 
+by PROF to be an all beta fold.
+Length=90
+
+ Score = 27.7 bits (62),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 11/37 (30%), Positives = 17/37 (46%), Gaps = 6/37 (16%)
+
+Query  132  WVVNGRWRAPWLVGAGGHFCPVARWLGDGPGRHEVAV  168
+            W ++G+      +G  G    +  WL  GPG H + V
+Sbjct  48   WFLDGKP-----LGETGAGRELF-WLPPGPGFHRLTV  78
+
+
+>CDD:250388 pfam01134, GIDA, Glucose inhibited division protein A.  
+Length=391
+
+ Score = 29.4 bits (67),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 14/28 (50%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVI  33
+           D+I++GGG AG   A A A  G +VL+I
+Sbjct  1   DVIVIGGGHAGCEAALAAARMGAKVLLI  28
+
+
+>CDD:235879 PRK06854, PRK06854, adenylylsulfate reductase subunit alpha; 
+Validated.
+Length=608
+
+ Score = 29.5 bits (67),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/41 (32%), Positives = 20/41 (49%), Gaps = 2/41 (5%)
+
+Query  2   VDHYDLIIVGGGPAG--ATLAGAMATSGWRVLVIDKAEFPR  40
+               D++I+GGG AG  A           +VL+++KA   R
+Sbjct  9   EVDTDILIIGGGMAGCGAAFEAKEWAPDLKVLIVEKANIKR  49
+
+
+>CDD:224070 COG1148, HdrA, Heterodisulfide reductase, subunit A and related 
+polyferredoxins [Energy production and conversion].
+Length=622
+
+ Score = 29.4 bits (66),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 11/30 (37%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  6    DLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+             ++++GGG AG T A  +A  G++V +++K
+Sbjct  126  SVLVIGGGVAGITAALELADMGFKVYLVEK  155
+
+
+>CDD:340933 cd17375, MFS_SLC22A16_CT2, Solute carrier family 22 member 16 
+ (also called Carnitine transporter 2) of the Major Facilitator 
+Superfamily of transporters.  Solute carrier family 22 
+member 16 (SLC22A16) is also called carnitine transporter 2 
+(CT2), fly-like putative transporter 2 (FLIPT2), organic cation 
+transporter OKB1, or organic cation/carnitine transporter 
+6 (OCT6). It is a partially sodium-ion dependent high affinity 
+carnitine transporter. It also transports organic cations 
+such as tetraethylammonium (TEA) and doxorubicin. It is one 
+of several organic cation transporters (OCTs) that falls 
+into the SLC22 (solute carrier 22) family. OCTs are broad-specificity 
+transporters that play a critical role in the excretion 
+and distribution of endogeneous organic cations and for 
+the uptake, elimination and distribution of cationic drugs, 
+toxins, and environmental waste products. SLC22A16 belongs 
+to the Major Facilitator Superfamily (MFS) of membrane transport 
+proteins. MFS proteins are thought to function through 
+a single substrate binding site, alternating-access mechanism 
+involving a rocker-switch type of movement.
+Length=341
+
+ Score = 29.3 bits (66),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 18/67 (27%), Positives = 28/67 (42%), Gaps = 10/67 (15%)
+
+Query  19   LAGAMATSGWRVLVIDKAEFPRDKTCAGWVTPAVLTS------LNVLPEDYAATGRVLQP  72
+            L GA+    + +  I   +  R  T A    P +L S      + V+P+DY     VL  
+Sbjct  209  LVGAVEIPSYIIACIGMDKLGRRNTLA----PFLLLSALACMLIMVIPQDYEVLTIVLSM  264
+
+Query  73   IHRFSIG  79
+              +F+I 
+Sbjct  265  TGKFAIA  271
+
+
+>CDD:237027 PRK12266, glpD, glycerol-3-phosphate dehydrogenase; Reviewed.
+Length=508
+
+ Score = 29.3 bits (67),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVL  31
+           M++ YDL+++GGG  GA +A   A  G  VL
+Sbjct  3   MMETYDLLVIGGGINGAGIARDAAGRGLSVL  33
+
+
+>CDD:334753 pfam01946, Thi4, Thi4 family.  This family includes a putative 
+thiamine biosynthetic enzyme.
+Length=232
+
+ Score = 29.0 bits (65),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 21/31 (68%), Gaps = 1/31 (3%)
+
+Query  6   DLIIVGGGPAGATLAGAMATS-GWRVLVIDK  35
+           D++IVG G +G T A  +A + G +V +I++
+Sbjct  19  DVVIVGAGSSGLTAAYYLAKNRGLKVAIIER  49
+
+
+>CDD:237512 PRK13800, PRK13800, putative oxidoreductase/HEAT repeat-containing 
+protein; Provisional.
+Length=897
+
+ Score = 29.4 bits (66),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKA  36
+           D++++GGG AG   A   A  G  VL+++KA
+Sbjct  15  DVLVIGGGTAGTMAALTAAEHGANVLLLEKA  45
+
+
+>CDD:316068 pfam13510, Fer2_4, 2Fe-2S iron-sulfur cluster binding domain. 
+ The 2Fe-2S ferredoxin family have a general core structure 
+consisting of beta(2)-alpha-beta(2) which a beta-grasp type 
+fold. The domain is around one hundred amino acids with four 
+conserved cysteine residues to which the 2Fe-2S cluster is 
+ligated. This cluster appears within sarcosine oxidase proteins.
+Length=82
+
+ Score = 27.1 bits (61),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 13/34 (38%), Positives = 16/34 (47%), Gaps = 0/34 (0%)
+
+Query  13  GPAGATLAGAMATSGWRVLVIDKAEFPRDKTCAG  46
+            P G T+A A+  +G RV    K   PR   CA 
+Sbjct  15  APEGDTVAAALLANGIRVPRSCKYGRPRGIFCAM  48
+
+
+>CDD:308392 pfam02737, 3HCDH_N, 3-hydroxyacyl-CoA dehydrogenase, NAD binding 
+domain.  This family also includes lambda crystallin.
+Length=180
+
+ Score = 28.3 bits (64),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 10/29 (34%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  9   IVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+           ++G G  GA +A   A +G  V+++D +E
+Sbjct  4   VIGAGTMGAGIAQVFARAGLEVVLVDISE  32
+
+
+>CDD:183640 PRK12636, flgG, flagellar basal body rod protein FlgG; Provisional.
+Length=263
+
+ Score = 29.0 bits (65),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 16/27 (59%), Gaps = 4/27 (15%)
+
+Query  263  RPL----SGDGVLLIGDAAGLAYTQSG  285
+            RPL    SGDG   +GD    AYT++G
+Sbjct  90   RPLDLAISGDGFFRVGDGDNTAYTRAG  116
+
+
+>CDD:183035 PRK11199, tyrA, bifunctional chorismate mutase/prephenate dehydrogenase; 
+Provisional.
+Length=374
+
+ Score = 29.1 bits (66),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 21/67 (31%), Positives = 32/67 (48%), Gaps = 12/67 (18%)
+
+Query  8    IIVGGGPAGATLAGAMAT-SGWRVLVIDKAEFPRDKTC---AGWV--------TPAVLTS  55
+            +IVGG      L   M T SG++V ++++ ++ R +     AG V        T  V+  
+Sbjct  102  VIVGGKGQLGRLFAKMLTLSGYQVRILEQDDWDRAEDILADAGMVIVSVPIHLTEEVIAR  161
+
+Query  56   LNVLPED  62
+            L  LPED
+Sbjct  162  LPPLPED  168
+
+
+>CDD:215527 PLN02976, PLN02976, amine oxidase.
+Length=1713
+
+ Score = 29.1 bits (65),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 14/33 (42%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  2    VDHYDLIIVGGGPAGATLAGAMATSGWRVLVID  34
+            VD   +I+VG GPAG T A  +   G+ V V++
+Sbjct  691  VDRKKIIVVGAGPAGLTAARHLQRQGFSVTVLE  723
+
+
+>CDD:130383 TIGR01316, gltA, glutamate synthase (NADPH), homotetrameric. 
+ This protein is homologous to the small subunit of NADPH and 
+NADH forms of glutamate synthase as found in eukaryotes and 
+some bacteria. This protein is found in numerous species having 
+no homolog of the glutamate synthase large subunit. The 
+prototype of the family, from Pyrococcus sp. KOD1, was shown 
+to be active as a homotetramer and to require NADPH. [Amino 
+acid biosynthesis, Glutamate family].
+Length=449
+
+ Score = 29.1 bits (65),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 12/36 (33%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  4    HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+            H  + ++G GPAG   A  +A +G  V V +    P
+Sbjct  133  HKKVAVIGAGPAGLACASELAKAGHSVTVFEALHKP  168
+
+
+>CDD:181142 PRK07846, PRK07846, mycothione reductase; Reviewed.
+Length=451
+
+ Score = 28.8 bits (65),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 21/35 (60%), Gaps = 2/35 (6%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+           HYDLII+G G +G ++      +  R+ +++K  F
+Sbjct  1   HYDLIIIGTG-SGNSILDE-RFADKRIAIVEKGTF  33
+
+
+>CDD:236054 PRK07573, sdhA, succinate dehydrogenase flavoprotein subunit; 
+Reviewed.
+Length=640
+
+ Score = 29.0 bits (66),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVI  33
+           +D+I+VG G AGA+ A  +   G+ V V 
+Sbjct  36  FDVIVVGTGLAGASAAATLGELGYNVKVF  64
+
+
+>CDD:223643 COG0569, TrkA, K+ transport systems, NAD-binding component [Inorganic 
+ion transport and metabolism].
+Length=225
+
+ Score = 28.4 bits (64),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 11/32 (34%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  6   DLIIVGGGPAGATLAGAMATSGWRVLVIDKAE  37
+            +II+G G  G ++A  ++  G  V++ID+ E
+Sbjct  2   KIIIIGAGRVGRSVARELSEEGHNVVLIDRDE  33
+
+
+>CDD:237365 PRK13369, PRK13369, glycerol-3-phosphate dehydrogenase; Provisional.
+Length=502
+
+ Score = 28.8 bits (65),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 14/34 (41%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+           YDL ++GGG  GA +A   A  G +VL+ +K + 
+Sbjct  7   YDLFVIGGGINGAGIARDAAGRGLKVLLCEKDDL  40
+
+
+>CDD:236185 PRK08205, sdhA, succinate dehydrogenase flavoprotein subunit; 
+Reviewed.
+Length=583
+
+ Score = 28.8 bits (65),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 13/35 (37%), Positives = 16/35 (46%), Gaps = 1/35 (3%)
+
+Query  1   MVDHYDLIIVGGGPAGATLAGAMATSGWRVLVIDK  35
+               YD++IVG G AG   A   A    R  V+ K
+Sbjct  2   QQHRYDVVIVGAGGAGMR-AAIEAGPRARTAVLTK  35
+
+
+>CDD:274588 TIGR03458, Propionyl-CoA:succinate_CoA_transferase, succinate 
+CoA transferase.  This family of CoA transferases includes 
+enzymes catalyzing at least two related but distinct activities. 
+The E. coli YgfH protein has been characterized as a propionyl-CoA:succinate 
+CoA transferase where it appears to be 
+involved in a pathway for the decarboxylation of succinate 
+to propionate. The Clostridium kluyveri CAT1 protein has been 
+characterized as a acetyl-CoA:succinate CoA transferase and 
+is believed to be involved in anaerobic succinate degradation. 
+The propionate:succinate transferase activity has been 
+reported in the propionic acid fermentation of propionibacterium 
+species, where it is distinct from the coupled activities 
+of distinct nucleotide-triphosphate dependent succinate and 
+propionate/acetate CoA transferases (as inferred from activity 
+in the absence of NTPs). The family represented by this 
+model includes a member from Propionibacterium acnes KPA171202 
+which is likely to be responsible for this activity. A 
+closely related clade not included in this family are the Ach1p 
+proteins of fungi which are acetyl-CoA hydrolases. This 
+name has been applied to many of the proteins represented by 
+this model, possibly erroneously.
+Length=485
+
+ Score = 28.8 bits (65),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 14/24 (58%), Gaps = 1/24 (4%)
+
+Query  226  SDHLADFVQSMQDRGRLPPN-LPL  248
+            + HL DF+      GRLP N LPL
+Sbjct  229  AGHLIDFLDHEVKAGRLPKNLLPL  252
+
+
+>CDD:132358 TIGR03315, Se_ygfK, putative selenate reductase, YgfK subunit. 
+ Members of this protein family are YgfK, predicted to be 
+one subunit of a three-subunit, molybdopterin-containing selenate 
+reductase. This enzyme is found, typically, in genomic 
+regions associated with xanthine dehydrogenase homologs predicted 
+to belong to the selenium-dependent molybdenum hydroxylases 
+(SDMH). Therefore, the selenate reductase is suggested 
+to play a role in furnishing selenide for SelD, the selenophosphate 
+synthase.
+Length=1012
+
+ Score = 29.0 bits (65),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+            ++G GPAG +    +A +G  V V +K E P
+Sbjct  542  VIGAGPAGLSAGYFLARAGHPVTVFEKKEKP  572
+
+
+>CDD:235701 PRK06116, PRK06116, glutathione reductase; Validated.
+Length=450
+
+ Score = 28.6 bits (65),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 14/36 (39%), Positives = 18/36 (50%), Gaps = 6/36 (17%)
+
+Query  1   MVDHYDLIIVGGGPAG---ATLAGAMATSGWRVLVI  33
+           M   YDLI++GGG  G   A  A      G +V +I
+Sbjct  1   MTKDYDLIVIGGGSGGIASANRAAMY---GAKVALI  33
+
+
+>CDD:177739 PLN00128, PLN00128, Succinate dehydrogenase [ubiquinone] flavoprotein 
+subunit.
+Length=635
+
+ Score = 28.7 bits (64),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 25/47 (53%), Gaps = 3/47 (6%)
+
+Query  1   MVDH-YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFP-RDKTCA  45
+           +VDH YD ++VG G AG   A  ++  G+    I K  FP R  T A
+Sbjct  46  IVDHTYDAVVVGAGGAGLRAAIGLSEHGFNTACITKL-FPTRSHTVA  91
+
+
+>CDD:183292 PRK11728, PRK11728, hydroxyglutarate oxidase; Provisional.
+Length=393
+
+ Score = 28.6 bits (65),  Expect = 6.8, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 20/35 (57%), Gaps = 6/35 (17%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATS----GWRVLVIDK  35
+           YD +I+GGG  G  L+ AM       G R+ V++K
+Sbjct  3   YDFVIIGGGIVG--LSTAMQLQERYPGARIAVLEK  35
+
+
+>CDD:224172 COG1252, Ndh, NADH dehydrogenase, FAD-containing subunit [Energy 
+production and conversion].
+Length=405
+
+ Score = 28.4 bits (64),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 11/19 (58%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  6    DLIIVGGGPAGATLAGAMA  24
+             ++IVGGGP G  LAG +A
+Sbjct  157  TIVIVGGGPTGVELAGELA  175
+
+
+>CDD:237224 PRK12842, PRK12842, putative succinate dehydrogenase; Reviewed.
+Length=574
+
+ Score = 28.5 bits (64),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 9/34 (26%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  5   YDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEF  38
+            D++++G G  G + A      G  V+V++K   
+Sbjct  10  CDVLVIGSGAGGLSAAITARKLGLDVVVLEKEPV  43
+
+
+>CDD:173844 cd01155, ACAD_FadE2, Acyl-CoA dehydrogenases similar to fadE2. 
+ FadE2-like Acyl-CoA dehydrogenase (ACAD). Acyl-CoA dehydrogenases 
+(ACAD) catalyze the alpha,beta dehydrogenation of the 
+corresponding trans-enoyl-CoA by FAD, which becomes reduced. 
+The reduced form of ACAD is reoxidized in the oxidative 
+half-reaction by electron-transferring flavoprotein (ETF), from 
+which the electrons are transferred to the mitochondrial 
+respiratory chain coupled with ATP synthesis. The ACAD family 
+includes the eukaryotic beta-oxidation, as well as amino 
+acid catabolism enzymes. These enzymes share high sequence similarity, 
+but differ in their substrate specificities. ACAD's 
+are generally homotetramers and have an active site glutamate 
+at a conserved position.
+Length=394
+
+ Score = 28.1 bits (63),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 23/45 (51%), Gaps = 8/45 (18%)
+
+Query  127  RDHGEWVVNGR-WRAPWLVGAGGHFCPVARWLG----DGPGRHEV  166
+            RD  ++V+NGR W   W  GAG   C +A  +G    DG  RH  
+Sbjct  150  RDGDDYVINGRKW---WSSGAGDPRCKIAIVMGRTDPDGAPRHRQ  191
+
+
+>CDD:236010 PRK07395, PRK07395, L-aspartate oxidase; Provisional.
+Length=553
+
+ Score = 28.1 bits (63),  Expect = 9.2, Method: Composition-based stats.
+ Identities = 11/37 (30%), Positives = 18/37 (49%), Gaps = 1/37 (3%)
+
+Query  4   HYDLIIVGGGPAGATLAGAMATSGWRVLVIDKAEFPR  40
+            +D+++VG G AG   A  + +   RV +I K     
+Sbjct  9   QFDVLVVGSGAAGLYAALCLPSH-LRVGLITKDTLKT  44
+
+
+>CDD:236630 PRK09853, PRK09853, putative selenate reductase subunit YgfK; 
+Provisional.
+Length=1019
+
+ Score = 28.4 bits (64),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 11/31 (35%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  9    IVGGGPAGATLAGAMATSGWRVLVIDKAEFP  39
+            ++G GPAG   A  +A +G  V V ++ E  
+Sbjct  544  VIGAGPAGLAAAYFLARAGHPVTVFEREENA  574
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0912    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2011062842
+
+
+  Database: Cdd.pn
+    Posted date:  Apr 21, 2019  10:17 AM
+  Number of letters in database: 12,472,129
+  Number of sequences in database:  52,910
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Window for multiple hits: 40
