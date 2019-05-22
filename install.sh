@@ -1,7 +1,5 @@
-#mkdir blast cd blast;wget 
-#ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/ncbi-blast-2.7.1+-x64-linux.tar.gz 
-#cd blast;tar -zxvf ncbi-blast-2.7.1+-x64-linux.tar.gz cd 
-#blast;rm -rf ncbi-blast-2.7.1+-x64-linux.tar.gz
+#mkdir blast;cd blast;wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/ncbi-blast-2.7.1+-x64-linux.tar.gz 
+#cd blast;tar -zxvf ncbi-blast-2.7.1+-x64-linux.tar.gz; cd blast;rm -rf ncbi-blast-2.7.1+-x64-linux.tar.gz
 
 echo GERANDO ARQUIVOS DE ENTRADA
 
