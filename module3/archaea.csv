@@ -1,0 +1,142 @@
+FILO,CLASSE,ORDEM,FAMÍLIA,ESPÉCIES,Sigla,,PrnB,PrnC,PrnD
+,,,,,Query,AAY92870.1,AAY92871.1,AAY92872.1,AAY92873.1
+CRENARCHAEOTA,Thermoprotei,Acidilobales,Acidilobaceae,Acidilobus saccharovorans 345-15,CR,A,A,WP_013266159.1/WP_013266177.1,A
+,Thermoprotei,Acidilobales,Caldisphaeraceae,Caldisphaera lagunensis DSM 15908,CR,A,A,WP_015232932.1/WP_015231874.1/WP_015232425.1/WP_015232230.1,A
+,Thermoprotei,Desulfurococcales,Desulfurococcaceae,Desulfurococcus kamchatkensis 1221n,CR,A,A,WP_012608380.1/WP_042666730.1/ACL11588.1/WP_012607964.1/WP_012607878.1,A
+,Thermoprotei,Desulfurococcales,Desulfurococcaceae,Desulfurococcus mucosus DSM 2162 ,CR,A,A,WP_013562776.1,A
+,Thermoprotei,Desulfurococcales,Desulfurococcaceae,Ignicoccus hospitalis KIN4/I,CR,A,A,WP_083756925.1/ABU82285.1/WP_011998594.1,A
+,Thermoprotei,Desulfurococcales,Desulfurococcaceae,Ignicoccus islandicus DSM 13165,CR,A,A,ALU11884.1/WP_075050065.1/WP_075050016.1/WP_075049955.1/WP_075050265.1,A
+,Thermoprotei,Desulfurococcales,Desulfurococcaceae,Thermogladius calderae 1633,CR,A,A,WP_014737696.1,A
+,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Hyperthermus butylicus DSM 5456,CR,A,A,WP_011821369.1/WP_011822407.1/WP_011821442.1,A
+,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Pyrodictium delaneyi Su06,CR,A,A,ALL01512.1/ALL00270.1,A
+,Thermoprotei,Desulfurococcales,Pyrodictiaceae,Pyrolobus fumarii 1A,CR,A,A,WP_083818614.1/AEM38238.1/WP_048192568.1/AEM38013.1/WP_048191255.1,A
+,Thermoprotei,Sulfolobales,Sulfolobaceae,Acidianus hospitalis W1,CR,A,A,WP_013776940.1/WP_013776367.1/WP_013776999.1/WP_013776492.1/WP_013775495.1/AEE92962.1/WP_048054826.1,A
+,Thermoprotei,Sulfolobales,Sulfolobaceae,Metallosphaera cuprina Ar-4,CR,A,A,WP_013738271.1/WP_013737644.1/WP_013738000.1/WP_013738114.1/WP_013736919.1/WP_013737996.1,A
+,Thermoprotei,Sulfolobales,Sulfolobaceae,Metallosphaera sedula DSM 5348,CR,A,A,WP_012021493.1/WP_048059968.1/ABP94592.1/WP_012020643.1/WP_012021898.1/WP_012020639.1/WP_012020597.1/ABP94918.1/WP_048060262.1,A
+,Thermoprotei,Sulfolobales,Sulfolobaceae,Saccharolobus solfataricus P1,CR,A,A,SAI86454.1/SAI84707.1/SAI84773.1/SAI86470.1/SAI86039.1/SAI86100.1/SAI83971.1/SAI86043.1,WP_009989803.1
+,Thermoprotei,Sulfolobales,Sulfolobaceae,Sulfolobus acidocaldarius DSM 639,CR,A,A,4OPT_A/4OPL_A/4OPI_A/4OPU_A/4OPG_A/WP_011277849.1/4OPC_A/WP_015385521.1/WP_011277723.1/WP_011277234.1/WP_011277210.1,A
+,Thermoprotei,Sulfolobales,Sulfolobaceae,Sulfolobus islandicus L.S.2.15 ,CR,A,A,WP_012714511.1/WP_012713555.1/WP_012712955.1/WP_012712834.1/WP_012714475.1/WP_012712873.1/WP_012714520.1/WP_012713900.1/WP_012712837.1/WP_012713675.1,A
+,Thermoprotei,Sulfolobales,Sulfolobaceae,Sulfurisphaera tokodaii str. 7,CR,A,A,WP_010979842.1/WP_010979146.1/WP_010979863.1/BAB65546.1/WP_052846891.1/WP_010978410.1/WP_052846351.1/WP_010978245.1/WP_010978474.1/WP_010978323.1,WP_010979027.1
+,Thermoprotei,Thermoproteales,Thermoproteaceae,Caldivirga maquilingensis IC-167,CR,A,A,WP_012186239.1/WP_012185544.1/WP_012186738.1/WP_012187019.1/WP_012186464.1/WP_012185562.1/,A
+,Thermoprotei,Thermoproteales,Thermoproteaceae,Vulcanisaeta moutnovskia 768-28,CR,A,A,WP_013603487.1/WP_048057074.1/WP_013603619.1/WP_013604500.1/WP_013605695.1/WP_013604730.1/WP_013605041.1/WP_013603963.1/WP_013604009.1/WP_013605028.1,WP_013605637.1
+EURYARCHAEOTA,?,?,?,Aciduliprofundum boonei T469,EU,A,A,WP_008082534.1/WP_008083457.1/WP_008082434.1/WP_008084264.1/WP_008083568.1,A
+,Archaeoglobi,Archaeoglobales,Archaeoglobaceae,Archaeoglobus fulgidus DSM 4304,EU,A,A,AAB90773.1/WP_048064241.1/WP_010878825.1/WP_010878205.1/WP_010878151.1/ABC94028.1/WP_010878165.1/WP_010877902.1,A
+,Archaeoglobi,Archaeoglobales,Archaeoglobaceae,Archaeoglobus profundus DSM 5631,EU,A,A,WP_012940113.1/WP_012940807.1/WP_012940647.1/WP_012940648.1/WP_012940937.1/WP_012940456.1,A
+,Archaeoglobi,Archaeoglobales,Archaeoglobaceae,Archaeoglobus sulfaticallidus PM70-1,EU,A,A,WP_015591480.1/WP_015591530.1/WP_015590413.1/WP_015591199.1/WP_015591385.1/WP_015589714.1,A
+,Archaeoglobi,Archaeoglobales,Archaeoglobaceae,Archaeoglobus veneficus SNP6,EU,A,A,WP_013684691.1/WP_013683488.1/WP_013683750.1/WP_013684037.1/WP_013684070.1,A
+,Archaeoglobi,Archaeoglobales,Archaeoglobaceae,Ferroglobus placidus DSM 10642,EU,A,A,A,A
+,Archaeoglobi,Archaeoglobales,Archaeoglobaceae,Geoglobus ahangari 234,EU,A,A,AKG90806.1/AKG92294.1/AKG92346.1,A
+,Archaeoglobi,Archaeoglobales,Archaeoglobaceae,Geoglobus acetivorans SBH6,EU,A,A,AIY89132.1/AIY89757.1,A
+,?,?,?,Halodesulfurarchaeum formicicum HSR6,EU,A,A,WP_071932543.1/APE95188.1/APE94775.1,A
+,Halobacteria,Halobacteriales,?,Halanaeroarchaeum sulfurireducens HSR2,EU,A,A,AKH98509.1/AKH96838.1,A
+,Halobacteria,Halobacteriales,Haloarculaceae,Haloarcula hispanica ATCC 33960,EU,A,A,WP_014040230.1/WP_014030953.1/WP_008312519.1/AEM57901.1/WP_014041282.1/WP_014030850.1/WP_014039990.1/WP_014040793.1,A
+,Halobacteria,Halobacteriales,Haloarculaceae,Halomicrobium mukohataei DSM 12286 ,EU,A,A,WP_015763161.1/WP_015764038.1/WP_015764074.1/WP_012807546.1/WP_015763506.1/WP_049940796.1/ACV48068.1,A
+,Halobacteria,Halobacteriales,Haloarculaceae,Halorhabdus tiamatea SARL4B,EU,A,A,WP_008528275.1/WP_008525040.1/WP_008523571.1/WP_008527315.1/WP_008523936.1/WP_008527083.1/CCQ32680.1/WP_008526395.1,A
+,Halobacteria,Halobacteriales,Haloarculaceae,Halorhabdus utahensis DSM 12940 ,EU,A,A,WP_015788767.1/WP_015788641.1/WP_015789936.1/WP_012795072.1/WP_015790106.1/WP_049941357.1/ACV12879.1/WP_015789538.1/WP_012795421.1/WP_015788449.1/,A
+,Halobacteria,Halobacteriales,Haloarculaceae,Natronomonas moolapensis 8.8.11,EU,A,A,WP_015409301.1/WP_015409393.1/WP_015410721.1,A
+,Halobacteria,Halobacteriales,Haloarculaceae,Natronomonas pharaonis DSM 2160,EU,A,A,WP_011323791.1/WP_011323504.1/WP_011321983.1/WP_011322540.1/WP_011323988.1/WP_011324288.1,A
+,Halobacteria,Halobacteriales,Halobacteriaceae,Halalkalicoccus jeotgali B3,EU,A,A,WP_081602856.1/WP_013199537.1/WP_008415090.1/WP_008415903.1/WP_008416075.1/WP_008416958.1/WP_008417073.1/WP_008417700.1,WP_008415755.1
+,Halobacteria,Halobacteriales,Halobacteriaceae,Halobacterium salinarum NRC-1,EU,A,A,WP_010902302.1/WP_010902279.1/WP_010903946.1/,A
+,Halobacteria,Halobacteriales,Halobacteriaceae,Halobacterium hubeiense JI20-1,EU,A,A,WP_059055929.1/CQH49524.1/CQH56870.1/CQH59444.1/CQH45289.1/CQH50280.1/CQH64199.1/CQH53301.1/CQH59955.1,A
+,Halobacteria,Haloferacales,?,halophilic archaeon DL31 ,EU,A,A,WP_049943259.1/WP_014051779.1,A
+,Halobacteria,Haloferacales,Haloferacaceae,Halogeometricum borinquense DSM 11551,EU,A,A,WP_006054946.1/WP_006056204.1/WP_006053939.1/WP_006054225.1/WP_006054791.1/WP_006056440.1,WP_006055167.1/ADQ66266.1
+,Halobacteria,Haloferacales,Haloferacaceae,Haloquadratum walsbyi C23,EU,A,A,WP_014556770.1/WP_014556953.1/WP_011571683.1/WP_011570564.1/WP_014556540.1,A
+,Halobacteria,Haloferacales,Haloferacaceae,Haloferax mediterranei ATCC 33500,EU,A,A,WP_004059265.1/WP_004056982.1/WP_004057598.1,A
+,Halobacteria,Haloferacales,Haloferacaceae,Haloferax volcanii DS2,EU,A,A,WP_004043541.1/WP_004041683.1/WP_013035729.1/WP_013035730.1,A
+,Halobacteria,Haloferacales,Halorubraceae,Halorubrum lacusprofundi ATCC 49239 ,EU,A,A,WP_015909673.1/WP_015911511.1/WP_015910143.1/ACM57323.1/WP_049933713.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Halobiforma lacisalsi AJ5,EU,A,A,WP_007140541.1/EMA37064.1/WP_044961568.1/WP_007141334.1/WP_007142329.1/WP_007141818.1/WP_007143814.1/WP_007141335.1/WP_007139820.1/WP_007140901.1/WP_007140793.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Halopiger xanaduensis SH-6 ,EU,A,A,WP_013881416.1/WP_013881451.1/WP_013880986.1/WP_013875930.1/WP_013878871.1/WP_013880369.1/WP_013878647.1/WP_013881877.1/WP_013875741.1,WP_013879533.1
+,Halobacteria,Natrialbales,Natrialbaceae,Haloterrigena daqingensis JX313,EU,A,A,APX96988.1/APX97973.1/APX97768.1/APX95472.1/APX97899.1/APX97406.1/APX97396.1/APX96058.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Haloterrigena turkmenica DSM 5511,EU,A,A,WP_012944207.1/WP_012944578.1/WP_012944963.1/WP_012942570.1/WP_012941483.1/WP_012945108.1/WP_012941258.1/WP_012942653.1/WP_012944948.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Natrialba magadii ATCC 43099,EU,A,A,WP_004215327.1/WP_004217307.1/WP_004214935.1/WP_004216411.1/WP_004215436.1/WP_004266946.1/WP_004267955.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Natrinema pellirubrum DSM 15624,EU,A,A,WP_015298973.1/WP_006181552.1/WP_006180741.1/WP_006182948.1/WP_006182009.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Natronobacterium gregoryi SP2,EU,A,A,WP_005581383.1/WP_005577718.1/WP_005579420.1/WP_005581148.1/WP_005578710.1/WP_005578712.1/WP_005581189.1/WP_005581379.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Natronococcus occultus SP4,EU,A,A,AGB37923.1/WP_015321366.1/WP_015319463.1/WP_015320879.1/WP_015320013.1/WP_015323400.1WP_015321581.1/WP_015319849.1,WP_015321456.1/WP_015322485.1
+,Halobacteria,Natrialbales,Natrialbaceae,Natronolimnobius aegyptiacus JW/NM-HA 15,EU,A,A,WP_086887432.1,A
+,Halobacteria,Natrialbales,Natrialbaceae,Halostagnicola larsenii XH-48,EU,A,A,WP_084569102.1/WP_084569119.1/WP_049953592.1/WP_084569059.1/AHG02068.1/WP_049952942.1/WP_049952123.1/WP_049952372.1/WP_049951578.1,WP_049953455.1
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobacterium congolense str. Buetzberg,EU,A,A,WP_071905727.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobacterium formicicum BRM9,EU,A,A,AIS32960.1/AIS32411.1/AIS32162.1/AIS32179.1/AIS31610.1/AIS32176.1/AIS32068.1/AIS32857.1/AIS32918.1,WP_004029930.1
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobacterium lacus AL-21,EU,A,A,ADZ10252.1/ADZ09452.1/ADZ09507.1/ADZ10659.1/ADZ10690.1/ADZ09448.1/ADZ08788.1/ADZ09690.1,WP_013645004.1
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobacterium paludis SWAN1,EU,A,A,WP_013825065.1/AEG17642.1/AEG17563.1/AEG17554.1/AEG18024.1/AEG18028.1/AEG17096.1/AEG17334.1/AEG17998.1/AEG18864.1/AEG17242.1/AEG17779.1,WP_013826734.1
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobrevibacter millerae SM9,EU,A,A,ALT69162.1/ALT69340.1/ALT68773.1/ALT69582.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobrevibacter olleyae YLM1,EU,A,A,AMK15380.1/AMK15528.1/AMK15431.1/AMK15479.1/AMK15572.1/AMK15500.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobrevibacter ruminantium M1,EU,A,A,WP_012956140.1/WP_012956270.1/WP_048812464.1/ADC47275.1/WP_012956328.1/WP_012956240.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanobrevibacter smithii ATCC 35061,EU,A,A,WP_004033657.1/WP_011954374.1/WP_011953669.1/WP_004035348.1/WP_004034556.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanosphaera stadtmanae DSM 3091,EU,A,A,WP_011406645.1/WP_011406461.1/WP_011406883.1/WP_011405744.1/WP_011405776.1/WP_011405796.1/WP_011405839.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanothermobacter marburgensis str. Marburg,EU,A,A,WP_013295545.1/WP_013295205.1/WP_013295937.1/WP_013295913.1/WP_013296060.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanothermobacter thermautotrophicus str. Delta H,EU,A,A,WP_048061196.1/O26377.1/WP_048061143.1/AAB86273.1/WP_010876364.1,A
+,Methanobacteria,Methanobacteriales,Methanobacteriaceae,Methanothermobacter wolfeii SIV6,EU,A,A,SCM56768.1/SCM56120.1/SCM57494.1/SCM56851.1/SCM57463.1,A
+,Methanobacteria,Methanobacteriales,Methanothermaceae,Methanothermus fervidus DSM 2088,EU,A,A,WP_013414286.1/WP_013413256.1/WP_013413594.1/WP_013413587.1,A
+,Methanococci,Methanococcales,Methanocaldococcaceae,Methanocaldococcus bathoardescens JH146,EU,A,A,AIJ05420.1/AIJ05053.1/WP_048201864.1,A
+,Methanococci,Methanococcales,Methanocaldococcaceae,Methanocaldococcus fervens AG86 ,EU,A,A,WP_015791568.1/WP_015791925.1/WP_015791125.1/WP_012794887.1/WP_083767090.1/WP_015791826.1,A
+,Methanococci,Methanococcales,Methanocaldococcaceae,Methanocaldococcus infernus ME,EU,A,A,WP_013100856.1/WP_013100676.1/WP_013099729.1/WP_013099623.1,A
+,Methanococci,Methanococcales,Methanocaldococcaceae,Methanocaldococcus jannaschii DSM 2661,EU,A,A,WP_064496556.1/Q58018.3/4Y4M_A/WP_010870970.1/WP_010871044.1,A
+,Methanococci,Methanococcales,Methanocaldococcaceae,Methanocaldococcus vulcanius M7 ,EU,A,A,WP_015733657.1/WP_015733212.1/WP_012819659.1/WP_015732550.1,A
+,Methanococci,Methanococcales,Methanocaldococcaceae,Methanotorris igneus Kol 5,EU,A,A,WP_013799252.1/WP_013798888.1/4Y4N_A/WP_013798190.1,A
+,Methanococci,Methanococcales,Methanococcaceae,Methanococcus aeolicus Nankai-3,EU,A,A,WP_048062483.1/A6UV59.1/WP_083756720.1/ABR56789.1/WP_011974057.1/WP_011972819.1/WP_011973797.1,A
+,Methanococci,Methanococcales,Methanococcaceae,Methanococcus maripaludis X1,EU,A,A,WP_013998810.1/WP_013998607.1/WP_013999499.1/WP_081460631.1,A
+,Methanococci,Methanococcales,Methanococcaceae,Methanococcus maripaludis C7,EU,A,A,WP_012067915.1/WP_011976718.1/WP_011977524.1/WP_011977354.1,A
+,Methanococci,Methanococcales,Methanococcaceae,Methanococcus vannielii SB,EU,A,A,WP_012066186.1/WP_011972472.1/WP_011971966.1/WP_012065831.1,A
+,Methanococci,Methanococcales,Methanococcaceae,Methanococcus voltae A3,EU,A,A,WP_013181072.1/WP_083807442.1/ADI36920.1/WP_013180944.1/WP_013180125.1,A
+,Methanococci,Methanococcales,Methanococcaceae,Methanothermococcus okinawensis IH1,EU,A,A,WP_013867617.1,A
+,Methanomicrobia,Methanocellales,Methanocellaceae,Methanocella arvoryzae MRE50,EU,A,A,WP_012034578.1/WP_012035380.1/WP_012034702.1,WP_012034570.1/WP_012034567.1
+,Methanomicrobia,Methanocellales,Methanocellaceae,Methanocella conradii HZ254,EU,A,A,WP_014405493.1/WP_014406187.1/WP_014406223.1/WP_014406299.1/WP_014406054.1/WP_014406464.1,A
+,Methanomicrobia,Methanomicrobiales,Methanoregulaceae,Methanoregula boonei 6A8,EU,A,A,WP_012106929.1/WP_011991096.1,A
+,Methanomicrobia,Methanomicrobiales,Methanoregulaceae,Methanoregula formicica SMSP,EU,A,A,WP_015284113.1,A
+,Methanomicrobia,Methanomicrobiales,Methanoregulaceae,Methanosphaerula palustris E1-9c ,EU,A,A,ACL17966.1/WP_083767063.1/WP_012617598.1,A
+,Methanomicrobia,Methanomicrobiales,Methanocorpusculaceae,Methanocorpusculum labreanum Z,EU,A,A,WP_011833761.1/WP_011833274.1/WP_011833859.1/WP_011832668.1,A
+,Methanomicrobia,Methanomicrobiales,Methanomicrobiaceae,Methanoculleus bourgensis MS2,EU,A,A,WP_014867158.1/WP_048104646.1/WP_014866652.1,A
+,Methanomicrobia,Methanomicrobiales,Methanomicrobiaceae,Methanoculleus marisnigri JR1,EU,A,A,WP_011843230.1/WP_011844549.1/WP_011842972.1/WP_011845219.1,A
+,Methanomicrobia,Methanomicrobiales,Methanomicrobiaceae,Methanolacinia petrolearia DSM 11571,EU,A,A,WP_013328733.1/WP_013328075.1/WP_013330019.1,A
+,Methanomicrobia,Methanomicrobiales,Methanospirillaceae,Methanospirillum hungatei JF-1,EU,A,A,WP_011447841.1/WP_048067974.1/ABD41646.1/WP_011449987.1/WP_011449032.1,A
+,Methanomicrobia,Methanosarcinales,Methanosaetaceae,Methanothrix soehngenii GP6,EU,A,A,AEB68206.1/WP_083804681.1/WP_013718245.1/WP_013720210.1/WP_013719875.1/WP_013720544.1,A
+,Methanomicrobia,Methanosarcinales,Methanosaetaceae,Methanosaeta harundinacea 6Ac,EU,A,A,AET64446.1/AET65524.1/AET63934.1/AET64524.1/AET64698.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanococcoides burtonii DSM 6242 ,EU,A,A,A,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanococcoides methylutens MM1,EU,A,A,AKB84312.1/WP_048204534.1/WP_048205856.1/WP_048205044.1/WP_048205191.1/WP_048205050.1,WP_052721273.1
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanohalobium evestigatum Z-7303,EU,A,A,WP_013194591.1/WP_013195104.1/WP_013195051.1/WP_013193585.1/WP_013193758.1,WP_013195591.1
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanohalophilus halophilus Z-7982,EU,A,A,APH39902.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanohalophilus mahii DSM 5219,EU,A,A,WP_013037865.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanolobus psychrophilus R15,EU,A,A,SRX81998.1/WP_015053925.1/WP_015054852.1/WP_015052038.1/WP_015052871.1,WP_015053276.1/WP_015054936.1
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanomethylovorans hollandica DSM 15978,EU,A,A,WP_015325594.1/WP_015323974.1/WP_015324355.1/WP_015324942.1,WP_015323755.1/WP_015324788.1/WP_015323756.1
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosalsum zhilinae DSM 4017,EU,A,A,WP_013897576.1/WP_013899126.1/WP_013898246.1/WP_013897960.1/WP_013898908.1,WP_013899233.1
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina acetivorans C2A,EU,A,A,AAM06129.1/AAM06341.1/AAM03581.1/AAM06053.1/Q8TQQ6.1/AAM07138.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina barkeri MS,EU,A,A,WP_048121545.1/WP_048116454.1/AKB55287.1/WP_048117358.1/WP_048155851.1/WP_048121551.1/WP_048155125.1/WP_048156154.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina barkeri 3,EU,A,A,WP_048107961.1/WP_048106681.1/WP_048105839.1/WP_048106317.1/WP_048108968.1/WP_048107305.1/WP_048109276.1/WP_048107963.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina horonobensis HB-1,EU,A,A,WP_052730767.1/WP_048142750.1/AKB79491.1/WP_048141164.1/WP_048139230.1/WP_048139205.1/WP_048140859.1/WP_048137575.1,WP_082089306.1
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina lacustris Z-7289,EU,A,A,WP_048126051.1/WP_048125762.1/WP_048126243.1/WP_048124687.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina mazei S-6,EU,A,A,WP_048046404.1/WP_011034601.1/WP_011033782.1/WP_015412585.1/WP_011032615.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina siciliae T4/M,EU,A,A,AKB28271.1/AKB29962.1/AKB27329.1/AKB27330.1/AKB30417.1/AKB29300.1/AKB29194.1/AKB28343.1/AKB29907.1/AKB26815.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina thermophila TM-1,EU,A,A,WP_048167500.1/WP_048166450.1/WP_048167973.1/WP_048168073.1/WP_048168033.1/WP_048167923.1/WP_048166227.1,A
+,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanosarcina vacuolata Z-761,EU,A,A,WP_048122174.1/WP_048120642.1/WP_048120222.1/AKB43893.1/WP_048118843.1/WP_048120526.1/WP_048118337.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Palaeococcus pacificus DY20341,EU,A,A,WP_048165349.1/WP_048165323.1/WP_048165616.1/WP_048164017.1/AIF70206.1/WP_048165580.1/WP_048164556.1/AIF68810.1/WP_048165899.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Pyrococcus abyssi GE5,EU,A,A,WP_010868846.1/WP_010868067.1/WP_010868782.1/,A
+,Thermococci,Thermococcales,Thermococcaceae,Pyrococcus furiosus DSM 3638,EU,A,A,WP_011013050.1/CCE71200.1/CCE70355.1/WP_011012473.1/ABC94028.1/WP_011012677.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Pyrococcus horikoshii OT3,EU,A,A,WP_010884397.1/WP_010884968.1/WP_010885935.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Pyrococcus kukulkanii NCB100,EU,A,A,AMM54316.1/AMM53978.1/AMM53585.1/WP_068323858.1/AMM53404.1/AMM53211.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Pyrococcus yayanosii CH1,EU,A,A,WP_013905607.1/WP_013906596.1/WP_013905575.1/WP_048058318.1/WP_013906101.1/WP_013905369.1/WP_012000674.1/WP_011999761.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus barophilus MP,EU,A,A,WP_013466929.1/WP_013468066.1/WP_013468187.1/WP_013466341.1/WP_013467796.1/WP_048159835.1/ADT84921.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus barossii SHCK-94,EU,A,A,WP_088865754.1/ASJ05759.1/ASJ05373.1/ASJ05552.1/ASJ05597.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus celer Vu 13,EU,A,A,WP_088863790.1/WP_088863161.1/WP_088863284.1/WP_088862796.1/,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus eurythermalis A501,EU,A,A,AIU70009.1/AIU69124.1/AIU69335.1/AIU70547.1/AIU69370.1/AIU68991.1/AIU69897.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus gorgonarius W-12,EU,A,A,ASJ01705.1/ASJ01398.1/ASJ01634.1/ASJ00284.1/WP_088886033.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus guaymasensis DSM 11113,EU,A,A,WP_062373120.1/WP_062374245.1/AJC72493.1/WP_062371315.1/WP_062373526.1/WP_062373117.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus kodakarensis KOD1,EU,A,A,WP_011250039.1/WP_011250787.1/WP_011250508.1/WP_011251109.1/WP_011249259.1/WP_011249389.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus litoralis DSM 5473,EU,A,A,WP_004066810.1/WP_004067592.1/WP_004066792.1/EHR78406.1/WP_084684300.1/WP_004067797.1/AGT34284.1/WP_004067923.1/WP_004067831.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus nautili 30-1,EU,A,A,AHL21813.1/AHL22138.1/AHL23566.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus onnurineus NA1,EU,A,A,WP_012571273.1/WP_012572680.1/WP_012572463.1/WP_012572651.1/WP_012571014.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus pacificus P-4,EU,A,A,WP_088854890.1/ASJ07647.1/ASJ06089.1/ASJ06231.1/ASJ07068.1/ASJ06262.1/ASJ06711.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus paralvinellae ES1,EU,A,A,WP_042680129.1/AHF80001.1/AHF81159.1/AHF81278.1/AHF80898.1/AHF81246.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus piezophilus CDGS,EU,A,A,ANF23037.1/ANF22557.1/ANF22339.1/ANF23304.1/ANF23586.1/WP_068664451.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus profundus DT 5432,EU,A,A,WP_088858078.1/ASJ02822.1/ASJ01763.1/ASJ01805.1/ASJ01812.1/ASJ02913.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus sibiricus MM 739 ,EU,A,A,WP_015850235.1/WP_015849265.1/WP_015849051.1/WP_015849733.1/WP_015848925.1/WP_048160325.1/ACS90069.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus siculi RG-20,EU,A,A,WP_088856978.1/ASJ09758.1/ASJ08247.1/ASJ08216.1/ASJ08772.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus thioreducens OGL-20P,EU,A,A,SEW09575.1/WP_074631484.1/ASJ13506.1/ASJ11431.1/ASJ13183.1/ASJ11465.1,A
+,Thermococci,Thermococcales,Thermococcaceae,Thermococcus cleftensis CL1,EU,A,A,AFL94599.1/AFL95410.1/AFL94251.1/AFL95211.1/AFL95170.1/AFL94634.1,A
+,Thermoplasmata,?,?,Methanogenic archaeon ISO4-H5,EU,A,A,WP_066075064.1/AMH95148.1/WP_066073157.1/AMH95333.1/WP_066076602.1/WP_066075827.1,A
+,Thermoplasmata,Thermoplasmatales,?,Thermoplasmatales archaeon BRNA1,EU,A,A,WP_015491955.1/WP_015492287.1/WP_015491727.1/WP_015491754.1/WP_015492577.1,A
+,Thermoplasmata,Thermoplasmatales,Cuniculiplasmataceae,Cuniculiplasma divulgatum PM4 (=JCM 30641; =VKM B-2940),EU,A,A,SJK84814.1/SJK84181.1/SJK84365.1/SJK85413.1,A
+,Thermoplasmata,Thermoplasmatales,Ferroplasmaceae,Ferroplasma acidarmanus fer1,EU,A,A,WP_009886185.1/WP_009887129.1/WP_009886878.1/WP_009886901.1/,WP_009887709.1
+,Thermoplasmata,Thermoplasmatales,Picrophilaceae,Picrophilus torridus DSM 9790,EU,A,A,WP_011177369.1/WP_011177697.1/WP_011178185.1,WP_011177312.1
+,Thermoplasmata,Thermoplasmatales,Thermoplasmataceae,Thermoplasma acidophilum DSM 1728,EU,A,A,WP_010900755.1/WP_010900941.1/WP_010901838.1/WP_010901895.1,A
+,Thermoplasmata,Thermoplasmatales,Thermoplasmataceae,Thermoplasma volcanium GSS1,EU,A,A,WP_010917536.1/WP_010917251.1/WP_010917751.1/,A
+Thaumarchaeota,?,Nitrososphaerales,Nitrososphaeraceae,Nitrososphaera viennensis EN76 ,TA,A,A,WP_075054126.1/AIC15033.1/WP_084790606.1/WP_075054483.1/AIC14527.1/WP_075054155.1/WP_075054471.1/AIC15470.1,AIC17088.1/WP_075055769.1/WP_075055246.1
